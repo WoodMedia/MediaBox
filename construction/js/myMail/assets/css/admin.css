@@ -1,0 +1,58 @@
+#adminmenu #menu-posts-newsletter .wp-menu-image {
+	background:url(../img/icons/menu.png) no-repeat 6px 6px;
+}
+
+#adminmenu #menu-posts-newsletter .wp-menu-image img {
+	display:none;
+}
+
+#adminmenu #menu-posts-newsletter:hover .wp-menu-image,#adminmenu #menu-posts-newsletter.wp-has-current-submenu .wp-menu-image {
+	background-position:6px -26px;
+}
+
+#icon-edit.icon32-posts-newsletter {
+	background:url(../img/icons/newsletter.png) no-repeat left top;
+}
+
+#icon-edit.icon32-posts-subscriber {
+	background:url(../img/icons/subscriber.png) no-repeat left top;
+}
+
+.newsletter_page_mymail_subscriber-manage #icon-edit.icon32-posts-post {
+	background:url(../img/icons/manage.png) no-repeat left top;
+}
+
+.newsletter_page_mymail_templates #icon-edit.icon32-posts-post {
+	background:url(../img/icons/templates.png) no-repeat left top;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (-o-min-device-pixel-ratio:32),only screen and (min-device-pixel-ratio:1.5) {
+	#adminmenu #menu-posts-newsletter .wp-menu-image {
+		background-image:url(../img/icons/menu_2x.png);
+		-webkit-background-size:16px 48px;
+		-moz-background-size:16px 48px;
+		background-size:16px 48px;
+	}
+	
+	#icon-edit.icon32-posts-newsletter,#icon-edit.icon32-posts-subscriber,.newsletter_page_mymail_subscriber-manage #icon-edit.icon32-posts-post,.newsletter_page_mymail_templates #icon-edit.icon32-posts-post {
+		-webkit-background-size:32px 32px;
+		-moz-background-size:32px 32px;
+		background-size:32px 32px;
+	}
+	
+	#icon-edit.icon32-posts-newsletter {
+		background-image:url(../img/icons/newsletter_2x.png);
+	}
+	
+	#icon-edit.icon32-posts-subscriber {
+		background-image:url(../img/icons/subscriber_2x.png);
+	}
+	
+	.newsletter_page_mymail_subscriber-manage #icon-edit.icon32-posts-post {
+		background-image:url(../img/icons/manage_2x.png);
+	}
+	
+	.newsletter_page_mymail_templates #icon-edit.icon32-posts-post {
+		background-image:url(../img/icons/templates_2x.png);
+	}
+}

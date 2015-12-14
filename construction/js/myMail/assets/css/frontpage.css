@@ -1,0 +1,523 @@
+@import "common-style.css";
+
+#ajax-loading {
+	position:relative;
+	float:right;
+	top:15px;
+}
+
+html,body,div,span,applet,object,embed,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+
+html,body {
+	font-size:101%;
+	font-family:sans-serif;
+	color:#6F6F6F;
+	font-size:12px;
+	-webkit-text-size-adjust:none;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+	min-height:100%;
+	height:100%;
+}
+
+a {
+	color:#333;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+::-moz-selection {
+	background:#333;
+	color:#EEE;
+}
+
+::selection {
+	background:#333;
+	color:#EEE;
+}
+
+#header {
+	position:relative;
+	z-index:100;
+	background:#000;
+	width:100%;
+	display:block;
+	background:#f9f9f9;
+	background:-moz-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f9f9f9),color-stop(100%,#ececec));
+	background:-webkit-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-o-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-ms-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	height:50px;
+}
+
+#iframe-wrap {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height:100% !important;
+	min-height: 100% !important;
+	width: 100%;
+	overflow: auto;
+	border: 0;
+}
+
+#header {
+}
+
+ul li {
+	list-style:none;
+	margin:0;
+}
+
+ul li.header {
+	position:relative;
+	float:left;
+	border-left:1px solid #DFDFDF;
+	border-right:1px solid #F9F9F9;
+}
+
+ul li.header a {
+	font-size:14px;
+	font-weight:700;
+	height:18px;
+	display:block;
+	padding:16px 12px;
+	font-weight:700;
+	text-align:center;
+}
+
+ul li.button {
+	display:block;
+}
+
+ul li.button:hover {
+	background:#fff;
+}
+
+ul li.button a {
+	width:20px;
+	font-weight:700;
+}
+
+ul li.button.closeframe {
+	float:right;
+}
+
+ul li.share {
+	position:relative;
+	float:right;
+}
+
+ul li.share div.sharebox {
+	right:0;
+	position:absolute;
+	display:none;
+	position:absolute;
+	padding:10px 0 0;
+}
+
+ul li.share div.sharebox div.arrow {
+	position:absolute;
+	top:0;
+	right:15px;
+	height:11px;
+	width:40px;
+	padding:0;
+	background:url(../img/arrow.png) center bottom no-repeat;
+}
+
+.ie ul li.share div.arrow {
+	background-position:center top;
+}
+
+ul li.share .sharebox-inner {
+	position:static;
+	border:1px solid #DFDFDF;
+	background:#f9f9f9;
+/* Old browsers */
+	width:326px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 2px 5px rgba(0,0,0,0.4);
+	box-shadow:0 2px 5px rgba(0,0,0,0.4);
+	background:#f9f9f9;
+}
+
+ul li.share .sharebox-inner .sharebox-panel {
+}
+
+ul li.share .sharebox-inner .sharebox-panel li {
+	display:block;
+	overflow:hidden;
+}
+
+ul li.share .sharebox-inner .sharebox-panel li h4 {
+	cursor:pointer;
+	font-weight:100;
+	font-size:14px;
+	margin:0;
+	padding:5px 8px;
+	background:#f9f9f9;
+	background:-moz-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f9f9f9),color-stop(100%,#ececec));
+	background:-webkit-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-o-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-ms-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	border-top:1px solid #fff;
+	border-bottom:1px solid #DFDFDF;
+}
+
+ul li.share .sharebox-inner .sharebox-panel li h4.active {
+	background:none;
+	border-bottom:0;
+	color:#000;
+}
+
+ul li.share .sharebox-inner .sharebox-panel li:first-child h4 {
+	border-top:0;
+}
+
+ul li.share .sharebox-inner .sharebox-panel li h4:hover {
+	color:#000;
+}
+
+ul li.share .sharebox-inner .sharebox-panel li > div {
+	margin:8px;
+	display:none;
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul {
+	padding-bottom:5px;
+	overflow:hidden;
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li {
+	border:0;
+	float:left;
+	width:70px;
+	height:60px;
+	border-radius:3px;
+	margin:3px;
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li:hover {
+	border:1px solid #D3D6DB;
+	margin:2px;
+	box-shadow:0 2px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow:0 2px 5px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.1);
+	background-color:#fff;
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a {
+	border:0;
+	background-position:50% 20%;
+	background-repeat:no-repeat;
+	height:50px;
+	padding:0;
+	margin:4px;
+	display:block;
+	line-height:85px;
+	font-size:10px;
+	font-weight:100;
+	text-align:center;
+	background-image:url(../img/social/blank_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.blogger {
+	background-image:url(../img/social/blogger_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.delicious {
+	background-image:url(../img/social/delicious_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.digg {
+	background-image:url(../img/social/digg_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.evernote {
+	background-image:url(../img/social/evernote_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.facebook {
+	background-image:url(../img/social/facebook_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.google {
+	background-image:url(../img/social/googleplus_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.googlebookmark {
+	background-image:url(../img/social/google_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.linkedin {
+	background-image:url(../img/social/linkedin_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.mail {
+	background-image:url(../img/social/mail_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.pinterest {
+	background-image:url(../img/social/pinterest_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.reddit {
+	background-image:url(../img/social/reddit_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.sharethis {
+	background-image:url(../img/social/sharethis_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.stumbleupon {
+	background-image:url(../img/social/stumbleupon_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.twitter {
+	background-image:url(../img/social/twitter_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.xing {
+	background-image:url(../img/social/xing_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.yahoo {
+	background-image:url(../img/social/yahoo_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.delicious {
+	background-image:url(../img/social/delicious_32.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.zootool {
+	background-image:url(../img/social/zootool_32.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio: 32),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
+ul li.share .sharebox-inner .sharebox-panel-option ul li a {
+	-webkit-background-size:32px 32px;
+	-moz-background-size:32px 32px;
+	background-size:32px 32px;
+	background-image:url(../img/social/blank_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.blogger {
+	background-image:url(../img/social/blogger_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.delicious {
+	background-image:url(../img/social/delicious_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.digg {
+	background-image:url(../img/social/digg_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.evernote {
+	background-image:url(../img/social/evernote_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.facebook {
+	background-image:url(../img/social/facebook_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.google {
+	background-image:url(../img/social/googleplus_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.googlebookmark {
+	background-image:url(../img/social/google_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.linkedin {
+	background-image:url(../img/social/linkedin_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.mail {
+	background-image:url(../img/social/mail_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.pinterest {
+	background-image:url(../img/social/pinterest_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.reddit {
+	background-image:url(../img/social/reddit_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.sharethis {
+	background-image:url(../img/social/sharethis_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.stumbleupon {
+	background-image:url(../img/social/stumbleupon_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.twitter {
+	background-image:url(../img/social/twitter_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.xing {
+	background-image:url(../img/social/xing_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.yahoo {
+	background-image:url(../img/social/yahoo_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.delicious {
+	background-image:url(../img/social/delicious_64.png);
+}
+
+ul li.share .sharebox-inner .sharebox-panel-option ul li a.zootool {
+	background-image:url(../img/social/zootool_64.png);
+}
+}
+
+ul li.share .sharebox-inner label {
+	display:block;
+	margin:0 3%;
+}
+
+ul li.share .sharebox-inner input,ul li.share .sharebox-inner textarea {
+	font-size:12px;
+	border:1px solid #D3D6DB;
+	width:90%;
+	padding:2%;
+	margin:1% 3%;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	outline:none;
+}
+
+ul li.share .sharebox-inner textarea {
+	height:90px;
+	font-family:sans-serif;
+	line-height:1.3em;
+	resize:none;
+	overflow:auto;
+}
+
+ul li.share .sharebox-inner input.button {
+	cursor:pointer;
+	float:right;
+	margin:3%;
+	width:auto;
+	background:#f9f9f9;
+	background:-moz-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f9f9f9),color-stop(100%,#ececec));
+	background:-webkit-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-o-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:-ms-linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+	background:linear-gradient(top,#f9f9f9 0%,#ececec 100%);
+}
+
+ul li.share .sharebox-inner input.button:hover {
+	border:1px solid #B1B4B0;
+	box-shadow:0 1px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.1);
+}
+
+ul li.share .sharebox-inner input.button:active {
+	border:1px solid #B1B4B0;
+	box-shadow:inset 0 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow:inset 0 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:inset 0 2px 2px rgba(0,0,0,0.1);
+	background-color:#eee;
+}
+
+ul li.share .sharebox-inner p {
+	clear:both;
+}
+
+ul li.share .sharebox-inner p.info {
+	font-style:italic;
+	font-size:11px;
+	margin:0 3%;
+}
+
+ul li.share .sharebox-inner input:focus,ul li.share .sharebox-inner textarea:focus {
+	border:1px solid #B1B4B0;
+	box-shadow:inset 0 2px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow:inset 0 2px 5px rgba(0,0,0,0.1);
+	-webkit-box-shadow:inset 0 2px 5px rgba(0,0,0,0.1);
+	background-color:#fff;
+}
+
+ul li.share .sharebox-inner input.placeholder,ul li.share .sharebox-inner textarea.placeholder {
+	color:#999;
+}
+
+ul li.share .sharebox-inner span.status {
+	margin:0 3%;
+	font-size:10px;
+	padding-top:14px;
+	color:#f33;
+	float:left;
+}
+ul li.share .sharebox-inner a.appsend {
+	display: inline;
+	margin:0 3%;
+	padding:0;
+	font-size:10px;
+	clear: both;
+	float: right;
+}
+ul li.share .sharebox-inner a.appsend:hover {
+	text-decoration: underline;
+}
+
+
+ul li.share .sharebox-inner .ajax-loading {
+	margin:14px 2px;
+	visibility:hidden;
+	float:right;
+}
+
+#shadow {
+	position:absolute;
+	top:50px;
+	left:0;
+	right:0;
+	height:1px;
+	line-height:1px;
+	background-color:#DFDFDF;
+	box-shadow:0 0 3px rgba(0,0,0,1);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,1);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,1);
+	z-index:1;
+}

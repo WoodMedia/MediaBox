@@ -1,0 +1,3235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MyMail - Email Newsletter Plugin for WordPress v1.3.4.4b1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-22 11:07+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vinko Prelac <vinko.prelac@gmail.com>\n"
+"Language-Team: Vinko Prelac <vinko.prelac@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: CROATIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/manage.class.php:28
+msgid "Manage Subscribers"
+msgstr "Upravljanje pretplatnicima"
+
+#: ../classes/manage.class.php:38
+msgid "Please select the status for the importing contacts!"
+msgstr "Molimo odaberite status za uvezene kontakte!"
+
+#: ../classes/manage.class.php:39
+msgid "Please select at least the column with the email addresses!"
+msgstr "Molimo odaberite barem jednu kolonu s e-mail adresama!"
+
+#: ../classes/manage.class.php:40
+msgid "You must have the permission to import these contacts!"
+msgstr "Morate imati dozvolu da biste uvezli ove kontakte!"
+
+#: ../classes/manage.class.php:41
+msgid "preparing data"
+msgstr "priprema podataka"
+
+#: ../classes/manage.class.php:42
+#, php-format
+msgid "uploading...%s"
+msgstr "prijenos...%s"
+
+#: ../classes/manage.class.php:43
+#, php-format
+msgid "Importing Contacts...%s"
+msgstr "Uvoz kontakata...%s"
+
+#: ../classes/manage.class.php:44
+#, php-format
+msgid "Currently %s of %s imported with %s errors."
+msgstr "Trenutno %s od %s uvezeno sa %s pogrešaka."
+
+#: ../classes/manage.class.php:45
+#, php-format
+msgid "Estimate time left: %s minutes"
+msgstr "Preostalo vrijeme: cca %s minuta"
+
+#: ../classes/manage.class.php:46
+#, php-format
+msgid "continues in %s seconds"
+msgstr "nastavlja se za %s sekundi"
+
+#: ../classes/manage.class.php:47
+msgid "There was a problem during importing contacts. Please try again!"
+msgstr "Pojavio se problem prilikom uvoza kontakta. Molimo pokušajte ponovo!"
+
+#: ../classes/manage.class.php:48
+#, php-format
+msgid "Preparing Download...%s"
+msgstr "Priprema preuzimanja... %s"
+
+#: ../classes/manage.class.php:49
+#, php-format
+msgid "writing file: %s"
+msgstr "upisujem datoteku: %s"
+
+#: ../classes/manage.class.php:50
+msgid "Download finished"
+msgstr "Preuzimanje završeno"
+
+#: ../classes/manage.class.php:51
+msgid "Downloading..."
+msgstr "Preuzimanje..."
+
+#: ../classes/manage.class.php:52
+msgid "Please select at least one list!"
+msgstr "Molimo odaberite barem jednu listu!"
+
+#: ../classes/manage.class.php:53
+msgid "Do you really like to import these contacts?"
+msgstr "Jeste li sigurni da želite uvesti ove kontakte?"
+
+#: ../classes/manage.class.php:54
+msgid "Import complete!"
+msgstr "Uvoz izvršen!"
+
+#: ../classes/manage.class.php:55
+msgid "You are about to delete these subscribers permanently. This step is irreversible!"
+msgstr "Obrisat ćete ove kontakte. Ova radnja ne može se poništiti!"
+
+#: ../classes/manage.class.php:55
+#, php-format
+msgid "Type \"%s\" to confirm deletion"
+msgstr "Upišite \"%s\" da biste potvrdili brisanje"
+
+#: ../classes/manage.class.php:56
+msgid "You are currently importing subscribers! If you leave the page all pending subscribers don't get imported!"
+msgstr "Trenutno je pokrenut uvoz kontakata! Ako napustite ovu stranicu, svi preostali pretplatnici neće biti uvezeni!"
+
+#: ../classes/manage.class.php:57
+msgid "Your download is preparing! If you leave this page the progress will abort!"
+msgstr "Vaše preuzimanje je u pripremi! Ako napustite ovu stranicu preuzimanje će biti prekinuto!"
+
+#: ../classes/manage.class.php:209
+#: ../classes/manage.class.php:560
+msgid "IP Address"
+msgstr "IP Adresa"
+
+#: ../classes/manage.class.php:210
+#: ../classes/manage.class.php:563
+msgid "Signup Date"
+msgstr "Datum pretplate"
+
+#: ../classes/manage.class.php:218
+msgid "Ignore column"
+msgstr "Ignoriraj stupac"
+
+#: ../classes/manage.class.php:248
+#, php-format
+msgid "%d contacts are hidden"
+msgstr "%d kontakata je skriveno"
+
+#: ../classes/manage.class.php:261
+msgid "add contacts to following lists"
+msgstr "dodaj kontakte u slijedeće liste"
+
+#: ../classes/manage.class.php:270
+msgid "add new list"
+msgstr "dodaj novu listu"
+
+#: ../classes/manage.class.php:270
+#: ../classes/settings.class.php:161
+#: ../classes/mymail.class.php:2166
+msgid "add"
+msgstr "dodaj"
+
+#: ../classes/manage.class.php:272
+msgid "Import as"
+msgstr "Uvezi kao"
+
+#: ../classes/manage.class.php:272
+#: ../classes/subscriber.class.php:693
+#: ../classes/subscriber.class.php:697
+msgid "Subscribed"
+msgstr "Pretplaćen"
+
+#: ../classes/manage.class.php:272
+#: ../classes/subscriber.class.php:701
+#: ../classes/subscriber.class.php:705
+msgid "Unsubscribed"
+msgstr "Odjavljen"
+
+#: ../classes/manage.class.php:273
+msgid "Overwrite existing contacts"
+msgstr "Prepiši trenutne kontakte"
+
+#: ../classes/manage.class.php:274
+msgid "Do auto responder for all imported emails"
+msgstr "Pošalji automatski odgovor - potvrdu pretplate - svim uvezenim e-mail kontaktima"
+
+#: ../classes/manage.class.php:274
+msgid "Respects the signup time if you define it"
+msgstr "Poštuje vrijeme kreiranja pretplate ukoliko ga definirate"
+
+#: ../classes/manage.class.php:275
+msgid "Yes, I have the permission to import these contacts"
+msgstr "Da, imam dopuštenje uvesti ove kontakte"
+
+#: ../classes/manage.class.php:277
+#, php-format
+msgid "Import %d contacts"
+msgstr "Uvoz %d kontakata"
+
+#: ../classes/manage.class.php:378
+#: ../classes/subscriber.class.php:307
+msgid "invalid email address"
+msgstr "neispravna e-mail adresa"
+
+#: ../classes/manage.class.php:385
+#: ../classes/subscriber.class.php:319
+#, php-format
+msgid "user already exists (ID: %d)"
+msgstr "korisnik već postoji (ID: %d)"
+
+#: ../classes/manage.class.php:416
+#, php-format
+msgid "%1$d of %2$d contacts imported"
+msgstr "%1$d od %2$d kontakata uvezeno"
+
+#: ../classes/manage.class.php:419
+msgid "The following addresses were not imported"
+msgstr "Slijedeće adrese neće biti uvezene"
+
+#: ../classes/manage.class.php:421
+msgid "Reason"
+msgstr "Razlog"
+
+#: ../classes/manage.class.php:504
+msgid "no subscribers found"
+msgstr "nijedan pretplatnik nije pronađen"
+
+#: ../classes/manage.class.php:554
+#: ../classes/settings.class.php:69
+#: ../classes/mymail.class.php:2014
+#: ../classes/subscriber.class.php:663
+#: ../classes/subscriber.class.php:852
+#: ../classes/form.class.php:166
+msgid "Lists"
+msgstr "Liste"
+
+#: ../classes/manage.class.php:557
+#: ../classes/mymail.class.php:1624
+#: ../classes/subscriber.class.php:262
+#: ../classes/subscriber.class.php:276
+msgid "Status"
+msgstr "Status"
+
+#: ../classes/manage.class.php:566
+msgid "Signup IP"
+msgstr "IP prilikom pretplate"
+
+#: ../classes/manage.class.php:569
+msgid "Confirm Date"
+msgstr "Datum potvrde"
+
+#: ../classes/manage.class.php:572
+msgid "Confirm IP"
+msgstr "IP prilikom potvrde"
+
+#: ../classes/manage.class.php:779
+#, php-format
+msgid "%d subscribers removed"
+msgstr "%d pretplatnika uklonjeno"
+
+#: ../classes/manage.class.php:783
+msgid "no subscribers removed"
+msgstr "nijedan pretplatnik nije uklonjen"
+
+#: ../classes/manage.class.php:809
+msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
+msgstr ""
+
+#: ../classes/manage.class.php:863
+msgid "Comma-separated values (CSV)"
+msgstr "Zarezom odijeljene vrijednosti (CSV)"
+
+#: ../classes/manage.class.php:879
+msgid "Drop your list here"
+msgstr "Ovdje ispustite listu"
+
+#: ../classes/manage.class.php:880
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "ili"
+
+#: ../classes/manage.class.php:888
+#: ../classes/manage.class.php:890
+msgid "Upload"
+msgstr "Prijenos"
+
+#: ../classes/manage.class.php:891
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: ../classes/manage.class.php:896
+#, php-format
+msgid "Maximum upload file size: %d%s."
+msgstr "Maksimalna veličina datoteke za upload: %d%s."
+
+#: ../classes/manage.class.php:896
+msgid "Split your lists into max 50.000 subscribers each"
+msgstr "Podijelite liste na max. 50.000 pretplatnika u svakoj"
+
+#: ../classes/manage.class.php:899
+msgid "Your browser has some limitations uploading large files with the multi-file uploader. Please use the browser uploader for files over 100MB."
+msgstr ""
+
+#: ../classes/autoresponder.class.php:257
+#: ../classes/autoresponder.class.php:293
+#: ../classes/autoresponder.class.php:297
+msgid "Autoresponder"
+msgstr "Automatski odgovor"
+
+#: ../classes/autoresponder.class.php:297
+msgid "Autoresponders"
+msgstr "Automatski odgovori"
+
+#: ../classes/autoresponder.class.php:297
+#: ../classes/mymail.class.php:1978
+#: ../classes/mymail.class.php:1984
+#: ../classes/mymail.class.php:1990
+#: ../classes/mymail.class.php:1996
+#: ../classes/subscriber.class.php:697
+#: ../classes/subscriber.class.php:705
+#: ../classes/subscriber.class.php:713
+#: ../classes/subscriber.class.php:721
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] " <span class=\"count\">(%s)</span>"
+msgstr[1] " <span class=\"count\">(%s)</span>"
+
+#: ../classes/autoresponder.class.php:307
+msgid "Sent"
+msgstr "Poslano"
+
+#: ../classes/autoresponder.class.php:334
+msgid "active"
+msgstr "aktivno"
+
+#: ../classes/autoresponder.class.php:334
+msgid "inactive"
+msgstr "neaktivno"
+
+#: ../classes/autoresponder.class.php:340
+#, php-format
+msgid "send %1$s %2$s %3$s"
+msgstr "pošalji %1$s %2$s %3$s"
+
+#: ../classes/autoresponder.class.php:340
+msgid "immediately"
+msgstr "odmah"
+
+#: ../classes/autoresponder.class.php:340
+msgid "after"
+msgstr "nakon"
+
+#: ../classes/autoresponder.class.php:345
+msgid "in one of these lists"
+msgstr "u jednoj od ovih lista"
+
+#: ../classes/autoresponder.class.php:346
+#: ../classes/subscriber.class.php:763
+msgid "no lists selected"
+msgstr "nijedna lista nije odabrana"
+
+#: ../classes/autoresponder.class.php:355
+msgid "only if"
+msgstr "samo ako"
+
+#: ../classes/autoresponder.class.php:361
+#, php-format
+msgid "%s is missing!"
+msgstr "%s nedostaje!"
+
+#: ../classes/autoresponder.class.php:378
+msgid "activate"
+msgstr "aktiviraj"
+
+#: ../classes/autoresponder.class.php:380
+msgid "deactivate"
+msgstr "deaktiviraj"
+
+#: ../classes/autoresponder.class.php:383
+msgid "You are about to delete all upcoming jobs for this auto responder."
+msgstr "Obrisat ćete sve zadane poslove za ovaj automatski odgovor"
+
+#: ../classes/autoresponder.class.php:383
+msgid "remove all future jobs"
+msgstr "ukloni sve predstojeće aktivnosti"
+
+#: ../classes/autoresponder.class.php:383
+#, php-format
+msgid "remove %d upcoming job"
+msgid_plural "remove %d upcoming jobs"
+msgstr[0] "ukloni %d predstojeću aktivnost"
+msgstr[1] "ukloni %d predstojećih aktivnosti"
+
+#: ../classes/autoresponder.class.php:393
+#: ../classes/mymail.class.php:1756
+#, php-format
+msgid "%d emails have not been sent"
+msgstr "%d e-mailova nije poslano"
+
+#: ../classes/autoresponder.class.php:399
+#: ../classes/mymail.class.php:1763
+msgid "open rate"
+msgstr "postotak otvaranja"
+
+#: ../classes/autoresponder.class.php:411
+#: ../classes/mymail.class.php:1775
+msgid "click rate"
+msgstr "postotak klikova"
+
+#: ../classes/autoresponder.class.php:422
+#: ../classes/mymail.class.php:1786
+msgid "unsubscribe rate"
+msgstr "postotak odjave s liste"
+
+#: ../classes/autoresponder.class.php:433
+#: ../classes/mymail.class.php:1797
+msgid "bounce rate"
+msgstr "postotak bounce-a"
+
+#: ../classes/autoresponder.class.php:609
+#, php-format
+msgid "%d job deleted"
+msgid_plural "%d jobs deleted"
+msgstr[0] "%d posao obrisan"
+msgstr[1] "%d poslova obrisano"
+
+#: ../classes/settings.class.php:57
+msgid "Please confirm"
+msgstr "Potvrdite prijavu na newsletter"
+
+#: ../classes/settings.class.php:58
+msgid "Please confirm your Email Address"
+msgstr "Molimo potvrdite svoju e-mail adresu"
+
+#: ../classes/settings.class.php:59
+#, php-format
+msgid "You'll need to confirm your email address. Please click the link below to confirm. %s"
+msgstr "Da bi vaša prijava na primanje newslettera bila aktivna, molimo otvorite slijedeću poveznicu kako bismo potvrdili ispravnost unesene e-mail adrese. %s"
+
+#: ../classes/settings.class.php:60
+msgid "Click here to confirm"
+msgstr "Otvorite poveznicu za potvrdu"
+
+#: ../classes/settings.class.php:61
+msgid "Please confirm your subscription!"
+msgstr "Molimo potvrdite pretplatu"
+
+#: ../classes/settings.class.php:62
+msgid "Thanks for your interest!"
+msgstr "Zahvaljujemo na Vašem interesu!"
+
+#: ../classes/settings.class.php:63
+msgid "Following fields are missing or incorrect"
+msgstr "Slijedeća polja nisu popunjena ili su netočna"
+
+#: ../classes/settings.class.php:64
+msgid "You have successfully unsubscribed!"
+msgstr "Uspješno ste odjavili svoju pretplatu!"
+
+#: ../classes/settings.class.php:65
+msgid "An error occurred! Please try again later!"
+msgstr "Dogodila se pogreška! Molimo pokušajte kasnije."
+
+#: ../classes/settings.class.php:66
+#: ../classes/mymail.class.php:1155
+#: ../classes/subscriber.class.php:258
+#: ../classes/subscriber.class.php:272
+#: ../classes/form.class.php:239
+msgid "Email"
+msgstr "E-mail"
+
+#: ../classes/settings.class.php:67
+msgid "First Name"
+msgstr "Ime"
+
+#: ../classes/settings.class.php:68
+msgid "Last Name"
+msgstr "Prezime"
+
+#: ../classes/settings.class.php:70
+#: ../classes/subscriber.class.php:943
+#: ../classes/subscriber.class.php:947
+#: ../classes/form.class.php:189
+msgid "Subscribe"
+msgstr "Pretplati se"
+
+#: ../classes/settings.class.php:71
+msgid "Yes, unsubscribe me"
+msgstr "Da, želim se odjaviti"
+
+#: ../classes/settings.class.php:72
+msgid "unsubscribe"
+msgstr "odjavite se s liste primatelja"
+
+#: ../classes/settings.class.php:73
+msgid "webversion"
+msgstr "verzija za pregled na webu"
+
+#: ../classes/settings.class.php:74
+msgid "forward to a friend"
+msgstr "proslijedi e-mail"
+
+#: ../classes/settings.class.php:81
+msgid "Default Form"
+msgstr "Uobičajeni obrazac"
+
+#: ../classes/settings.class.php:99
+#, php-format
+msgid "You have received this email because you have subscribed to %s as {email}. If you no longer wish to receive emails please {unsub}"
+msgstr "Primili ste ovaj e-mail zato što ste se pretplaćeni na newsletter %s sa svojom e-mail adresom {email}. Ukoliko više ne želite primati ove e-mail obavijesti: {unsub}"
+
+#: ../classes/settings.class.php:100
+msgid "If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link"
+msgstr "Ukoliko ste greškom primili ovaj e-mail, jednostavno ga obrišite. Vaša pretplata neće biti aktivirana ukoliko ne otvorite poveznicu za potvrdu pretplate"
+
+#: ../classes/settings.class.php:101
+msgid "All rights reserved"
+msgstr "Sva prava pridržana"
+
+#: ../classes/settings.class.php:106
+msgid "Replace Content"
+msgstr "Zamijeni sadržaj"
+
+#: ../classes/settings.class.php:152
+msgid "Newsletter Settings"
+msgstr "Postavke newslettera"
+
+#: ../classes/settings.class.php:152
+#: ../classes/mymail.class.php:1900
+#: ../classes/mymail.class.php:1943
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: ../classes/settings.class.php:162
+msgid "Field Name"
+msgstr "Naziv polja"
+
+#: ../classes/settings.class.php:163
+msgid "Tag"
+msgstr "Oznaka"
+
+#: ../classes/settings.class.php:164
+msgid "Type"
+msgstr "Tip"
+
+#: ../classes/settings.class.php:165
+msgid "Textfield"
+msgstr "Tekstualno polje"
+
+#: ../classes/settings.class.php:166
+msgid "Dropdown Menu"
+msgstr "Padajući izbornik"
+
+#: ../classes/settings.class.php:167
+msgid "Radio Buttons"
+msgstr "Gumbi odabira"
+
+#: ../classes/settings.class.php:168
+msgid "default"
+msgstr "uobičajeno"
+
+#: ../classes/settings.class.php:169
+msgid "this field is selected by default"
+msgstr "ovo polje je odbrano po zadanim postavkama"
+
+#: ../classes/settings.class.php:170
+msgid "add field"
+msgstr "dodaj polje"
+
+#: ../classes/settings.class.php:171
+#: ../classes/mymail.class.php:2015
+msgid "Options"
+msgstr "Opcije"
+
+#: ../classes/settings.class.php:172
+msgid "remove field"
+msgstr "ukloni polje"
+
+#: ../classes/settings.class.php:173
+msgid "move up"
+msgstr "pomakni gore"
+
+#: ../classes/settings.class.php:174
+msgid "move down"
+msgstr "pomakni dolje"
+
+#: ../classes/settings.class.php:175
+#, php-format
+msgid "%s is a reserved tag!"
+msgstr "%s je rezervirana oznaka!"
+
+#: ../classes/settings.class.php:176
+msgid "You are about to create new DKIM keys. The old ones will get deleted. Continue?"
+msgstr "Kreirat ćete nove DKIM ključeve, a stari će biti obrisani. Želite li nastaviti?"
+
+#: ../classes/settings.class.php:337
+msgid "New DKIM keys have been created!"
+msgstr "Novi DKIM ključevi su kreirani!"
+
+#: ../classes/settings.class.php:341
+msgid "Not able to create new DKIM keys!"
+msgstr "Ne mogu kreirati nove DKIM ključeve!"
+
+#: ../classes/settings.class.php:369
+#, php-format
+msgid "%s is not a valid email address"
+msgstr "%s nije valjana adresa"
+
+#: ../classes/settings.class.php:417
+msgid "Couldn't load Country DB"
+msgstr "Ne mogu učitati bazu zemalja"
+
+#: ../classes/settings.class.php:420
+msgid "Country DB successfully loaded!"
+msgstr "Baza zemalja uspješno učitana"
+
+#: ../classes/settings.class.php:436
+msgid "Couldn't load City DB"
+msgstr "Ne mogu učitati bazu gradova"
+
+#: ../classes/settings.class.php:439
+msgid "City DB successfully loaded!"
+msgstr "Baza gradova uspješno učitana!"
+
+#: ../classes/settings.class.php:452
+#: ../classes/settings.class.php:461
+#, php-format
+msgid "file %s does not exist"
+msgstr "datoteka %s ne postoji"
+
+#: ../classes/settings.class.php:484
+msgid "Form CSS reseted!"
+msgstr "CSS obrasca poništen!"
+
+#: ../classes/settings.class.php:548
+#, php-format
+msgid "The caching time for tweets must be at least %d minutes"
+msgstr ""
+
+#: ../classes/settings.class.php:560
+#, php-format
+msgid "Send limit has been adjusted to %d for Gmail"
+msgstr "Ograničenje slanja je postavljeno na %d za Gmail"
+
+#: ../classes/settings.class.php:613
+#, php-format
+msgid "The provided purchasecode %s is invalid"
+msgstr ""
+
+#: ../classes/mail.class.php:139
+#: ../classes/mymail.class.php:1068
+#, php-format
+msgid "Sent limit of %1$s reached! You have to wait %2$s before you can send more mails!"
+msgstr ""
+
+#: ../classes/mail.class.php:356
+msgid "myMail Test Email"
+msgstr ""
+
+#: ../classes/mail.class.php:358
+#: ../classes/mail.class.php:373
+msgid "Your settings are good"
+msgstr "Vaše postavke su dobre"
+
+#: ../classes/templates.class.php:327
+#: ../classes/mymail.class.php:1841
+msgid "Templates"
+msgstr "Predlošci"
+
+#: ../classes/templates.class.php:388
+msgid "No chances made!"
+msgstr "Nisu učinjene izmjene"
+
+#: ../classes/templates.class.php:395
+msgid "File has been saved!"
+msgstr "Datoteka je spremljena"
+
+#: ../classes/templates.class.php:397
+msgid "Not able to save file!"
+msgstr "Ne mogu spremiti datoteku"
+
+#: ../classes/templates.class.php:748
+msgid "Base"
+msgstr "Osnovni"
+
+#: ../classes/templates.class.php:749
+msgid "Notification"
+msgstr "Obavijest"
+
+#: ../classes/mymail.class.php:191
+msgid "dismiss message"
+msgstr "zatvori poruku"
+
+#: ../classes/mymail.class.php:263
+msgid "There is no content for this newsletter."
+msgstr "Ovaj newsletter nema sadržaja"
+
+#: ../classes/mymail.class.php:263
+msgid "Add content"
+msgstr "Dodaj sadržaj"
+
+#: ../classes/mymail.class.php:591
+#, php-format
+msgid "This Campaign was sent on %s"
+msgstr "Kampanja je poslana dana %s"
+
+#: ../classes/mymail.class.php:594
+msgid "This Campaign is currently in the queue"
+msgstr "Kampanja je u redu čekanja na slanje"
+
+#: ../classes/mymail.class.php:597
+msgid "This Campaign is currently progressing"
+msgstr "Kamapanja je u tijeku"
+
+#: ../classes/mymail.class.php:614
+#: ../classes/mymail.class.php:615
+msgid "wrong post type"
+msgstr "pogrešan tip posta"
+
+#: ../classes/mymail.class.php:617
+msgid "User has not subscribed"
+msgstr "Korisnik se nije pretplatio"
+
+#: ../classes/mymail.class.php:726
+msgid "Invalid email"
+msgstr "Neispravna e-mail adresa"
+
+#: ../classes/mymail.class.php:1068
+msgid "Message sent. Check your inbox!"
+msgstr "Poruka je poslana. Provjerite inbox!"
+
+#: ../classes/mymail.class.php:1068
+msgid "Couldn't send message. Check your settings!"
+msgstr "Ne mogu poslati poruku. Molimo provjerite postavke!"
+
+#: ../classes/mymail.class.php:1155
+msgid "sent"
+msgstr "poslano"
+
+#: ../classes/mymail.class.php:1155
+msgid "open"
+msgstr "otvoreno"
+
+#: ../classes/mymail.class.php:1155
+msgid "clicks"
+msgstr "klikova"
+
+#: ../classes/mymail.class.php:1165
+#, php-format
+msgid "%d bounce"
+msgid_plural "%d bounces"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/mymail.class.php:1277
+#: ../classes/mymail.class.php:1323
+#, php-format
+msgid "load more entries (%d left)"
+msgstr "učitaj još stavki (%d preostalo)"
+
+#: ../classes/mymail.class.php:1281
+#: ../classes/mymail.class.php:1328
+msgid "no entries found"
+msgstr "nema stavaka"
+
+#: ../classes/mymail.class.php:1377
+msgid "Please fill out all fields correctly!"
+msgstr "Molimo da ispravno popunite sva polja!"
+
+#: ../classes/mymail.class.php:1386
+#, php-format
+msgid "%s is forwarding an email to you!"
+msgstr "%s vam je proslijedio poruku!!"
+
+#: ../classes/mymail.class.php:1390
+#, php-format
+msgid "%1$s is forwarding this mail to you via %2$s"
+msgstr "%1$s vam je proslijedio poruku preko %2$s"
+
+#: ../classes/mymail.class.php:1392
+msgid "Your message was sent succefully!"
+msgstr "Vaša poruka je uspješno poslana"
+
+#: ../classes/mymail.class.php:1392
+msgid "Sorry, we couldn't deliver your message. Please try again later!"
+msgstr "Žalimo, nismo mogli isporučiti vašu poruku. Molimo pokušajte kasnije!"
+
+#: ../classes/mymail.class.php:1579
+#, php-format
+msgid "Campaign updated. %s"
+msgstr "Kampanja je ažurirana. %s"
+
+#: ../classes/mymail.class.php:1579
+#: ../classes/mymail.class.php:1584
+#: ../classes/mymail.class.php:1938
+msgid "View Newsletter"
+msgstr "Pregled newslettera"
+
+#: ../classes/mymail.class.php:1580
+#, php-format
+msgid "Template changed. %1$s"
+msgstr "Predložak je promijenjen. %1$s"
+
+#: ../classes/mymail.class.php:1580
+msgid "Go back"
+msgstr "Idi natrag"
+
+#: ../classes/mymail.class.php:1581
+msgid "Template saved"
+msgstr "Predložak je spremljen"
+
+#: ../classes/mymail.class.php:1582
+msgid "Campaign updated."
+msgstr "Kampanja je ažurirana."
+
+#: ../classes/mymail.class.php:1583
+#, php-format
+msgid "Campaign restored to revision from %s"
+msgstr "Kampanja je vraćena na verziju iz %s"
+
+#: ../classes/mymail.class.php:1584
+#, php-format
+msgid "Campaign published. %s"
+msgstr "Kampanja je objavljena. %s"
+
+#: ../classes/mymail.class.php:1585
+msgid "Campaign saved."
+msgstr "Kampanja je spremljena."
+
+#: ../classes/mymail.class.php:1586
+#, php-format
+msgid "Campaign submitted. %s"
+msgstr ""
+
+#: ../classes/mymail.class.php:1586
+msgid "Preview Newsletter"
+msgstr "Pretpregled newslettera"
+
+#: ../classes/mymail.class.php:1587
+msgid "Campaign scheduled."
+msgstr "Kampanja je zakazana"
+
+#: ../classes/mymail.class.php:1588
+msgid "Campaign draft updated."
+msgstr "Nacrt kamapnje je ažuriran"
+
+#: ../classes/mymail.class.php:1614
+msgid "Enter Campaign Title here"
+msgstr "Ovdje unesite naslov kampanje"
+
+#: ../classes/mymail.class.php:1623
+msgid "Name"
+msgstr "Ime"
+
+#: ../classes/mymail.class.php:1625
+msgid "Total"
+msgstr "Ukupno"
+
+#: ../classes/mymail.class.php:1626
+msgid "Open"
+msgstr "Otvaranja"
+
+#: ../classes/mymail.class.php:1627
+msgid "Clicks"
+msgstr "Klikovi"
+
+#: ../classes/mymail.class.php:1628
+msgid "Unsubscribes"
+msgstr "Odjave"
+
+#: ../classes/mymail.class.php:1629
+msgid "Bounces"
+msgstr ""
+
+#: ../classes/mymail.class.php:1630
+#: ../classes/subscriber.class.php:261
+#: ../classes/subscriber.class.php:275
+msgid "Date"
+msgstr "Datum"
+
+#: ../classes/mymail.class.php:1695
+#: ../classes/mymail.class.php:1976
+#: ../classes/mymail.class.php:1978
+msgid "Paused"
+msgstr "Pauzirano"
+
+#: ../classes/mymail.class.php:1698
+#: ../classes/mymail.class.php:1706
+#, php-format
+msgid "%1$s of %2$s sent"
+msgstr "%1$s od %2$s poslano"
+
+#: ../classes/mymail.class.php:1700
+#: ../classes/mymail.class.php:1708
+msgid "no recivers!"
+msgstr "nema primatelja!"
+
+#: ../classes/mymail.class.php:1705
+msgid "progressing"
+msgstr "u tijeku"
+
+#: ../classes/mymail.class.php:1713
+#, php-format
+msgid "starts in %s"
+msgstr "započinje %s"
+
+#: ../classes/mymail.class.php:1713
+msgid "less than a minute"
+msgstr "manje od minute"
+
+#: ../classes/mymail.class.php:1717
+#: ../classes/mymail.class.php:1994
+#: ../classes/mymail.class.php:1996
+msgid "Finished"
+msgstr "Završeno"
+
+#: ../classes/mymail.class.php:1737
+msgid "Start Campaign now"
+msgstr "Sada započni kampanju"
+
+#: ../classes/mymail.class.php:1737
+msgid "Start now"
+msgstr "Započni sada"
+
+#: ../classes/mymail.class.php:1740
+msgid "Pause Campaign"
+msgstr "Pauziraj kampanju"
+
+#: ../classes/mymail.class.php:1740
+msgid "Pause"
+msgstr "Pauza"
+
+#: ../classes/mymail.class.php:1743
+msgid "Continue Campaign"
+msgstr "Nastavi kampanju"
+
+#: ../classes/mymail.class.php:1743
+msgid "Continue"
+msgstr "Nastavi"
+
+#: ../classes/mymail.class.php:1745
+msgid "Start Campaign"
+msgstr "Započni kampanju"
+
+#: ../classes/mymail.class.php:1745
+msgid "Start"
+msgstr "Započni"
+
+#: ../classes/mymail.class.php:1810
+#: ../classes/subscriber.class.php:618
+#: ../classes/subscriber.class.php:624
+msgid "Subscribers"
+msgstr "Pretplatnici"
+
+#: ../classes/mymail.class.php:1822
+#, php-format
+msgid "Duplicate Campaign %s"
+msgstr "Dupliciranje kampanje %s"
+
+#: ../classes/mymail.class.php:1822
+msgid "Duplicate"
+msgstr "Dupliciraj"
+
+#: ../classes/mymail.class.php:1830
+msgid "Settings"
+msgstr "Postavke"
+
+#: ../classes/mymail.class.php:1870
+#, php-format
+msgid "Older: %s"
+msgstr "Starije: %s"
+
+#: ../classes/mymail.class.php:1872
+#, php-format
+msgid "Newer: %s"
+msgstr "Novije: %s"
+
+#: ../classes/mymail.class.php:1874
+#: ../classes/mymail.class.php:2178
+msgid "Preview"
+msgstr "Pretpregled"
+
+#: ../classes/mymail.class.php:1931
+msgid "Campaigns"
+msgstr "Kampanje"
+
+#: ../classes/mymail.class.php:1932
+msgid "Campaign"
+msgstr "Kampanja"
+
+#: ../classes/mymail.class.php:1933
+#: ../classes/mymail.class.php:1936
+msgid "New Campaign"
+msgstr "Nova kampanja"
+
+#: ../classes/mymail.class.php:1934
+msgid "Create a new Campaign"
+msgstr "Kreiranje nove kampanje"
+
+#: ../classes/mymail.class.php:1935
+msgid "Edit Campaign"
+msgstr "Uredi kampanju"
+
+#: ../classes/mymail.class.php:1937
+msgid "All Campaigns"
+msgstr "Sve kampanje"
+
+#: ../classes/mymail.class.php:1939
+msgid "Search Campaigns"
+msgstr "Pretraži kampanju"
+
+#: ../classes/mymail.class.php:1940
+msgid "No Campaign found"
+msgstr "Nije pronađena kampanja"
+
+#: ../classes/mymail.class.php:1941
+msgid "No Campaign found in Trash"
+msgstr "Nijedna kampanja nije pronađena u smeću"
+
+#: ../classes/mymail.class.php:1982
+#: ../classes/mymail.class.php:1984
+msgid "Active"
+msgstr "Aktivno"
+
+#: ../classes/mymail.class.php:1988
+#: ../classes/mymail.class.php:1990
+msgid "Queued"
+msgstr "U redu čekanja"
+
+#: ../classes/mymail.class.php:2010
+msgid "Details"
+msgstr "Detalji"
+
+#: ../classes/mymail.class.php:2011
+msgid "Template"
+msgstr "Predložak"
+
+#: ../classes/mymail.class.php:2011
+msgid "Clickmap"
+msgstr "Mapa klikova"
+
+#: ../classes/mymail.class.php:2012
+#: ../classes/subscriber.class.php:851
+msgid "Save"
+msgstr "Spremi"
+
+#: ../classes/mymail.class.php:2013
+msgid "Delivery"
+msgstr "Slanje"
+
+#: ../classes/mymail.class.php:2095
+msgid "More"
+msgstr "Više"
+
+#: ../classes/mymail.class.php:2102
+msgid "For more information:"
+msgstr "Za više informacija:"
+
+#: ../classes/mymail.class.php:2167
+msgid "Move module up"
+msgstr "Pomakni modul gore"
+
+#: ../classes/mymail.class.php:2168
+msgid "Move module down"
+msgstr "Pomakni modul dolje"
+
+#: ../classes/mymail.class.php:2169
+msgid "remove module"
+msgstr "ukloni modul"
+
+#: ../classes/mymail.class.php:2170
+msgid "Add Module"
+msgstr "Dodaj modul"
+
+#: ../classes/mymail.class.php:2171
+msgid "Edit"
+msgstr "Uredi"
+
+#: ../classes/mymail.class.php:2172
+msgctxt "for the autoimporter"
+msgid "Auto"
+msgstr "Auto"
+
+#: ../classes/mymail.class.php:2173
+msgid "add button"
+msgstr "dodaj gumb"
+
+#: ../classes/mymail.class.php:2174
+#, php-format
+msgctxt "\"link\" \"count\" clicks (\"percentage\")"
+msgid "%s - %s clicks (%s)"
+msgstr "%s - %s klikova (%s)"
+
+#: ../classes/mymail.class.php:2175
+msgid "Currently selected"
+msgstr "Trenutno odabrano"
+
+#: ../classes/mymail.class.php:2176
+msgid "An empty link will remove this button! Continue?"
+msgstr "Gumb će biti uklonjen zbog prazne poveznice! Želite li nastaviti?"
+
+#: ../classes/mymail.class.php:2177
+#, php-format
+msgid "Preview for %s"
+msgstr "Pretpregled za %s"
+
+#: ../classes/mymail.class.php:2179
+msgid "Read more"
+msgstr "Opširnije..."
+
+#: ../classes/mymail.class.php:2180
+msgid "Unable to save template!"
+msgstr "Ne mogu spremiti predložak!"
+
+#: ../classes/mymail.class.php:2182
+msgid "next"
+msgstr "slijedeće"
+
+#: ../classes/mymail.class.php:2183
+msgid "prev"
+msgstr "prethodno"
+
+#: ../classes/mymail.class.php:2188
+msgid "Delete this color schema?"
+msgstr "Obrisati ovu shemu boja?"
+
+#: ../classes/mymail.class.php:2745
+#, php-format
+msgid "Campaign %1$s has been paused cause of a sending error: %2$s"
+msgstr "Kampanja %1$s je pauzirana zbog pogreške pri slanju: %2$s"
+
+#: ../classes/mymail.class.php:2907
+#: ../classes/mymail.class.php:2914
+msgid "My First Campaign"
+msgstr "Moja prva kampanja"
+
+#: ../classes/mymail.class.php:2915
+msgid "My First Campaign Preheader"
+msgstr "Zaglavlje moje prve kampanje"
+
+#: ../classes/mymail.class.php:3149
+msgid "You are not allowed to pause campaigns."
+msgstr "Nemate ovlasti za pauziranje kampanje."
+
+#: ../classes/mymail.class.php:3162
+msgid "You are not allowed to start campaigns."
+msgstr "Nema ovlasti započeti kampanje."
+
+#: ../classes/mymail.class.php:3194
+msgid "You are not allowed to duplicate campaigns."
+msgstr "Nemate ovlasti duplicirati kampanje."
+
+#: ../classes/mymail.class.php:3268
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: ../classes/mymail.class.php:3454
+#, php-format
+msgid "You haven't defined a homepage for the newsletter. This is required to make the subscription form work correctly. Please check the %s"
+msgstr ""
+
+#: ../classes/mymail.class.php:3454
+msgid "frontend settings page"
+msgstr ""
+
+#: ../classes/subscriber.class.php:146
+msgid "Enter Email here"
+msgstr "Ovdje unesite e-mail adresu"
+
+#: ../classes/subscriber.class.php:259
+#: ../classes/subscriber.class.php:273
+msgid "Firstname"
+msgstr "Ime"
+
+#: ../classes/subscriber.class.php:260
+#: ../classes/subscriber.class.php:274
+msgid "Lastname"
+msgstr "Prezime"
+
+#: ../classes/subscriber.class.php:308
+msgid "no lists defined"
+msgstr "nije definirana nijedna lista"
+
+#: ../classes/subscriber.class.php:359
+#: ../classes/subscriber.class.php:423
+msgid "not able to insert subscriber"
+msgstr "ne mogu umetnuti pretplatnika"
+
+#: ../classes/subscriber.class.php:479
+msgid "Could not insert term relationship into the database"
+msgstr ""
+
+#: ../classes/subscriber.class.php:619
+#: ../classes/subscriber.class.php:630
+msgid "Subscriber"
+msgstr "Pretplatnik"
+
+#: ../classes/subscriber.class.php:620
+msgid "Add New"
+msgstr "Dodaj novi"
+
+#: ../classes/subscriber.class.php:621
+msgid "Add New Subscriber"
+msgstr "Dodaj novog pretplatnika"
+
+#: ../classes/subscriber.class.php:622
+msgid "Edit Subscriber"
+msgstr "Uredi pretplatnika"
+
+#: ../classes/subscriber.class.php:623
+msgid "New Subscriber"
+msgstr "Novi pretplatnik"
+
+#: ../classes/subscriber.class.php:625
+msgid "View Subscribers"
+msgstr "Pregled pretplatnika"
+
+#: ../classes/subscriber.class.php:626
+msgid "Search Emails"
+msgstr "Pretraži e-mailove"
+
+#: ../classes/subscriber.class.php:627
+msgid "No Subscriber found"
+msgstr "Nijedan pretplatnik nije pronađen"
+
+#: ../classes/subscriber.class.php:628
+msgid "No Subscriber found in Trash"
+msgstr "Nema pretplatnika u smeću"
+
+#: ../classes/subscriber.class.php:651
+msgctxt "taxonomy general name"
+msgid "Lists"
+msgstr "Liste"
+
+#: ../classes/subscriber.class.php:652
+msgctxt "taxonomy singular name"
+msgid "List"
+msgstr "Lista"
+
+#: ../classes/subscriber.class.php:653
+msgid "Search Lists"
+msgstr "Pretraži liste"
+
+#: ../classes/subscriber.class.php:654
+msgid "Popular Lists"
+msgstr "Popularne liste"
+
+#: ../classes/subscriber.class.php:655
+msgid "All Lists"
+msgstr "Sve liste"
+
+#: ../classes/subscriber.class.php:656
+msgid "Edit List"
+msgstr "Uredi listu"
+
+#: ../classes/subscriber.class.php:657
+msgid "Update List"
+msgstr "Ažuriraj listu"
+
+#: ../classes/subscriber.class.php:658
+msgid "Add New List"
+msgstr "Dodaj novu listu"
+
+#: ../classes/subscriber.class.php:659
+msgid "New List Name"
+msgstr "Naziv nove liste"
+
+#: ../classes/subscriber.class.php:660
+msgid "Separate Lists with commas"
+msgstr "Odvojite liste zarezon"
+
+#: ../classes/subscriber.class.php:661
+msgid "Add or remove Lists"
+msgstr "Dodaj ili ukloni liste"
+
+#: ../classes/subscriber.class.php:662
+msgid "Choose List"
+msgstr "Odaberi listu"
+
+#: ../classes/subscriber.class.php:709
+#: ../classes/subscriber.class.php:713
+msgid "Hardbounced"
+msgstr ""
+
+#: ../classes/subscriber.class.php:717
+#: ../classes/subscriber.class.php:721
+msgid "Error"
+msgstr "Greška"
+
+#: ../classes/subscriber.class.php:789
+msgid "Show All"
+msgstr "Prikaži sve"
+
+#: ../classes/subscriber.class.php:822
+#: ../classes/subscriber.class.php:825
+#: ../classes/subscriber.class.php:827
+msgid "Subscriber updated."
+msgstr "Pretplatnik je ažuriran."
+
+#: ../classes/subscriber.class.php:823
+msgid "Custom field updated."
+msgstr ""
+
+#: ../classes/subscriber.class.php:824
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../classes/subscriber.class.php:826
+#, php-format
+msgid "Subscriber restored to revision from %s"
+msgstr ""
+
+#: ../classes/subscriber.class.php:828
+msgid "Subscriber saved."
+msgstr "Pretplatnik je spremljen."
+
+#: ../classes/subscriber.class.php:829
+msgid "Subscriber submitted."
+msgstr ""
+
+#: ../classes/subscriber.class.php:830
+msgid "M j, Y @ G:i"
+msgstr "j. F Y. @ H:i"
+
+#: ../classes/subscriber.class.php:831
+msgid "Subscriber draft updated."
+msgstr ""
+
+#: ../classes/subscriber.class.php:853
+msgid "Meta"
+msgstr "Meta"
+
+#: ../classes/subscriber.class.php:854
+msgid "Master Data"
+msgstr "Glavni podaci"
+
+#: ../classes/subscriber.class.php:855
+msgid "Statistics"
+msgstr "Statistika"
+
+#: ../classes/subscriber.class.php:914
+msgid "this isn't a valid email address!"
+msgstr "ovo nije ispravna adresa"
+
+#: ../classes/subscriber.class.php:915
+msgid "this email address allready exists!"
+msgstr "ova e-mail adresa već postoji!"
+
+#: ../classes/subscriber.class.php:939
+#: ../classes/form.class.php:243
+msgid "Unsubscribe"
+msgstr "Odjava"
+
+#: ../classes/subscriber.class.php:1073
+msgid "Wordpress Users"
+msgstr "Wordpress korisnici"
+
+#: ../classes/widget.class.php:9
+msgid "Newsletter Signup Form"
+msgstr "Obrazac za pretplatu"
+
+#: ../classes/widget.class.php:10
+msgid "Sign Up form for the newsletter"
+msgstr "Pretplatite se na primanje newslettera"
+
+#: ../classes/widget.class.php:16
+msgid "Newsletter sign up"
+msgstr "Pretplata na newsletter"
+
+#: ../classes/widget.class.php:25
+msgid "Title"
+msgstr "Naslov"
+
+#: ../classes/widget.class.php:27
+msgid "Form"
+msgstr "Obrazac"
+
+#: ../classes/widget.class.php:35
+msgid "Text before the form"
+msgstr "Tekst prije obrasca"
+
+#: ../classes/widget.class.php:37
+msgid "Text after the form"
+msgstr "Tekst nakon obrasca"
+
+#: ../classes/widget.class.php:39
+msgid "add form"
+msgstr "dodaj obrazac"
+
+#: ../classes/widget.class.php:92
+msgid "Newsletter List"
+msgstr "Lista newslettera"
+
+#: ../classes/widget.class.php:93
+msgid "Display the most recent newsletters"
+msgstr "Prikaži najnovije newslettere"
+
+#: ../classes/widget.class.php:119
+#: ../classes/widget.class.php:162
+msgid "Latest Newsletter"
+msgstr "Zadnji newsletter"
+
+#: ../classes/widget.class.php:165
+msgid "Title:"
+msgstr "Naslov:"
+
+#: ../classes/widget.class.php:168
+msgid "Number of Newsletters:"
+msgstr "Broj newslettera:"
+
+#: ../classes/form.class.php:291
+msgid "Select at least one list"
+msgstr "Odaberite barem jednu listu"
+
+#: ../includes/functions.php:159
+msgid "Newsletters"
+msgstr "Newsletteri"
+
+#: ../includes/static.php:7
+msgid "Signup for the newsletter"
+msgstr "Pretplatite se na newsletter"
+
+#: ../includes/static.php:7
+msgid "Do you really want to unsubscribe?"
+msgstr "Jeste li sigurni da se želite odjaviti?"
+
+#: ../includes/capability.php:5
+msgid "edit campaigns"
+msgstr "uredi kampanje"
+
+#: ../includes/capability.php:10
+msgid "send campaigns"
+msgstr "pošalji kampanje"
+
+#: ../includes/capability.php:15
+msgid "delete campaigns"
+msgstr "obriši kampanje"
+
+#: ../includes/capability.php:20
+msgid "edit others campaigns"
+msgstr "uredi druge kampanja"
+
+#: ../includes/capability.php:25
+msgid "delete others campaigns"
+msgstr "brisanje kampanja drugih korisnika"
+
+#: ../includes/capability.php:30
+msgid "duplicate campaigns"
+msgstr "dupliciranje kampanja"
+
+#: ../includes/capability.php:35
+msgid "duplicate others campaigns"
+msgstr "dupliciranje kampanja drugih korisnika"
+
+#: ../includes/capability.php:40
+msgid "edit autoresponders"
+msgstr "uređivanje automatskih odgovora"
+
+#: ../includes/capability.php:45
+msgid "edit others autoresponders"
+msgstr "uređivanje automatskih odgovora drugih korisnika"
+
+#: ../includes/capability.php:51
+msgid "change template"
+msgstr "promjena predloška"
+
+#: ../includes/capability.php:55
+msgid "save template"
+msgstr "spremanje predloška"
+
+#: ../includes/capability.php:60
+msgid "see codeview"
+msgstr "pregled izvornog koda newslettera"
+
+#: ../includes/capability.php:66
+msgid "edit subscribers"
+msgstr "uređivanje pretplatnika"
+
+#: ../includes/capability.php:71
+msgid "create subscribers"
+msgstr "kreiranje pretplatnika"
+
+#: ../includes/capability.php:76
+msgid "edit others subscribers"
+msgstr "uređivanje pretplatnika drugih korisnika"
+
+#: ../includes/capability.php:81
+msgid "delete subscribers"
+msgstr "brisanje pretplatnika"
+
+#: ../includes/capability.php:86
+msgid "delete others subscribers"
+msgstr "brisanje pretplatnika drugih korisnika"
+
+#: ../includes/capability.php:93
+msgid "edit lists"
+msgstr "uređivanje lista"
+
+#: ../includes/capability.php:98
+msgid "delete lists"
+msgstr "brisanje lista"
+
+#: ../includes/capability.php:103
+msgid "assign lists"
+msgstr "dodijeljivanje lista"
+
+#: ../includes/capability.php:110
+msgid "manage subscribers"
+msgstr "upravljanje pretplatnicima"
+
+#: ../includes/capability.php:115
+msgid "import subscribers"
+msgstr "uvoz pretplatnika"
+
+#: ../includes/capability.php:120
+msgid "export subscribers"
+msgstr "izvoz pretplatnika"
+
+#: ../includes/capability.php:127
+msgid "manage templates"
+msgstr "upravljanje predlošcima"
+
+#: ../includes/capability.php:132
+msgid "edit templates"
+msgstr "uređivanje predložaka"
+
+#: ../includes/capability.php:137
+msgid "delete templates"
+msgstr "brisanje predložaka"
+
+#: ../includes/capability.php:142
+msgid "upload templates"
+msgstr "upload predložaka"
+
+#: ../includes/capability.php:147
+msgid "see dashboard widget"
+msgstr "pregled widgeta na nadzornoj ploči"
+
+#: ../includes/capability.php:152
+msgid "manage capabilities"
+msgstr "upravljanje mogućnostima"
+
+#: ../includes/autoresponder.php:6
+msgid "minute(s)"
+msgstr "minuta"
+
+#: ../includes/autoresponder.php:7
+msgid "hour(s)"
+msgstr "sat(i)"
+
+#: ../includes/autoresponder.php:8
+msgid "day(s)"
+msgstr "dan(a)"
+
+#: ../includes/autoresponder.php:9
+msgid "weeks(s)"
+msgstr "tjedan(a)"
+
+#: ../includes/autoresponder.php:14
+msgid "user signed up"
+msgstr "korisnik se pretplatio"
+
+#: ../includes/autoresponder.php:18
+msgid "user unsubscribed"
+msgstr "korisnik se odjavio"
+
+#: ../includes/autoresponder.php:30
+msgid "is"
+msgstr "je"
+
+#: ../includes/autoresponder.php:31
+msgid "is not"
+msgstr "nije"
+
+#: ../includes/autoresponder.php:32
+msgid "contains"
+msgstr "sadrži"
+
+#: ../includes/autoresponder.php:33
+msgid "contains not"
+msgstr "ne sadrži"
+
+#: ../includes/autoresponder.php:34
+msgid "begins with"
+msgstr "počinje sa"
+
+#: ../includes/autoresponder.php:35
+msgid "ends with"
+msgstr "završava sa"
+
+#: ../includes/autoresponder.php:36
+msgid "is less than"
+msgstr "je manje od"
+
+#: ../includes/autoresponder.php:37
+msgid "is more than"
+msgstr "je veće od"
+
+#: ../views/manage.php:12
+msgid "Import"
+msgstr "Uvoz"
+
+#: ../views/manage.php:15
+msgid "Export"
+msgstr "Izvoz"
+
+#: ../views/manage.php:18
+msgid "Pending"
+msgstr "Na čekanju"
+
+#: ../views/manage.php:21
+msgid "Delete"
+msgstr "Brisanje"
+
+#: ../views/manage.php:32
+msgid "upload you subscribers as comma-separated list (CSV)"
+msgstr "prijenos pretplatnika u zarezom odvojenoj listi (CSV)"
+
+#: ../views/manage.php:42
+#: ../views/templates.php:123
+#: ../views/templates.php:130
+msgid "or"
+msgstr "ili"
+
+#: ../views/manage.php:45
+msgid "Paste"
+msgstr "Zalijepi"
+
+#: ../views/manage.php:46
+msgid "paste your list here"
+msgstr "ovdje zalijepite listu"
+
+#: ../views/manage.php:59
+msgid "Export Subscribers"
+msgstr "Izvoz pretplatnika"
+
+#: ../views/manage.php:75
+#: ../views/manage.php:257
+msgid "which are in one of these lists"
+msgstr "koji su u nekoj od ovih lista"
+
+#: ../views/manage.php:90
+#: ../views/manage.php:272
+msgid "subscribers not assigned to a list"
+msgstr "pretplatnici nisu dodijeljeni listi"
+
+#: ../views/manage.php:94
+#: ../views/manage.php:276
+msgid "and have one of these statuses"
+msgstr "i imaju neki od ovih statusa"
+
+#: ../views/manage.php:97
+#: ../views/manage.php:279
+msgid "subscribed"
+msgstr "pretplaćen"
+
+#: ../views/manage.php:98
+#: ../views/manage.php:280
+msgid "unsubscribed"
+msgstr "odjavljen"
+
+#: ../views/manage.php:99
+#: ../views/manage.php:281
+msgid "hardbounced"
+msgstr ""
+
+#: ../views/manage.php:100
+#: ../views/manage.php:282
+msgid "error"
+msgstr "greška"
+
+#: ../views/manage.php:101
+#: ../views/manage.php:283
+msgid "trash"
+msgstr "smeće"
+
+#: ../views/manage.php:104
+msgid "include header"
+msgstr "uvrsti zaglavlje"
+
+#: ../views/manage.php:107
+msgid "Date Format"
+msgstr "Oblik datuma"
+
+#: ../views/manage.php:126
+msgid "MySQL Server Performance"
+msgstr "Performanse MySQL poslužitelja"
+
+#: ../views/manage.php:128
+msgid "low"
+msgstr "nisko"
+
+#: ../views/manage.php:129
+msgid "normal"
+msgstr "normalno"
+
+#: ../views/manage.php:130
+msgid "high"
+msgstr "visoko"
+
+#: ../views/manage.php:131
+msgid "super high"
+msgstr "vrlo visoko"
+
+#: ../views/manage.php:132
+msgid "super extreme high"
+msgstr "ekstremno visoko"
+
+#: ../views/manage.php:137
+msgid "Define order and included columns"
+msgstr "Definiranje poretka i uvrštenih stupaca"
+
+#: ../views/manage.php:165
+msgid "Listnames"
+msgstr "Nazivi lista"
+
+#: ../views/manage.php:172
+msgid "Download Subscribers"
+msgstr "Preuzimanje pretplatnika"
+
+#: ../views/manage.php:179
+#: ../views/manage.php:294
+msgid "no subscriber found"
+msgstr "nema pretplatnika"
+
+#: ../views/manage.php:186
+msgid "Pending Subscribers"
+msgstr "Pretplatnici na čekanju"
+
+#: ../views/manage.php:195
+msgid "following subscribers didn't confirm there subscription yet"
+msgstr "slijedeći pretplatnici još nisu potvrdili svoju pretplatu"
+
+#: ../views/manage.php:198
+msgid "Userdata"
+msgstr "Korisnički podaci"
+
+#: ../views/manage.php:198
+msgid "Signup Time"
+msgstr "Vrijeme pretplate"
+
+#: ../views/manage.php:220
+#, php-format
+msgid "%s ago"
+msgstr "prije %s"
+
+#: ../views/manage.php:234
+msgid "currently no pending subscribers"
+msgstr "trenutno nema pretplanika na čekanju"
+
+#: ../views/manage.php:241
+msgid "Delete Subscribers"
+msgstr "Brisanje pretplatnika"
+
+#: ../views/manage.php:286
+msgid "remove selected lists"
+msgstr "ukloni odabrane liste"
+
+#: ../views/manage.php:289
+msgid "Delete Subscribers permanently"
+msgstr "Trajno brisanje pretplatnika"
+
+#: ../views/manage.php:300
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemate ovlasti za pristup ovoj stranici"
+
+#: ../views/templates.php:29
+msgid "Template uploaded"
+msgstr "Predložak je prenesen"
+
+#: ../views/templates.php:89
+#: ../views/templates.php:99
+msgid "Default Template"
+msgstr "Uobičajeni predložak"
+
+#: ../views/templates.php:100
+#, php-format
+msgid "remove file %s"
+msgstr "ukloni datoteku %s"
+
+#: ../views/templates.php:100
+#, php-format
+msgid "You are about to delete the file %s"
+msgstr "Obrisat ćete datoteku %s"
+
+#: ../views/templates.php:136
+msgid "Available Templates"
+msgstr "Raspoloživi predlošci"
+
+#: ../views/templates.php:136
+msgid "get more"
+msgstr "nabavi još"
+
+#: ../views/templates.php:159
+msgid "This file is no writeable! Please change the file permission"
+msgstr "Ne mogu pisati u datoteku! Molimo provjerite dozvole na datoteci"
+
+#: ../views/templates.php:159
+msgid "Edit HTML"
+msgstr "Uredi HTML"
+
+#: ../views/templates.php:164
+#, php-format
+msgid "You are about to delete this template \"%s\""
+msgstr "Obrisat ćete ovaj predložak \"%s\""
+
+#: ../views/templates.php:177
+msgid "Upload a template in .zip format"
+msgstr "Prijenos predloška u .zip obliku"
+
+#: ../views/templates.php:178
+msgid "Please upload the whole zip file here."
+msgstr "Molimo ovdje prenesite cijeli zip"
+
+#: ../views/dashboard.php:12
+msgid "Recent Campaign"
+msgstr "Zadnje kampanje"
+
+#: ../views/dashboard.php:12
+msgid "edit"
+msgstr "uredi"
+
+#: ../views/dashboard.php:15
+msgid "total"
+msgstr "ukupno"
+
+#: ../views/dashboard.php:15
+msgid "opens"
+msgstr "otvaranja"
+
+#: ../views/dashboard.php:15
+msgctxt "count of"
+msgid "unsubscribes"
+msgstr "odjava"
+
+#: ../views/dashboard.php:15
+msgid "bounces"
+msgstr "odbijanja"
+
+#: ../views/dashboard.php:43
+msgid "%n Campaign"
+msgid_plural "%n Campaigns"
+msgstr[0] "%n kampanja"
+msgstr[1] "%n kampanja"
+
+#: ../views/dashboard.php:44
+msgid "new"
+msgstr "novo"
+
+#: ../views/dashboard.php:50
+msgid "%n Pending Campaign"
+msgid_plural "%n Pending Campaigns"
+msgstr[0] "%n kampanja na čekanju"
+msgstr[1] "%n kampanja na čekanju"
+
+#: ../views/dashboard.php:53
+msgid "%n Active Campaign"
+msgid_plural "%n Active Campaigns"
+msgstr[0] "%n aktivna kampanja"
+msgstr[1] "%n aktivnik kampanja"
+
+#: ../views/dashboard.php:56
+msgid "%n Queued Campaign"
+msgid_plural "%n Queued Campaigns"
+msgstr[0] "%n kampanja u redu za slanje"
+msgstr[1] "%n kampanja u redu za slanje"
+
+#: ../views/dashboard.php:59
+msgid "%n Finished Campaign"
+msgid_plural "%n Finished Campaigns"
+msgstr[0] "%n završena kampanja"
+msgstr[1] "%n završenih kampanja"
+
+#: ../views/dashboard.php:62
+msgid "%n Paused Campaign"
+msgid_plural "%n Paused Campaigns"
+msgstr[0] "%n pauzirana kampanja"
+msgstr[1] "%n pauziranih kampanja"
+
+#: ../views/dashboard.php:65
+msgid "%n Drafted Campaign"
+msgid_plural "%n Drafted Campaigns"
+msgstr[0] "%n nacrt kampanje"
+msgstr[1] "%n nacrta kampanja"
+
+#: ../views/dashboard.php:71
+msgid "Crap! You don't have any Campaigns yet"
+msgstr "Još nemate kampanja"
+
+#: ../views/dashboard.php:72
+msgid "create a new Campaign"
+msgstr "kreiraj novu kampanju"
+
+#: ../views/dashboard.php:80
+msgid "%n Subscriber"
+msgid_plural "%n Subscribers"
+msgstr[0] "%n pretplatnika"
+msgstr[1] "%n pretplatnika"
+
+#: ../views/dashboard.php:87
+msgid "%n Active Subscribers"
+msgid_plural "%n Active Subscribers"
+msgstr[0] "%n aktivan pretplanik"
+msgstr[1] "%n aktivnih pretplatnika"
+
+#: ../views/dashboard.php:90
+msgid "%n Unsubscribed Subscribers"
+msgid_plural "%n Unsubscribed Subscribers"
+msgstr[0] "%n odjavljeni pretplatnik"
+msgstr[1] "%n odjavljenih pretplatnika"
+
+#: ../views/dashboard.php:93
+msgid "%n Hardbounced Subscribers"
+msgid_plural "%n Hardbounced Subscribers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../views/dashboard.php:124
+#: ../views/dashboard.php:152
+msgid "New unsubscribers"
+msgstr "Novi odjavljeni pretplatnici"
+
+#: ../views/dashboard.php:124
+#: ../views/dashboard.php:151
+msgid "New subscribers"
+msgstr "Novi pretplatnici"
+
+#: ../views/dashboard.php:157
+#, php-format
+msgid "You are using %s"
+msgstr "Koristite %s"
+
+#: ../views/dashboard.php:163
+#, php-format
+msgid "Update to %s"
+msgstr "Nadogradnja na %s"
+
+#: ../views/dashboard.php:163
+msgid "Latest"
+msgstr "Zadnji"
+
+#: ../views/single-newsletter.php:37
+msgid "Share"
+msgstr "Podijeli"
+
+#: ../views/single-newsletter.php:44
+#: ../views/single-newsletter.php:51
+#, php-format
+msgid "Share this via %s"
+msgstr "Podijeli preko %s"
+
+#: ../views/single-newsletter.php:62
+#, php-format
+msgid "Share with %s"
+msgstr "Podijeli preko %s"
+
+#: ../views/single-newsletter.php:62
+msgid "email"
+msgstr "e-maila"
+
+#: ../views/single-newsletter.php:66
+msgid "Your name"
+msgstr "Vaše ime"
+
+#: ../views/single-newsletter.php:69
+msgid "Your email address"
+msgstr "Vaša e-mail adresa"
+
+#: ../views/single-newsletter.php:72
+msgid "Your friend's email address"
+msgstr "E-mail adresa primatelja"
+
+#: ../views/single-newsletter.php:75
+msgid "A personal note to your friend"
+msgstr "Vaša poruka primatelju"
+
+#: ../views/single-newsletter.php:79
+msgid "Send now"
+msgstr "Pošalji sada"
+
+#: ../views/single-newsletter.php:83
+msgid "or send it with your mail application"
+msgstr "ili želite poslati pomoću vaše e-mail aplikacije"
+
+#: ../views/single-newsletter.php:85
+msgid "We respect your privacy. Nothing you enter on this page is saved by anyone"
+msgstr "Poštujemo vašu privatnost. Ovdje uneseni podaci neće biti spremljeni."
+
+#: ../views/single-newsletter.php:92
+msgid "Share the link"
+msgstr "Poveznica na ovaj newsletter"
+
+#: ../views/settings.php:5
+#: ../views/settings.php:1133
+msgid "Save Changes"
+msgstr "Spremi promjene"
+
+#: ../views/settings.php:17
+#, php-format
+msgid "%d campaign is active. You should pause it before you change the settings!"
+msgid_plural "%d campaigns are active. You should pause them before you change the settings!"
+msgstr[0] "Imate %d aktivnu kampanju. Trebali biste ju pauzirati prije promjene postavki!"
+msgstr[1] "Imate %d aktivne kampanje. Trebali biste ih pauzirati prije promjene postavki!"
+
+#: ../views/settings.php:25
+msgid "General"
+msgstr "Općenito"
+
+#: ../views/settings.php:26
+msgid "Frontend"
+msgstr "Sučelje"
+
+#: ../views/settings.php:28
+#: ../views/settings.php:226
+msgid "Forms"
+msgstr "Obrasci"
+
+#: ../views/settings.php:29
+msgid "Texts"
+msgstr "Tekstovi"
+
+#: ../views/settings.php:30
+msgid "Tags"
+msgstr "Oznake"
+
+#: ../views/settings.php:32
+msgid "Cron"
+msgstr "Cron"
+
+#: ../views/settings.php:33
+msgid "Capabilities"
+msgstr "Mogućnosti"
+
+#: ../views/settings.php:34
+msgid "Bouncing"
+msgstr "Odbijanje primitka"
+
+#: ../views/settings.php:35
+msgid "Authentication"
+msgstr "Autentifikacija"
+
+#: ../views/settings.php:36
+#: ../views/settings.php:1102
+msgid "Purchasecode"
+msgstr ""
+
+#: ../views/settings.php:59
+#: ../views/newsletter/details.php:20
+msgid "From Name"
+msgstr "Ime pošiljatelja"
+
+#: ../views/settings.php:60
+msgid "The sender name which is displayed in the from field"
+msgstr "Ime pošiljatelja prikazano u polju From"
+
+#: ../views/settings.php:63
+msgid "From Address"
+msgstr "Adresa pošiljatelja"
+
+#: ../views/settings.php:64
+msgid "The sender email address. Force your recievers to whitelabel this email address."
+msgstr "Pošiljateljeva e-mail adresa. Primatelji bi trebali imati ovu e-mail adresu u svojem adresaru."
+
+#: ../views/settings.php:67
+msgid "Reply To Address"
+msgstr "Adresa odgovora"
+
+#: ../views/settings.php:68
+msgid "The address users can reply to"
+msgstr "Adresa na koju primatelji mogu poslati odgovor"
+
+#: ../views/settings.php:83
+msgid "show Templates"
+msgstr "pokaži predloške"
+
+#: ../views/settings.php:87
+msgid "Send delay"
+msgstr "Odgoda slanja"
+
+#: ../views/settings.php:88
+msgid "The default delay in minutes for sending campaigns."
+msgstr "Zadana odgoda slanja kampanje, u minutama."
+
+#: ../views/settings.php:91
+#: ../views/newsletter/options.php:7
+msgid "Embed Images"
+msgstr "Ugradnja slika"
+
+#: ../views/settings.php:92
+msgid "Embed images in the mail"
+msgstr "Prilaganje slika uz e-mail"
+
+#: ../views/settings.php:95
+msgid "Post List Count"
+msgstr ""
+
+#: ../views/settings.php:96
+msgid "Number of posts or images displayed at once in the editbar."
+msgstr ""
+
+#: ../views/settings.php:99
+msgid "Use MyMail for system mails"
+msgstr "Koristi MyMail za e-mailove sustava"
+
+#: ../views/settings.php:100
+msgid "Use the notification template for all outgoing WordPress mails"
+msgstr "Želite li koristiti predložak obavijesti za odlazne WordPress e-mailove"
+
+#: ../views/settings.php:108
+msgid "Track Geolocation"
+msgstr "Prati geolokaciju"
+
+#: ../views/settings.php:109
+msgid "Track Countries in Campaigns"
+msgstr "Prati zemlje u kampanjama"
+
+#: ../views/settings.php:111
+#: ../views/settings.php:115
+msgid "overwrite the database file location or leave blank to use default"
+msgstr ""
+
+#: ../views/settings.php:113
+msgid "Track Cities in Campaigns"
+msgstr "Praćenje gradova u kampanjama"
+
+#: ../views/settings.php:113
+msgid "The city DB is about 12 MB. It can take a while to load it"
+msgstr "Baza podataka gradova je velika oko 12 MB. Učitavanje će potrajati"
+
+#: ../views/settings.php:123
+msgid "If you don't find your country down below the geo database is missing or corrupt"
+msgstr "Ukoliko ne pronađete svoju zemlju geo baza podataka nedostaje ili je oštećena"
+
+#: ../views/settings.php:124
+msgid "Your IP"
+msgstr "Vaša IP adresa"
+
+#: ../views/settings.php:125
+msgid "Your country"
+msgstr "Vaša zemlja"
+
+#: ../views/settings.php:125
+#: ../views/settings.php:127
+msgid "Last update"
+msgstr "Zadnje ažuriranje"
+
+#: ../views/settings.php:125
+#: ../views/settings.php:127
+msgid "Next update"
+msgstr "Slijedeće ažuriranje"
+
+#: ../views/settings.php:127
+msgid "Your city"
+msgstr "Vaše mjesto"
+
+#: ../views/settings.php:134
+msgid "can be changed in each campaign"
+msgstr "može biti izmijenjeno u svakoj kampanji"
+
+#: ../views/settings.php:141
+msgid "Newsletter Homepage"
+msgstr "Početna stranica newslettera"
+
+#: ../views/settings.php:143
+msgid "Choose"
+msgstr "Odaberite"
+
+#: ../views/settings.php:157
+msgid "Pagination"
+msgstr "Listanje"
+
+#: ../views/settings.php:158
+msgid "Allow users to view the next/last newsletters"
+msgstr "Dozvolite posjetiteljima da pogledaju slijedeći/prethodni newsletter"
+
+#: ../views/settings.php:162
+msgid "Share Button"
+msgstr "Gumb dijeljenja"
+
+#: ../views/settings.php:163
+msgid "Offer share option for your customers"
+msgstr "Ponudite opcije dijeljenja posjetiteljima"
+
+#: ../views/settings.php:167
+msgid "Services"
+msgstr "Usluge"
+
+#: ../views/settings.php:188
+msgid "Double-Opt-In"
+msgstr "Dvostruka potvrda"
+
+#: ../views/settings.php:189
+msgid "new subscribers must confirm their subscription"
+msgstr "novi pretplatnici moraju potvrditi svoju pretplatu"
+
+#: ../views/settings.php:195
+msgid "Resend Confirmation"
+msgstr "Ponovno slanje potvrde"
+
+#: ../views/settings.php:196
+#, php-format
+msgid "resend confirmation %1$s times with a delay of %2$s hours if user hasn't confirmed the subscription"
+msgstr "ponovno slanje potvrde %1$s puta sa zadrškom od %2$s sati ukoliko korisnik ne potvrdi pretplatu"
+
+#: ../views/settings.php:199
+msgid "Subscription"
+msgstr "Pretplata"
+
+#: ../views/settings.php:201
+#: ../views/newsletter/details.php:12
+#: ../views/newsletter/details.php:38
+msgid "Subject"
+msgstr "Naslov (subject)"
+
+#: ../views/settings.php:202
+msgid "Headline"
+msgstr "Naslov"
+
+#: ../views/settings.php:203
+msgid "Linktext"
+msgstr "Tekst poveznice"
+
+#: ../views/settings.php:204
+msgid "Text"
+msgstr "Tekst"
+
+#: ../views/settings.php:204
+#, php-format
+msgid "The text new subscribers get when Double-Opt-In is selected. Use %s for the link placeholder. Basic HTML is allowed"
+msgstr "Tekst koji će novi pretplatnici vidjeti kada je uključeno dvostuko potvrđivanje pretplate. Koristite %s za placeholder linka. Dopuštene su osnovne HTML oznake"
+
+#: ../views/settings.php:211
+msgid "Save Subscriber IP"
+msgstr "Premi IP pretplatnika"
+
+#: ../views/settings.php:212
+msgid "Save IP address and time of new subscribers"
+msgstr "Spremi IP adresu i vrijeme pretplate novih pretplatnika"
+
+#: ../views/settings.php:213
+msgid "In some countries it's required to save the IP address and the sign up time for legal reasons. Please add a note in your privacy policy if you save users data"
+msgstr ""
+
+#: ../views/settings.php:224
+msgid "Custom Fields"
+msgstr "Prilagođena polja"
+
+#: ../views/settings.php:225
+msgid "Custom field tags are individual tags for each subscriber. You can ask for them on subscription and/or make it a required field."
+msgstr ""
+
+#: ../views/settings.php:226
+msgid "You have to enable Custom fields for each form:"
+msgstr ""
+
+#: ../views/settings.php:274
+msgid "New WordPress Users"
+msgstr "Novi WordPress korisnici"
+
+#: ../views/settings.php:276
+msgid "Subscribe new WordPress users to these lists. Uncheck all to prevent addition."
+msgstr "Nove korisnike postavi u ove liste."
+
+#: ../views/settings.php:286
+#: ../views/settings.php:369
+#: ../views/settings.php:445
+msgid "No Lists found!"
+msgstr ""
+
+#: ../views/settings.php:286
+#: ../views/settings.php:369
+#: ../views/settings.php:445
+msgid "Create a List now"
+msgstr "Kreirajte listu"
+
+#: ../views/settings.php:298
+msgid "AJAX Form"
+msgstr ""
+
+#: ../views/settings.php:299
+msgid "use AJAX based forms"
+msgstr ""
+
+#: ../views/settings.php:321
+#: ../views/settings.php:398
+msgid "Name your form"
+msgstr "Naziv vašeg obrasca"
+
+#: ../views/settings.php:322
+#: ../views/settings.php:399
+msgid "remove this form"
+msgstr "ukloni ovaj obrazac"
+
+#: ../views/settings.php:327
+#: ../views/settings.php:404
+msgid "sorting"
+msgstr "sortiranje"
+
+#: ../views/settings.php:327
+#: ../views/settings.php:404
+msgid "Click and drag to reorder fields. Uncheck to disable field for this form. Required fields must be included in the form."
+msgstr ""
+
+#: ../views/settings.php:327
+#: ../views/settings.php:404
+msgid "add Custom Fields"
+msgstr ""
+
+#: ../views/settings.php:335
+#: ../views/settings.php:344
+#: ../views/settings.php:412
+#: ../views/settings.php:421
+msgid "required"
+msgstr "obavezno"
+
+#: ../views/settings.php:351
+#: ../views/settings.php:428
+msgid "offer lists"
+msgstr "ponuda lista"
+
+#: ../views/settings.php:351
+#: ../views/settings.php:428
+msgid "Users decide which list they subscribe to"
+msgstr "Korisnici odlučuju na koju listu će se pretplatiti"
+
+#: ../views/settings.php:351
+#: ../views/settings.php:428
+msgid "Show drop down instead of check boxes"
+msgstr "Pokaži padajući popis umjesto check boxa"
+
+#: ../views/settings.php:354
+#: ../views/settings.php:431
+msgid "Subscribe new users to"
+msgstr "lista za nove pretplatnike"
+
+#: ../views/settings.php:355
+#: ../views/settings.php:432
+msgid "Users can subscribe to"
+msgstr "Korisnici se mogu pretplatiti na"
+
+#: ../views/settings.php:374
+#: ../views/settings.php:450
+msgid "inline labels"
+msgstr ""
+
+#: ../views/settings.php:374
+#: ../views/settings.php:450
+msgid "place labels inside input fields"
+msgstr ""
+
+#: ../views/settings.php:375
+#: ../views/settings.php:451
+msgid "pre-fill fields"
+msgstr ""
+
+#: ../views/settings.php:375
+#: ../views/settings.php:451
+msgid "fill fields with known data if user is logged in"
+msgstr ""
+
+#: ../views/settings.php:376
+#: ../views/settings.php:452
+msgid "new lists"
+msgstr "nove liste"
+
+#: ../views/settings.php:376
+#: ../views/settings.php:452
+msgid "assign new lists automatically to this form"
+msgstr ""
+
+#: ../views/settings.php:380
+#: ../views/settings.php:455
+msgid "embed form"
+msgstr ""
+
+#: ../views/settings.php:381
+#: ../views/settings.php:456
+msgid "embed this form on another site"
+msgstr ""
+
+#: ../views/settings.php:385
+#: ../views/settings.php:460
+msgid "Width"
+msgstr "Širina"
+
+#: ../views/settings.php:386
+#: ../views/settings.php:461
+msgid "Height"
+msgstr "Visina"
+
+#: ../views/settings.php:387
+#: ../views/settings.php:462
+msgid "check this option to include the style.css of your theme into the form"
+msgstr ""
+
+#: ../views/settings.php:387
+#: ../views/settings.php:462
+msgid "include themes style.css"
+msgstr ""
+
+#: ../views/settings.php:398
+msgid "undefined"
+msgstr "nedefinirano"
+
+#: ../views/settings.php:476
+msgid "Form CSS"
+msgstr "CSS obrasca"
+
+#: ../views/settings.php:476
+msgid "Define some CSS rules for the form"
+msgstr ""
+
+#: ../views/settings.php:480
+msgid "Reset form CSS"
+msgstr ""
+
+#: ../views/settings.php:481
+msgid "check this box to reset the style to default value"
+msgstr ""
+
+#: ../views/settings.php:489
+msgid "Subscription Form"
+msgstr "Obrazac za pretplatu"
+
+#: ../views/settings.php:489
+msgid "Define messages for the subscription form"
+msgstr "Definirajte poruke za obrazac pretplate"
+
+#: ../views/settings.php:491
+msgid "Confirmation"
+msgstr "Potvrda"
+
+#: ../views/settings.php:492
+msgid "Successful"
+msgstr "Uspješno"
+
+#: ../views/settings.php:493
+msgid "Error Message"
+msgstr "Poruka greške"
+
+#: ../views/settings.php:495
+msgid "Unsubscribe Error"
+msgstr "Greška kod odjave"
+
+#: ../views/settings.php:501
+msgid "Field Labels"
+msgstr ""
+
+#: ../views/settings.php:501
+msgid "Define texts for the labels of forms. Custom field labels can be defined on the Subscribers tab"
+msgstr "Definirajte tekstove za naslove u obrascima. Naslove prilagođenih polja definirajte u tabu Pretplatnici"
+
+#: ../views/settings.php:507
+msgid "Submit Button"
+msgstr "Gumb slanja obrasca"
+
+#: ../views/settings.php:508
+msgid "Unsubscribe Button"
+msgstr "Gumb odjave"
+
+#: ../views/settings.php:514
+msgid "Mail"
+msgstr "E-mail"
+
+#: ../views/settings.php:514
+msgid "Define texts for the mails"
+msgstr "Definirajte tekstove za e-mail"
+
+#: ../views/settings.php:516
+msgid "Unsubscribe Link"
+msgstr "Poveznica odjave"
+
+#: ../views/settings.php:517
+msgid "Webversion Link"
+msgstr "Poveznica za pregled u browseru"
+
+#: ../views/settings.php:518
+msgid "Forward Link"
+msgstr "Poveznica za proslijeđivanje"
+
+#: ../views/settings.php:528
+#, php-format
+msgid "Tags are placeholder for your newsletter. You can set them anywhere in your newsletter template with the format %s. Custom field tags are induvidual for each subscriber."
+msgstr ""
+
+#: ../views/settings.php:529
+#, php-format
+msgid "You can set alternative content with %1$s which will be uses if %2$s is not defined. All unused tags will get removed in the final message"
+msgstr ""
+
+#: ../views/settings.php:531
+msgid "reserved tags"
+msgstr ""
+
+#: ../views/settings.php:535
+msgid "Permanent Tags"
+msgstr ""
+
+#: ../views/settings.php:537
+msgid "These are permanent tags which cannot get deleted. The CAN-SPAM tag is required in many countries."
+msgstr ""
+
+#: ../views/settings.php:550
+msgid "Custom Tags"
+msgstr ""
+
+#: ../views/settings.php:552
+msgid "Add your custom tags here. They work like permanent tags"
+msgstr ""
+
+#: ../views/settings.php:566
+msgid "Special Tags"
+msgstr ""
+
+#: ../views/settings.php:568
+msgid "Special tags display dynamic content and are equaly for all subscribers"
+msgstr ""
+
+#: ../views/settings.php:569
+#, php-format
+msgid "displays the last tweet from Twitter user [username] (cache it for %s minutes)"
+msgstr ""
+
+#: ../views/settings.php:570
+#: ../views/settings.php:571
+#: ../views/settings.php:572
+#: ../views/settings.php:573
+#, php-format
+msgid "displays %1$s to share the newsletter via %2$s"
+msgstr ""
+
+#: ../views/settings.php:584
+msgid "Number of mails sent"
+msgstr ""
+
+#: ../views/settings.php:585
+#, php-format
+msgid "Send max %1$s emails at once and max %2$s within %3$s hours"
+msgstr ""
+
+#: ../views/settings.php:586
+msgid "Depending on your hosting provider you can increase these values"
+msgstr ""
+
+#: ../views/settings.php:587
+#, php-format
+msgid "You can still send %1$s mails within the next %2$s"
+msgstr ""
+
+#: ../views/settings.php:592
+msgid "Time between mails"
+msgstr "Vrijeme između e-mailova"
+
+#: ../views/settings.php:593
+msgid "milliseconds"
+msgstr "milisekundi"
+
+#: ../views/settings.php:593
+msgid "define a delay between mails in milliseconds if you have problems with sending two many mails at once"
+msgstr ""
+
+#: ../views/settings.php:597
+msgid "Send test email with current settings"
+msgstr "Pošaljite testni e-mail s trenutnim postavkama"
+
+#: ../views/settings.php:600
+#: ../views/settings.php:879
+#: ../views/newsletter/delivery.php:165
+msgid "Send Test"
+msgstr "Pošalji test"
+
+#: ../views/settings.php:602
+#: ../views/settings.php:881
+msgid "You have to save your settings before you can test them!"
+msgstr ""
+
+#: ../views/settings.php:610
+msgid "Simple"
+msgstr ""
+
+#: ../views/settings.php:619
+msgid "Delivery Method"
+msgstr "Metoda slanja"
+
+#: ../views/settings.php:631
+msgid "use this option if you don't have access to a SMTP server or any other provided options"
+msgstr ""
+
+#: ../views/settings.php:658
+msgid "seconds"
+msgstr "sekundi"
+
+#: ../views/settings.php:661
+msgid "Secure connection"
+msgstr ""
+
+#: ../views/settings.php:666
+#: ../views/newsletter/options.php:147
+msgid "none"
+msgstr "ništa"
+
+#: ../views/settings.php:673
+msgid "If checked username and password are required"
+msgstr ""
+
+#: ../views/settings.php:676
+#: ../views/settings.php:691
+#: ../views/settings.php:828
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: ../views/settings.php:680
+#: ../views/settings.php:695
+#: ../views/settings.php:832
+msgid "Password"
+msgstr "Lozinka"
+
+#: ../views/settings.php:687
+msgid "Gmail has a limit of 500 mails within 24 hours! Also sending a mail can take up to one second which is quite long. This options is only recommended for few subscribers. DKIM works only if set the from address to your Gmail address."
+msgstr ""
+
+#: ../views/settings.php:716
+msgid "Interval for sending emails"
+msgstr ""
+
+#: ../views/settings.php:717
+#, php-format
+msgid "Send emails at most every %1$s minutes"
+msgstr ""
+
+#: ../views/settings.php:717
+msgid "Optional if a real cron service is used"
+msgstr ""
+
+#: ../views/settings.php:720
+msgid "Cron Service"
+msgstr ""
+
+#: ../views/settings.php:723
+msgid "Use the wp_cron function to send newsletters"
+msgstr ""
+
+#: ../views/settings.php:724
+msgid "Use a real cron to send newsletters"
+msgstr ""
+
+#: ../views/settings.php:724
+msgid "reccomended for many subscribers"
+msgstr ""
+
+#: ../views/settings.php:728
+msgid "Cron Settings"
+msgstr ""
+
+#: ../views/settings.php:731
+msgid "a secret hash which is required to execute the cron"
+msgstr ""
+
+#: ../views/settings.php:733
+msgid "You can leave a browser window open with following URL"
+msgstr ""
+
+#: ../views/settings.php:735
+msgid "call it directly"
+msgstr ""
+
+#: ../views/settings.php:737
+msgid "or set up a cron"
+msgstr ""
+
+#: ../views/settings.php:739
+msgid "Last hit"
+msgstr ""
+
+#: ../views/settings.php:739
+msgid "Interval"
+msgstr ""
+
+#: ../views/settings.php:739
+msgctxt "short for minute"
+msgid "min"
+msgstr ""
+
+#: ../views/settings.php:739
+#: ../views/subscriber/stats.php:20
+msgid "never"
+msgstr ""
+
+#: ../views/settings.php:740
+msgid "You can setup an interval as low as one minute, but should consider a reasonable value of 5-15 minutes as well."
+msgstr ""
+
+#: ../views/settings.php:741
+msgid "If you need help setting up a cron job please refer to the documentation that your provider offers."
+msgstr ""
+
+#: ../views/settings.php:742
+#, php-format
+msgid "Anyway, chances are high that either %1$s, %2$s or %3$s  documentation will help you."
+msgstr ""
+
+#: ../views/settings.php:760
+msgid "Set Capability"
+msgstr ""
+
+#: ../views/settings.php:760
+msgid "Define capabilities for each user role. To add new roles you can use a third party plugin. Administrator has always all privileges"
+msgstr ""
+
+#: ../views/settings.php:784
+#, php-format
+msgid "%1$s can %2$s"
+msgstr ""
+
+#: ../views/settings.php:802
+msgid "Bounce Address"
+msgstr ""
+
+#: ../views/settings.php:803
+msgid "Undeliverable emails will return to this address"
+msgstr ""
+
+#: ../views/settings.php:807
+msgid "enable automatic bounce handling"
+msgstr ""
+
+#: ../views/settings.php:816
+msgid "If you would like to enable bouncing you have to setup a separate POP3 mail account"
+msgstr ""
+
+#: ../views/settings.php:819
+msgid "Server Address : Port"
+msgstr ""
+
+#: ../views/settings.php:824
+msgid "Use SSL. Default port is 995"
+msgstr ""
+
+#: ../views/settings.php:836
+msgid "Delete messages"
+msgstr ""
+
+#: ../views/settings.php:837
+msgid "Delete messages without tracking code to keep postbox clear (recommended)"
+msgstr ""
+
+#: ../views/settings.php:841
+msgid "Attempts"
+msgstr ""
+
+#: ../views/settings.php:851
+#, php-format
+msgid "%s attempts to deliver message until hardbounce"
+msgstr ""
+
+#: ../views/settings.php:870
+msgid "You need to change the namespace records of your domain if you would like to use one of these methods. Ask your provider how to add \"TXT namespace records\". Changes take some time to get published on all DNS worldwide."
+msgstr ""
+
+#: ../views/settings.php:875
+msgid "Check authentication settings"
+msgstr ""
+
+#: ../views/settings.php:877
+msgid "Check your settings with isNotSpam.com. Results get sent to this address:"
+msgstr ""
+
+#: ../views/settings.php:890
+msgid "Use Sender Policy Framework"
+msgstr ""
+
+#: ../views/settings.php:890
+#: ../views/settings.php:963
+msgid "read more"
+msgstr ""
+
+#: ../views/settings.php:928
+#: ../views/settings.php:930
+#: ../views/settings.php:1005
+#: ../views/settings.php:1007
+#, php-format
+msgid "Domain %s"
+msgstr ""
+
+#: ../views/settings.php:928
+msgid "TXT record found"
+msgstr ""
+
+#: ../views/settings.php:930
+msgid "no TXT record found"
+msgstr ""
+
+#: ../views/settings.php:931
+#: ../views/settings.php:1008
+#, php-format
+msgid "No or wrong record found for %s. Please adjust the namespace records and add these lines:"
+msgstr ""
+
+#: ../views/settings.php:948
+#, php-format
+msgid "SPF doesn’t require any configuration on this settings page. This should give you some help to set it up correctly. If this SPF configuration doesn't work or your mails returned as spam you should ask your provider for help or change your delivery method or try %s"
+msgstr ""
+
+#: ../views/settings.php:948
+msgid "this wizard"
+msgstr ""
+
+#: ../views/settings.php:955
+msgid "The domain you would like to add a SPF record"
+msgstr ""
+
+#: ../views/settings.php:963
+msgid "Use DomainKeys Identified Mail"
+msgstr ""
+
+#: ../views/settings.php:1005
+msgid "verified"
+msgstr ""
+
+#: ../views/settings.php:1007
+msgid "not verified"
+msgstr ""
+
+#: ../views/settings.php:1024
+msgid "The domain you have set the TXT namespace records"
+msgstr ""
+
+#: ../views/settings.php:1030
+msgid "The selector is used to identify the keys used to attach a token to the email"
+msgstr ""
+
+#: ../views/settings.php:1036
+#: ../views/settings.php:1042
+msgid "You can leave this field blank unless you know what you do"
+msgstr ""
+
+#: ../views/settings.php:1048
+msgid "Keys"
+msgstr ""
+
+#: ../views/settings.php:1051
+msgid "If you have defined the domain and a selector you have to generate a public and a private key. Once created you have to add some TXT namespace records at your mail provider"
+msgstr ""
+
+#: ../views/settings.php:1052
+msgid "DKIM often doesn't work out of the box. You may have to contact your email provider to get more information"
+msgstr ""
+
+#: ../views/settings.php:1053
+msgid "Changing namespace entries can take up to 48 hours to take affect around the world."
+msgstr ""
+
+#: ../views/settings.php:1054
+msgid "It's recommend to change the keys occasionally"
+msgstr ""
+
+#: ../views/settings.php:1055
+msgid "If you change one of the settings above new keys are required"
+msgstr ""
+
+#: ../views/settings.php:1056
+msgid "Some providers don't allow TXT records with a specific size. Choose less bits in this case"
+msgstr ""
+
+#: ../views/settings.php:1070
+msgid "Private keys should be kept private. Don't share them or post it somewhere"
+msgstr ""
+
+#: ../views/settings.php:1080
+msgid "new Keys"
+msgstr ""
+
+#: ../views/settings.php:1084
+msgid "Bit Size"
+msgstr ""
+
+#: ../views/settings.php:1089
+msgid "generate Keys"
+msgstr ""
+
+#: ../views/settings.php:1104
+msgid "Enter your purchasecode to enable automatic updates"
+msgstr ""
+
+#: ../views/settings.php:1108
+msgid "Disable this tab"
+msgstr ""
+
+#: ../views/settings.php:1109
+msgid "Hide this tab"
+msgstr ""
+
+#: ../views/settings.php:1109
+#, php-format
+msgid "If you disable this tab you cannot access it anymore from the settings page. If you would like to bring it back delete the %1$s option from the %2$s table"
+msgstr ""
+
+#: ../views/subscriber/data.php:4
+msgid "Source"
+msgstr ""
+
+#: ../views/subscriber/data.php:27
+#: ../views/subscriber/data.php:30
+#: ../views/subscriber/data.php:37
+#, php-format
+msgid "use %1$s as placeholder tag to replace it with %2$s"
+msgstr ""
+
+#: ../views/subscriber/data.php:82
+#, php-format
+msgid "add more custom fields at the %s"
+msgstr ""
+
+#: ../views/subscriber/data.php:82
+msgid "Settings Page"
+msgstr ""
+
+#: ../views/subscriber/meta.php:11
+#: ../views/subscriber/meta.php:21
+#, php-format
+msgid "with IP %s"
+msgstr ""
+
+#: ../views/subscriber/meta.php:11
+#: ../views/subscriber/meta.php:21
+msgid "IP address unknown"
+msgstr ""
+
+#: ../views/subscriber/meta.php:18
+msgid "Confirmed"
+msgstr ""
+
+#: ../views/subscriber/meta.php:27
+#: ../views/subscriber/meta.php:35
+msgid "Latest known IP address"
+msgstr ""
+
+#: ../views/subscriber/meta.php:34
+msgid "no meta data found for this subscriber"
+msgstr "nema meta podataka za ovog pretplatnika"
+
+#: ../views/subscriber/submit.php:15
+#: ../views/newsletter/submit.php:15
+msgid "Delete Permanently"
+msgstr "Trajno obriši"
+
+#: ../views/subscriber/submit.php:17
+#: ../views/newsletter/submit.php:17
+msgid "Move to Trash"
+msgstr "Premjesti u smeće"
+
+#: ../views/subscriber/submit.php:30
+#: ../views/newsletter/submit.php:43
+msgid "Schedule"
+msgstr ""
+
+#: ../views/subscriber/submit.php:37
+#: ../views/newsletter/submit.php:50
+msgid "Submit for Review"
+msgstr ""
+
+#: ../views/subscriber/stats.php:16
+#: ../views/newsletter/details.php:58
+msgid "opened"
+msgid_plural "opens"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../views/subscriber/stats.php:16
+msgid "first click"
+msgstr "prvi klik"
+
+#: ../views/subscriber/stats.php:16
+msgid "unique clicks"
+msgstr "jedinstveni klikovi"
+
+#: ../views/subscriber/stats.php:18
+#: ../views/subscriber/stats.php:19
+msgid "not yet"
+msgstr "još ne"
+
+#: ../views/subscriber/stats.php:37
+msgid "No clicks yet"
+msgstr "Još nema klikova"
+
+#: ../views/subscriber/stats.php:43
+#, php-format
+msgid "%d campaign was deleted"
+msgid_plural "%d campaigns where deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../views/subscriber/stats.php:48
+msgid "This subscriber has never recieved any newsletter"
+msgstr "Ovaj pretplatnik još nije primio nijedan newsletter"
+
+#: ../views/newsletter/options.php:8
+msgid "Colors"
+msgstr "Boje"
+
+#: ../views/newsletter/options.php:8
+msgid "save this schema"
+msgstr "spremi ovu shemu"
+
+#: ../views/newsletter/options.php:36
+#: ../views/newsletter/options.php:169
+msgid "Colors Schema"
+msgstr "Shema boja"
+
+#: ../views/newsletter/options.php:37
+msgid "original"
+msgstr "izvorno"
+
+#: ../views/newsletter/options.php:51
+msgid "current"
+msgstr "trenutno"
+
+#: ../views/newsletter/options.php:98
+msgctxt "the different versions (color) of the newsletter"
+msgid "Elements"
+msgstr "Elementi"
+
+#: ../views/newsletter/options.php:113
+#: ../views/newsletter/options.php:184
+msgid "Background"
+msgstr "Pozadina"
+
+#: ../views/newsletter/options.php:164
+msgid "background images are not displayed on all clients!"
+msgstr "pozadinske slike neće biti vidljive na svim e-mail klijentima!"
+
+#: ../views/newsletter/options.php:168
+msgid "Embedded Images"
+msgstr "Ugrađene slike"
+
+#: ../views/newsletter/details.php:16
+#: ../views/newsletter/details.php:42
+msgid "Preheader"
+msgstr "Zaglavlje"
+
+#: ../views/newsletter/details.php:20
+#: ../views/newsletter/details.php:24
+#: ../views/newsletter/details.php:28
+msgid "restore default"
+msgstr "vrati zadane postavke"
+
+#: ../views/newsletter/details.php:24
+msgid "From Email"
+msgstr "E-mail pošiljatelja"
+
+#: ../views/newsletter/details.php:28
+msgid "reply-to email"
+msgstr "E-mail za odgovor (reply-to)"
+
+#: ../views/newsletter/details.php:43
+msgid "Recipients"
+msgstr "Primatelji"
+
+#: ../views/newsletter/details.php:43
+msgid "show details"
+msgstr "pokaži detalje"
+
+#: ../views/newsletter/details.php:56
+msgid "receiver"
+msgid_plural "receivers"
+msgstr[0] "primatelj"
+msgstr[1] "primatelji"
+
+#: ../views/newsletter/details.php:64
+msgid "bounce"
+msgid_plural "bounces"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../views/newsletter/details.php:74
+msgid "back to world view"
+msgstr ""
+
+#: ../views/newsletter/details.php:80
+#: ../views/newsletter/details.php:112
+msgid "Country"
+msgstr "Zemlja"
+
+#: ../views/newsletter/details.php:126
+#, php-format
+msgid "%d opened"
+msgid_plural "%d opens"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../views/newsletter/details.php:212
+msgid "unknown locations"
+msgstr ""
+
+#: ../views/newsletter/delivery.php:23
+msgid "Regular Campaign"
+msgstr "Uobičajeno"
+
+#: ../views/newsletter/delivery.php:31
+#, php-format
+msgid "Server Time: %s %s"
+msgstr "Vrijeme poslužitelja: %s %s"
+
+#: ../views/newsletter/delivery.php:35
+#, php-format
+msgid "This campaign was sent on %s. You cannot edit it anymore"
+msgstr "Kampanja je poslana dana %s. Više ju ne možete uređivati"
+
+#: ../views/newsletter/delivery.php:42
+msgid "send this campaign"
+msgstr "pošalji kampanju"
+
+#: ../views/newsletter/delivery.php:47
+#, php-format
+msgctxt "send campaign \"on\" (date) \"at\" (time)"
+msgid "on %1$s @ %2$s"
+msgstr "dana %1$s u %2$s"
+
+#: ../views/newsletter/delivery.php:65
+msgid "send this autoresponder"
+msgstr "pošalji ovaj auto. odgovor"
+
+#: ../views/newsletter/delivery.php:115
+msgid "one of the conditions is true"
+msgstr "je jedan od uvjeta ispunjen"
+
+#: ../views/newsletter/delivery.php:116
+msgid "and"
+msgstr "i"
+
+#: ../views/newsletter/delivery.php:116
+msgid "all of the conditions are true"
+msgstr "su svi uvjeti ispunjeni"
+
+#: ../views/newsletter/delivery.php:150
+msgid "remove condition"
+msgstr "ukloni uvjet"
+
+#: ../views/newsletter/delivery.php:150
+msgid "remove"
+msgstr "ukloni"
+
+#: ../views/newsletter/delivery.php:156
+msgid "add condition"
+msgstr "dodaj uvjet"
+
+#: ../views/newsletter/delivery.php:162
+#, php-format
+msgid "send a copy to %s and get a detailed report about your newsletter"
+msgstr "pošaljite kopiju na %s i pogledajte detaljan izvještaj o vašem newsletteru"
+
+#: ../views/newsletter/delivery.php:162
+#, php-format
+msgid "send to %s"
+msgstr "pošalji na %s"
+
+#: ../views/newsletter/delivery.php:171
+#, php-format
+msgid "This campaign has been started on %1$s, %2$s ago"
+msgstr "Ova kampanja je započeta dana %1$s (prije %2$s)"
+
+#: ../views/newsletter/template.php:27
+msgid "undo"
+msgstr "poništi"
+
+#: ../views/newsletter/template.php:28
+msgid "redo"
+msgstr "ponovi"
+
+#: ../views/newsletter/template.php:30
+msgid "remove modules"
+msgstr "ukloni module"
+
+#: ../views/newsletter/template.php:33
+msgid "toggle HTML/code view"
+msgstr "promijeni pregled na HTML/kod"
+
+#: ../views/newsletter/template.php:35
+msgid "preview"
+msgstr "pregled"
+
+#: ../views/newsletter/template.php:39
+#, php-format
+msgid "Your currently working with %s"
+msgstr ""
+
+#: ../views/newsletter/template.php:43
+msgid "Change Template"
+msgstr "Promijeni predložak"
+
+#: ../views/newsletter/template.php:74
+msgid "Save Template"
+msgstr "Spremi predložak"
+
+#: ../views/newsletter/template.php:76
+msgid "template name"
+msgstr "ime predložka"
+
+#: ../views/newsletter/template.php:78
+msgid "modules"
+msgstr "moduli"
+
+#: ../views/newsletter/template.php:80
+msgid "overwrite if exists"
+msgstr "prepiši ukoliko postoji"
+
+#: ../views/newsletter/template.php:132
+msgid "Link Button (required)"
+msgstr "Poveznica gumba (obavezno)"
+
+#: ../views/newsletter/template.php:132
+#: ../views/newsletter/template.php:162
+msgid "insert URL"
+msgstr "umetni URL"
+
+#: ../views/newsletter/template.php:155
+msgid "Media Manager"
+msgstr "Upravitelj medijskim datotekama"
+
+#: ../views/newsletter/template.php:156
+msgid "Reload"
+msgstr "Ponovno učitaj"
+
+#: ../views/newsletter/template.php:162
+msgid "Link image to the this URL"
+msgstr "Poveži sliku s ovim URL-om"
+
+#: ../views/newsletter/template.php:167
+msgid "Select a post"
+msgstr "Odaberite članak"
+
+#: ../views/newsletter/template.php:183
+msgid "Insert"
+msgstr "Umetni"
+
+#: ../views/newsletter/template.php:183
+msgid "remove element"
+msgstr "ukloni element"
+
+#: ../views/newsletter/lists.php:17
+msgid "all"
+msgstr "sve"
+
+#: ../views/newsletter/lists.php:29
+msgid "Total receivers"
+msgstr "Ukupno primatelja"
+

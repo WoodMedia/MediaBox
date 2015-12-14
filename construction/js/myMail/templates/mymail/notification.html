@@ -1,0 +1,198 @@
+<!--
+
+	Template Name: MyMail
+	Template URI: http://rxa.li/mymail
+	Description: This is the base Newsletter Template which is included in the <a href="http://rxa.li/mymail">MyMail Wordpress Plugin</a>. To get more visit <a href="http://rxa.li/mymailtemplates">rxa.li/mymailtemplates</a>
+	Author: revaxarts
+	Author URI: http://revaxarts-themes.com
+	Version: 2.3
+
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>{subject}</title>
+</head>
+<body>
+
+<style type="text/css">
+
+	#outlook a{padding:0;}
+	body{width:100% !important;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0;padding:0;}
+	.ExternalClass{width:100%;}
+	.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:100%;}
+	.bodytbl{margin:0;padding:0;width:100% !important;}
+	img{outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;display:block;}
+	a img{border:none;}
+	p{margin:1em 0;}
+	
+	table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;}
+	table td{border-collapse:collapse;}
+	.o-fix table,.o-fix td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
+	
+	body{background-color:#F3F4F4;}
+	table{font-family:Helvetica,Arial,sans-serif;font-size:12px;color:#585858;}
+	div{line-height:24px;color:#585858;}
+	td,tr{padding:0;}
+	ul{margin-top:24px;margin-bottom:24px;}
+	li{line-height:24px;}
+	
+	a{color:#5ca8cd;text-decoration:none;padding:2px 0px;}
+	a:link{color:#5ca8cd;}
+	a:visited{color:#5ca8cd;}
+	a:hover{color:#5ca8cd;}
+	
+	.h1 div{font-family:Helvetica,Arial,sans-serif;font-size:26px;letter-spacing:-1px;margin-bottom:16px;margin-top:2px;line-height:30px;}
+	.h2 div{font-family:Helvetica,Arial,sans-serif;font-size:20px;letter-spacing:0;margin-top:2px;line-height:30px;}
+	.h div{font-family:Helvetica,Arial,sans-serif;font-size:20px;letter-spacing:-1px;margin-bottom:16px;margin-top:4px;line-height:24px;}
+	h1,h2,h3,h4,h5,h6,h1 div,h2 div,h3 div,h4 div,h5 div,h6 div,.h1,.h2,.h3,.h4,.h5,.h6,.h div,.h1 div,.h2 div,.h3 div,.h4 div,.h5 div,.h6 div,.h div{color:#3E4043;}
+	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 div a,h2 div a,h3 div a,h4 div a,h5 div a,h6 div a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a,.h div a,.h1 div a,.h2 div a,.h3 div a,.h4 div a,.h5 div a,.h6 div a,.h div a{color:#5ca8cd;}
+	h1 a:active,h2 a:active,h3 a:active,h4 a:active,h5 a:active,h6 a:active{color:#3E4043 !important;}
+	h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited{color:#3E4043 !important;}
+	
+	.wrap.header{border-top:1px solid #E8E8E8;}
+	.wrap.footer{border-bottom:1px solid #E8E8E8;}
+	.wrap.body,.wrap.header,.wrap.footer{background-color:#FFFFFF;border-right:1px solid #E8E8E8;border-left:1px solid #E8E8E8;}
+	.padd{width:24px;}
+	
+	.small div{font-size:11px;line-height:18px;}
+	.seperator{border-top:1px dotted #E1E1E1;}
+	.btn{margin-top:10px;display:block;}
+	.btn img,.social img{display:inline;}
+	.subline div{line-height:18px;font-size:16px;color:#3E4043;letter-spacing:-1px;}
+	div.preheader{line-height:0px;font-size:0px;height:0px;display:none !important;display:none;visibility:hidden;}
+	
+	@media only screen and (max-device-width: 480px) {
+		body{-webkit-text-size-adjust:120% !important;-ms-text-size-adjust:120% !important;}
+		table[class=bodytbl] .subline{float:left;}
+		table[class=bodytbl] .padd{width:12px !important;}
+		table[class=bodytbl] .wrap{width:470px !important;}
+		table[class=bodytbl] .wrap table{width:100% !important;}
+		table[class=bodytbl] .wrap img{max-width:100% !important;height:auto !important;}
+		table[class=bodytbl] .wrap .m-100{width:100% !important;}
+		table[class=bodytbl] .m-0{width:0;display:none;}
+		table[class=bodytbl] .m-b{display:block;width:100% !important;}
+		table[class=bodytbl] .m-b-b{margin-bottom:24px !important;}
+		table[class=bodytbl] .m-1-2{max-width:264px !important;}
+		table[class=bodytbl] .m-1-3{max-width:168px !important;}
+		table[class=bodytbl] .m-1-4{max-width:120px !important;}
+		table[class=bodytbl] .m-1-2 img{max-width:264px !important;}
+		table[class=bodytbl] .m-1-3 img{max-width:168px !important;}
+		table[class=bodytbl] .m-1-4 img{max-width:120px !important;}
+	}
+	
+	@media only screen and (max-device-width: 320px) {
+		table[class=bodytbl] .wrap{width:310px !important;}
+	}
+	
+</style>
+<table class="bodytbl" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+	<td background="" align="center">
+	
+		<table width="600" cellspacing="0" cellpadding="0" class="wrap">
+		<tr>
+			<td height="24" align="center" valign="middle">
+				<div class="preheader">{preheader}</div> <div class="small"><div data-editable="preintro"></div><a name="top"></a></div>
+			</td>
+		</tr>
+		</table>
+		
+		<table width="600" cellspacing="0" cellpadding="0" class="wrap header">
+		<tr><td height="24" colspan="3"></td></tr>
+		<tr>
+			<td width="24" class="padd">&nbsp;</td>
+			<td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0" class="o-fix">
+				<tr>
+					<td valign="top" align="left">
+						<table width="168" cellpadding="0" cellspacing="0" align="left" class="m-b">
+						<tr>
+							<td class="small m-b" align="left" valign="middle">
+									<img src="img/logo.png" alt="" title="" width="100" height="30" border="0" data-editable="Logo" />
+							</td>
+						</tr>
+						</table>
+						<table width="360" cellpadding="0" cellspacing="0" align="right" class="m-b">
+						<tr>
+							<td height="24" align="right" valign="bottom">
+								<div class="subline"><div data-editable="Subline">{subject}</div></div>
+							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+			<td width="24" class="padd">&nbsp;</td>
+		</tr>
+		<tr><td height="24" colspan="3"></td></tr>
+		</table>
+
+		
+		<table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+		<tr><td height="12" colspan="3"></td></tr>
+		<tr>
+			<td width="24" class="padd">&nbsp;</td>
+			<td valign="top" align="left">
+		<!-- CONTENT start -->
+						<div class="h"><div data-editable="Headline">{headline}</div></div>
+						<div data-editable="Body" data-multi="true">{content}</div>
+		<!-- CONTENT end -->
+			</td>
+			<td width="24" class="padd">&nbsp;</td>
+		</tr>
+		<tr><td height="12" colspan="3"></td></tr>
+		</table>
+		
+		
+		<table width="600" cellspacing="0" cellpadding="0" class="wrap footer">
+		<tr>
+			<td width="24" class="padd">&nbsp;</td>
+			<td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0" class="o-fix">
+				<tr>
+		<!-- CONTENT start -->
+					<td valign="top" align="left">
+						<table width="360" cellpadding="0" cellspacing="0" align="left">
+						<tr>
+							<td class="small m-b" align="left" valign="top">
+								<div data-editable="CAN-SPAM">{notification}</div>
+								<div data-editable="Copyright">{copyright}</div>
+							</td>
+						</tr>
+						</table>
+						<table width="168" cellpadding="0" cellspacing="0" align="right">
+						<tr>
+							<td class="small" align="right" valign="top">
+							<div class="btn">
+								<a href="https://twitter.com"><img src="img/social/dark/twitter.png" alt="" title="" width="32" height="32" border="0" data-editable="Social Media Button" /></a>
+								<a href="https://linkedin.com"><img src="img/social/dark/linkedin.png" alt="" title="" width="32" height="32" border="0" data-editable="Social Media Button" /></a>
+								<a href="http://windows.com"><img src="img/social/dark/windows.png" alt="" title="" width="32" height="32" border="0" data-editable="Social Media Button" /></a>
+								<a href="http://apple.com"><img src="img/social/dark/apple.png" alt="" title="" width="32" height="32" border="0" data-editable="Social Media Button" /></a>
+							</div>
+							</td>
+						</tr>
+						</table>
+					</td>
+		<!-- CONTENT end -->
+				</tr>
+				</table>
+			</td>
+			<td width="24" class="padd">&nbsp;</td>
+		</tr>
+		<tr><td height="24" colspan="3"></td></tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" class="wrap m-b-b">
+			<tr><td valign="top"><img src="img/shadow.png" class="m-100" width="600" height="12" alt="" border="0" /></td></tr>
+		</table>
+<!--  Footer end -->
+
+	
+	</td>
+</tr>
+</table>
+</body>
+</html>

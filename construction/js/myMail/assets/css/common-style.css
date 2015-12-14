@@ -1,0 +1,46 @@
+/*----------------------------------------------------------------------*/
+/* Some shared styles
+/*----------------------------------------------------------------------*/
+div.loading, span.loading {
+	margin:0;
+	padding:0;
+	width:16px;
+	height:16px;
+	background-image:url(../img/loading.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	visibility:hidden;
+	display:inline-block;
+}
+.spinner{
+	background: url(../img/loading.gif) no-repeat;
+	background-size: 16px 16px;
+	display: none;
+	float: right;
+	opacity: .7;
+	filter: alpha(opacity=70);
+	width: 16px;
+	height: 16px;
+	margin: 0;
+}
+
+.tiny{
+	font-size: 0.8em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio: 32),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
+	div.loading, span.loading {
+		-webkit-background-size:16px 16px;
+		-moz-background-size:16px 16px;
+		background-size:16px 16px;
+		background-image:url(../img/loading_2x.gif);
+	}
+	
+	.spinner{
+		background: url(../img/loading_2x.gif) no-repeat;
+		-webkit-background-size:16px 16px;
+		-moz-background-size:16px 16px;
+		background-size:16px 16px;
+	}
+
+}

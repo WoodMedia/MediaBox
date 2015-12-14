@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+
+        <link rel="stylesheet" href="css/style-login.css">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+        <script src="js/login.js"></script>
+    
+  </head>
+
+  <body>
+	<!-- Shell -->
+	<div id="shell">
+		<!-- Header -->
+		<div id="header">
+			<h1 id="logo"><a href="#">CinemaBox</a></h1>
+
+
+			<!-- Navigation -->
+			<div id="navigation">
+				<ul>
+				    <li><a href="index.html">Main</a></li>
+	                <li><a href="audiobooks/index.html">Audio Books</a></li>
+	                <li><a href="magazines.html">Magazines</a></li>
+	                <li><a href="construction/index.html">Movies</a></li>
+	                <li><a href="music/index.html">Music</a></li>
+	                <li><a href="construction/index.html">Software</a></li>
+				    <li><a class="active" href="login.html">Restricted Area</a></li>
+
+				</ul>
+			</div>
+			<!-- end Navigation -->
+
+			<!-- Sub-menu -->
+			<div id="sub-navigation">
+				<ul>
+
+				</ul>
+
+			</div>
+			<!-- end Sub-Menu -->
+
+		</div>
+		<!-- end Header -->
+		<br></br>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		
+
+    <span href="/construction/index.html" class="button" id="toggle-login">Restricted Area</span>
+
+<div id="login">
+  <div id="triangle"></div>
+  <h1>Log In</h1>
+  <form>
+   <input type="text" name="username" id="username" placeholder="username"/>
+    <input type="password" name="password" id="password" placeholder="password"/>
+	<input type="button" value="Login" id="submit" onclick="validate()"/>
+    <input type="button" value="Back" onClick="history.go(-1);return true;"/>
+    
+  </form>
+</div>
+   </div>
+  
+  </body>
+</html>

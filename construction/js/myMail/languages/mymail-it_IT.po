@@ -1,0 +1,5008 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MyMail - Email Newsletter Plugin for WordPress v1.5.0b3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-10 15:58:37+0000\n"
+"Last-Translator: Fabio Duranti <blog@fabioduranti.it>\n"
+"Language-Team: Fabio Duranti <blog@fabioduranti.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/form.class.php:263
+#: classes/settings.class.php:71
+#: classes/subscriber.class.php:285
+#: classes/subscriber.class.php:299
+#: classes/subscriber.class.php:861
+#: includes/updates.php:24
+#: views/settings.php:693
+#@ mymail
+msgid "Email"
+msgstr "E-Mail"
+
+#: classes/settings.class.php:72
+#: includes/updates.php:19
+#: views/settings.php:694
+#: views/subscriber/data.php:26
+#@ mymail
+msgid "First Name"
+msgstr "Nome"
+
+#: classes/settings.class.php:73
+#: includes/updates.php:20
+#: views/settings.php:695
+#: views/subscriber/data.php:29
+#@ mymail
+msgid "Last Name"
+msgstr "Cognome"
+
+#: classes/form.class.php:211
+#: classes/settings.class.php:75
+#: classes/subscriber.class.php:1085
+#: classes/subscriber.class.php:1089
+#: includes/updates.php:25
+#: views/subscriber/submit.php:45
+#: views/subscriber/submit.php:47
+#@ mymail
+msgid "Subscribe"
+msgstr "Iscrivi"
+
+#: classes/mymail.class.php:610
+#, php-format
+#@ mymail
+msgid "This Campaign was sent on %s"
+msgstr "Questa campagna è stata inviata su %s"
+
+#: classes/mymail.class.php:613
+#@ mymail
+msgid "This Campaign is currently in the queue"
+msgstr "Questa campagna è attualmente nella coda"
+
+#: classes/mymail.class.php:2008
+#@ mymail
+msgid "Enter Campaign Title here"
+msgstr "Inserisci qui il Titolo della Campagna"
+
+#: classes/mymail.class.php:1297
+#: classes/mymail.class.php:1344
+#, php-format
+#@ mymail
+#@ default
+msgid "%d bounce"
+msgid_plural "%d bounces"
+msgstr[0] "%d rimbalzo"
+msgstr[1] "%d bounces"
+
+#: classes/mymail.class.php:2294
+#: classes/mymail.class.php:2337
+#: classes/settings.class.php:163
+#: includes/static.php:4
+#@ mymail
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: includes/static.php:7
+#@ mymail
+msgid "Signup for the newsletter"
+msgstr "Iscriviti alla newsletter"
+
+#: classes/settings.class.php:109
+#, php-format
+#@ mymail
+msgid "You have received this email because you have subscribed to %s as {email}. If you no longer wish to receive emails please {unsub}"
+msgstr "Hai ricevuto questa e-mail perché ti sei iscritto a %s come {email}. Se non vuoi più ricevere email per favore {unsub}"
+
+#: classes/settings.class.php:110
+#@ mymail
+msgid "If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link"
+msgstr ""
+"Se hai ricevuto questa e-mail per errore, per favore cancellala.\n"
+"Se non vuoi iscriverti alla Newsletter non cliccare sul link di conferma."
+
+#: classes/settings.class.php:116
+#@ mymail
+msgid "Replace Content"
+msgstr "Sostituire il contenuto"
+
+#: classes/settings.class.php:163
+#: views/settings.php:26
+#@ mymail
+msgid "Newsletter Settings"
+msgstr "Impostazioni newsletter"
+
+#: classes/mymail.class.php:2325
+#@ mymail
+msgid "Campaigns"
+msgstr "Campagne"
+
+#: classes/mymail.class.php:2326
+#@ mymail
+msgid "Campaign"
+msgstr "Campagna"
+
+#: classes/mymail.class.php:2327
+#: classes/mymail.class.php:2330
+#@ mymail
+msgid "New Campaign"
+msgstr "Nuova Campagna"
+
+#: classes/mymail.class.php:2328
+#@ mymail
+msgid "Create a new Campaign"
+msgstr "Crea nuova Campagna"
+
+#: classes/mymail.class.php:2329
+#@ mymail
+msgid "Edit Campaign"
+msgstr "Modifica Campagna"
+
+#: classes/mymail.class.php:2331
+#@ mymail
+msgid "All Campaigns"
+msgstr "Tutte le Campagne"
+
+#: classes/mymail.class.php:1973
+#: classes/mymail.class.php:1978
+#: classes/mymail.class.php:2332
+#@ mymail
+msgid "View Newsletter"
+msgstr "Visualizza Newsletter"
+
+#: classes/mymail.class.php:2333
+#@ mymail
+msgid "Search Campaigns"
+msgstr "Cerca Campagna"
+
+#: classes/mymail.class.php:2334
+#@ mymail
+msgid "No Campaign found"
+msgstr "Campagna non trovata"
+
+#: classes/mymail.class.php:2335
+#@ mymail
+msgid "No Campaign found in Trash"
+msgstr "Campagna non trovata nel cestino"
+
+#: classes/mymail.class.php:2377
+#: classes/mymail.class.php:2379
+#@ mymail
+msgid "Active"
+msgstr "Attivo"
+
+#: classes/mymail.class.php:2111
+#: classes/mymail.class.php:2389
+#: classes/mymail.class.php:2391
+#@ mymail
+msgid "Finished"
+msgstr "Finito"
+
+#: classes/mymail.class.php:2107
+#, php-format
+#@ mymail
+msgid "starts in %s"
+msgstr "inizia in %s"
+
+#: classes/mymail.class.php:2099
+#@ mymail
+msgid "progressing"
+msgstr "avanzamento"
+
+#: classes/autoresponder.class.php:470
+#: classes/mymail.class.php:2157
+#@ mymail
+msgid "open rate"
+msgstr "tasso di apertura"
+
+#: classes/autoresponder.class.php:482
+#: classes/mymail.class.php:2169
+#@ mymail
+msgid "click rate"
+msgstr "tasso di click"
+
+#: classes/mymail.class.php:2216
+#: views/newsletter/submit.php:28
+#@ mymail
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: classes/mymail.class.php:1974
+#, php-format
+#@ mymail
+msgid "Template changed. %1$s"
+msgstr "Modello modificato. %1$s"
+
+#: classes/mymail.class.php:1974
+#@ mymail
+msgid "Go back"
+msgstr "Indietro"
+
+#: classes/subscriber.class.php:958
+#@ default
+msgid "Custom field deleted."
+msgstr "Campo personalizzato cancellato."
+
+#: classes/mymail.class.php:1976
+#@ mymail
+msgid "Campaign updated."
+msgstr "Campagna aggiornata."
+
+#: classes/mymail.class.php:1977
+#, php-format
+#@ mymail
+msgid "Campaign restored to revision from %s"
+msgstr "Campagna ripristinata alla revisione da %s"
+
+#: classes/mymail.class.php:1981
+#@ mymail
+msgid "Campaign scheduled."
+msgstr "Campagna pianificata."
+
+#: classes/mymail.class.php:1982
+#@ mymail
+msgid "Campaign draft updated."
+msgstr "Progetto campagna aggiornato."
+
+#: classes/mymail.class.php:2407
+#: classes/subscriber.class.php:985
+#: views/newsletter/submit.php:46
+#: views/newsletter/template.php:84
+#: views/subscriber/submit.php:33
+#: views/templates.php:123
+#: views/templates.php:130
+#@ mymail
+#@ default
+msgid "Save"
+msgstr "Salva"
+
+#: classes/subscriber.class.php:173
+#@ mymail
+msgid "Enter Email here"
+msgstr "Inserisci qui l'Email"
+
+#: classes/mymail.class.php:2204
+#: classes/subscriber.class.php:747
+#: classes/subscriber.class.php:753
+#: views/settings.php:44
+#@ mymail
+msgid "Subscribers"
+msgstr "Iscritti"
+
+#: classes/subscriber.class.php:748
+#: classes/subscriber.class.php:759
+#@ mymail
+msgid "Subscriber"
+msgstr "Iscritto"
+
+#: classes/subscriber.class.php:749
+#@ mymail
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: classes/subscriber.class.php:750
+#@ mymail
+msgid "Add New Subscriber"
+msgstr "Aggiungi Nuovo Iscritto"
+
+#: classes/subscriber.class.php:751
+#@ mymail
+msgid "Edit Subscriber"
+msgstr "Modifica Iscritto"
+
+#: classes/subscriber.class.php:752
+#@ mymail
+msgid "New Subscriber"
+msgstr "Nuovo Iscritto"
+
+#: classes/subscriber.class.php:754
+#@ mymail
+msgid "View Subscribers"
+msgstr "Vedi Iscritti"
+
+#: classes/subscriber.class.php:755
+#@ mymail
+msgid "Search Emails"
+msgstr "Cerca EMail"
+
+#: classes/subscriber.class.php:756
+#@ mymail
+msgid "No Subscriber found"
+msgstr "Iscritto non trovato"
+
+#: classes/subscriber.class.php:757
+#@ mymail
+msgid "No Subscriber found in Trash"
+msgstr "Iscritto non trovato nel Cestino"
+
+#: classes/subscriber.class.php:780
+#@ mymail
+msgctxt "taxonomy general name"
+msgid "Lists"
+msgstr "Liste"
+
+#: classes/subscriber.class.php:781
+#@ mymail
+msgctxt "taxonomy singular name"
+msgid "List"
+msgstr "Lista"
+
+#: classes/subscriber.class.php:782
+#@ mymail
+msgid "Search Lists"
+msgstr "Cerca Lista"
+
+#: classes/subscriber.class.php:783
+#@ mymail
+msgid "Popular Lists"
+msgstr "Liste più Usate"
+
+#: classes/subscriber.class.php:784
+#@ mymail
+msgid "All Lists"
+msgstr "Tutte le Liste"
+
+#: classes/subscriber.class.php:785
+#@ mymail
+msgid "Edit List"
+msgstr "Modifica Lista"
+
+#: classes/subscriber.class.php:786
+#@ mymail
+msgid "Update List"
+msgstr "Aggiorna Lista"
+
+#: classes/subscriber.class.php:787
+#@ mymail
+msgid "Add New List"
+msgstr "Aggiungi Nuova Lista"
+
+#: classes/subscriber.class.php:788
+#@ mymail
+msgid "New List Name"
+msgstr "Nome Nuova Lista"
+
+#: classes/subscriber.class.php:789
+#@ mymail
+msgid "Separate Lists with commas"
+msgstr "Separa le Liste con virgola"
+
+#: classes/subscriber.class.php:790
+#@ mymail
+msgid "Add or remove Lists"
+msgstr "Aggiungi o rimuovi Liste"
+
+#: classes/subscriber.class.php:791
+#@ mymail
+msgid "Choose List"
+msgstr "Scegli Lista"
+
+#: classes/autoresponder.class.php:415
+#: classes/form.class.php:188
+#: classes/manage.class.php:632
+#: classes/mymail.class.php:2409
+#: classes/settings.class.php:74
+#: classes/subscriber.class.php:792
+#: classes/subscriber.class.php:864
+#: classes/subscriber.class.php:986
+#: includes/updates.php:32
+#: views/settings.php:696
+#@ mymail
+msgid "Lists"
+msgstr "Liste"
+
+#: classes/manage.class.php:314
+#: classes/subscriber.class.php:822
+#: classes/subscriber.class.php:826
+#: views/subscriber/meta.php:8
+#@ mymail
+msgid "Subscribed"
+msgstr "Iscritto"
+
+#: classes/manage.class.php:314
+#: classes/subscriber.class.php:830
+#: classes/subscriber.class.php:834
+#@ mymail
+msgid "Unsubscribed"
+msgstr "Cancellato"
+
+#: classes/subscriber.class.php:838
+#: classes/subscriber.class.php:842
+#@ mymail
+msgid "Hardbounced"
+msgstr ""
+
+#: classes/subscriber.class.php:956
+#: classes/subscriber.class.php:959
+#: classes/subscriber.class.php:961
+#@ mymail
+msgid "Subscriber updated."
+msgstr "Iscritto Aggiornato"
+
+#: classes/subscriber.class.php:957
+#@ default
+msgid "Custom field updated."
+msgstr "Campo personalizzato aggiornato."
+
+#: classes/subscriber.class.php:960
+#, php-format
+#@ mymail
+msgid "Subscriber restored to revision from %s"
+msgstr ""
+
+#: classes/subscriber.class.php:963
+#@ mymail
+msgid "Subscriber submitted."
+msgstr "Iscritto inserito."
+
+#: classes/subscriber.class.php:964
+#@ default
+msgid "M j, Y @ G:i"
+msgstr "d F Y @ G:i"
+
+#: classes/subscriber.class.php:965
+#@ mymail
+msgid "Subscriber draft updated."
+msgstr "Iscritto bozza aggiornato."
+
+#: classes/mymail.class.php:2235
+#: classes/templates.class.php:363
+#: views/templates.php:59
+#@ mymail
+msgid "Templates"
+msgstr "Templates"
+
+#: views/dashboard.php:53
+#, php-format
+#@ mymail
+msgid "%n Active Campaign"
+msgid_plural "%n Active Campaigns"
+msgstr[0] "%n Campagna Attiva"
+msgstr[1] "%n Campagne Attive"
+
+#: views/dashboard.php:59
+#, php-format
+#@ mymail
+msgid "%n Finished Campaign"
+msgid_plural "%n Finished Campaigns"
+msgstr[0] "%n Campagna Finita"
+msgstr[1] "%n Campagne Finite"
+
+#: views/dashboard.php:65
+#, php-format
+#@ mymail
+msgid "%n Drafted Campaign"
+msgid_plural "%n Drafted Campaigns"
+msgstr[0] "%n Campagna Elaborata"
+msgstr[1] "%n Campagne Elaborate"
+
+#: views/dashboard.php:43
+#, php-format
+#@ mymail
+msgid "%n Campaign"
+msgid_plural "%n Campaigns"
+msgstr[0] "%n Campagna"
+msgstr[1] "%n Campagne"
+
+#: views/dashboard.php:80
+#, php-format
+#@ mymail
+msgid "%n Subscriber"
+msgid_plural "%n Subscribers"
+msgstr[0] "%n Iscritto"
+msgstr[1] "%n Iscritti"
+
+#: views/dashboard.php:157
+#, php-format
+#@ mymail
+msgid "You are using %s"
+msgstr "Stai utilizzando %s"
+
+#: views/newsletter/delivery.php:31
+#, php-format
+#@ mymail
+msgid "Server Time: %s %s"
+msgstr "Ora del Server: %s %s"
+
+#: views/settings.php:370
+#: views/settings.php:408
+#: views/settings.php:440
+#: views/settings.php:526
+#: views/settings.php:618
+#@ mymail
+msgid "No Lists found!"
+msgstr "Nessuna Lista Trovata!"
+
+#: views/settings.php:370
+#: views/settings.php:408
+#: views/settings.php:440
+#: views/settings.php:526
+#: views/settings.php:618
+#@ mymail
+msgid "Create a List now"
+msgstr "Crea una lista Adesso"
+
+#: views/newsletter/details.php:50
+#: views/newsletter/details.php:55
+#: views/newsletter/details.php:69
+#@ mymail
+msgid "show details"
+msgstr "mostra dettagli"
+
+#: views/newsletter/options.php:43
+#@ mymail
+msgid "original"
+msgstr "originale"
+
+#: views/newsletter/options.php:152
+#: views/settings.php:898
+#@ mymail
+msgid "none"
+msgstr "nulla"
+
+#: views/newsletter/submit.php:15
+#: views/subscriber/submit.php:15
+#@ default
+msgid "Delete Permanently"
+msgstr "Cancella Definitivamente"
+
+#: views/newsletter/submit.php:17
+#: views/subscriber/submit.php:17
+#@ default
+msgid "Move to Trash"
+msgstr "Sposta nel Cestino"
+
+#: views/newsletter/submit.php:42
+#: views/newsletter/submit.php:43
+#: views/subscriber/submit.php:29
+#: views/subscriber/submit.php:30
+#@ default
+msgid "Schedule"
+msgstr "Programma"
+
+#: views/newsletter/submit.php:45
+#: views/subscriber/submit.php:32
+#@ default
+msgid "Publish"
+msgstr "Pubblica"
+
+#: views/newsletter/submit.php:49
+#: views/newsletter/submit.php:50
+#: views/subscriber/submit.php:36
+#: views/subscriber/submit.php:37
+#@ default
+msgid "Submit for Review"
+msgstr "Invia per Revisione"
+
+#: views/newsletter/submit.php:61
+#: views/newsletter/submit.php:62
+#: views/subscriber/submit.php:41
+#: views/subscriber/submit.php:49
+#@ default
+msgid "Update"
+msgstr "Aggiorna"
+
+#: views/newsletter/template.php:43
+#@ mymail
+msgid "Change Template"
+msgstr "Cambia Template"
+
+#: classes/mymail.class.php:2268
+#: classes/mymail.class.php:2599
+#@ default
+#@ mymail
+msgid "Preview"
+msgstr "Anteprima"
+
+#: views/settings.php:42
+#@ mymail
+msgid "General"
+msgstr "Generali"
+
+#: views/settings.php:47
+#@ mymail
+msgid "Tags"
+msgstr "Tags"
+
+#: views/settings.php:49
+#@ mymail
+msgid "Cron"
+msgstr "Cron"
+
+#: views/settings.php:51
+#@ mymail
+msgid "Bouncing"
+msgstr "Rimbalzo"
+
+#: views/newsletter/details.php:20
+#: views/settings.php:76
+#@ mymail
+msgid "From Name"
+msgstr "Dal Nome"
+
+#: views/settings.php:77
+#@ mymail
+msgid "The sender name which is displayed in the from field"
+msgstr "Il nome del mittente che verrà visualizzato dal destinatario"
+
+#: views/settings.php:80
+#@ mymail
+msgid "From Address"
+msgstr "Dall'indirizzo"
+
+#: views/settings.php:81
+#@ mymail
+msgid "The sender email address. Force your recievers to whitelabel this email address."
+msgstr "Indirizzo e-mail del mittente - I destinatari NON vedranno questo indirizzo"
+
+#: views/settings.php:84
+#@ mymail
+msgid "Reply To Address"
+msgstr "Rispondi all'indirizzo"
+
+#: views/settings.php:85
+#@ mymail
+msgid "The address users can reply to"
+msgstr "Il destinatario risponderà a questo indirizzo"
+
+#: views/settings.php:88
+#: views/templates.php:89
+#: views/templates.php:99
+#@ mymail
+msgid "Default Template"
+msgstr "Default Template"
+
+#: views/settings.php:99
+#: views/templates.php:136
+#@ mymail
+msgid "get more"
+msgstr "vai avanti"
+
+#: views/newsletter/options.php:7
+#: views/settings.php:107
+#@ mymail
+msgid "Embed Images"
+msgstr "Allega Immagini"
+
+#: views/settings.php:108
+#@ mymail
+msgid "Embed images in the mail"
+msgstr "Allega immagini nell'email"
+
+#: views/settings.php:165
+#@ mymail
+msgid "can be changed in each campaign"
+msgstr "può essere modificato in ogni campagna"
+
+#: views/settings.php:181
+#@ mymail
+msgid "Newsletter Homepage"
+msgstr "Newsletter Homepage"
+
+#: views/settings.php:183
+#: views/settings.php:786
+#@ mymail
+msgid "Choose"
+msgstr "Scegli"
+
+#: views/settings.php:228
+#@ mymail
+msgid "Double-Opt-In"
+msgstr "Double-Opt-In"
+
+#: views/settings.php:229
+#@ mymail
+msgid "new subscribers must confirm their subscription"
+msgstr "i nuovi iscritti devono confermare la loro iscrizione"
+
+#: views/settings.php:678
+#@ mymail
+msgid "Subscription Form"
+msgstr "Modulo di iscrizione"
+
+#: views/settings.php:244
+#, php-format
+#@ mymail
+msgid "The text new subscribers get when Double-Opt-In is selected. Use %s for the link placeholder. Basic HTML is allowed"
+msgstr "Il testo che i nuovi iscritti ottengono quando Double-Opt è selezionato. Usa %s per il link segnaposto. E' Permesso HTML basico."
+
+#: views/settings.php:740
+#@ mymail
+msgid "Custom Tags"
+msgstr "Tags Personalizzati"
+
+#: classes/manage.class.php:312
+#: classes/mymail.class.php:2583
+#: classes/settings.class.php:172
+#: views/settings.php:337
+#: views/settings.php:752
+#@ mymail
+msgid "add"
+msgstr "aggiungi"
+
+#: views/settings.php:952
+#@ mymail
+msgid "Cron Service"
+msgstr "Cron Service"
+
+#: views/settings.php:955
+#@ mymail
+msgid "Use the wp_cron function to send newsletters"
+msgstr "Utilizza la funzione wp-cron per inviare le Newsletters"
+
+#: views/settings.php:956
+#@ mymail
+msgid "Use a real cron to send newsletters"
+msgstr "Utilizza real cron per inviare le Newsletters"
+
+#: views/settings.php:956
+#@ mymail
+msgid "reccomended for many subscribers"
+msgstr "raccomandato per molti iscritti"
+
+#: views/settings.php:948
+#@ mymail
+msgid "Interval for sending emails"
+msgstr "Intervallo di invio emails"
+
+#: views/settings.php:949
+#, php-format
+#@ mymail
+msgid "Send emails at most every %1$s minutes"
+msgstr "Invia emails al massimo ogni %1$s minuti"
+
+#: views/settings.php:960
+#@ mymail
+msgid "Cron Settings"
+msgstr "Settaggi Cron"
+
+#: views/settings.php:963
+#@ mymail
+msgid "a secret hash which is required to execute the cron"
+msgstr "l'hash segreto per eseguire il cron"
+
+#: views/settings.php:971
+#: views/subscriber/stats.php:21
+#@ mymail
+msgid "never"
+msgstr "mai"
+
+#: views/settings.php:1032
+#@ mymail
+msgid "Bounce Address"
+msgstr "Indirizzo del Rimbalzo"
+
+#: views/settings.php:1049
+#@ mymail
+msgid "Server Address : Port"
+msgstr "Indirizzo Server: Porta"
+
+#: views/settings.php:908
+#: views/settings.php:923
+#: views/settings.php:1058
+#@ mymail
+msgid "Username"
+msgstr "Username"
+
+#: views/settings.php:1071
+#@ mymail
+msgid "Attempts"
+msgstr "Tentativi"
+
+#: views/settings.php:1081
+#, php-format
+#@ mymail
+msgid "%s attempts to deliver message until hardbounce"
+msgstr "%s tentativi di invio messaggio prima del rimbalzo"
+
+#: views/settings.php:893
+#@ mymail
+msgid "Secure connection"
+msgstr "Connessione sicura"
+
+#: views/settings.php:905
+#@ mymail
+msgid "If checked username and password are required"
+msgstr "Se selezionato username e password sono richiesti"
+
+#: views/newsletter/delivery.php:218
+#: views/settings.php:832
+#: views/settings.php:1120
+#@ mymail
+msgid "Send Test"
+msgstr "Invia un Test"
+
+#: views/settings.php:23
+#: views/settings.php:1374
+#@ mymail
+msgid "Save Changes"
+msgstr "Salva i Cambiamenti"
+
+#: classes/manage.class.php:635
+#: classes/mymail.class.php:2018
+#: classes/subscriber.class.php:289
+#: classes/subscriber.class.php:303
+#: classes/subscriber.class.php:865
+#: views/manage.php:208
+#@ mymail
+#@ default
+msgid "Status"
+msgstr "Stato"
+
+#: classes/manage.class.php:312
+#@ mymail
+msgid "add new list"
+msgstr "aggiungi nuova lista"
+
+#: classes/manage.class.php:996
+#: classes/manage.class.php:998
+#: views/manage.php:34
+#: views/newsletter/template.php:131
+#: views/settings.php:131
+#: views/settings.php:140
+#: views/templates.php:61
+#: views/templates.php:183
+#@ default
+#@ mymail
+msgid "Upload"
+msgstr "Upload"
+
+#: views/subscriber/stats.php:38
+#@ mymail
+msgid "No clicks yet"
+msgstr "Non ci sono Click"
+
+#: views/subscriber/stats.php:45
+#, php-format
+#@ mymail
+msgid "%d campaign was deleted"
+msgid_plural "%d campaigns where deleted"
+msgstr[0] "%d campagna eliminata"
+msgstr[1] "%d campagne eliminate"
+
+#: classes/form.class.php:267
+#: classes/subscriber.class.php:1081
+#: views/settings.php:683
+#: views/subscriber/submit.php:43
+#@ mymail
+msgid "Unsubscribe"
+msgstr "Cancella"
+
+#: views/templates.php:29
+#@ mymail
+msgid "Template uploaded"
+msgstr "Template Caricato"
+
+#: views/templates.php:136
+#@ mymail
+msgid "Available Templates"
+msgstr "Template Disponibili"
+
+#: views/templates.php:177
+#@ mymail
+msgid "Upload a template in .zip format"
+msgstr "Carica il templete in formato .zip"
+
+#: views/templates.php:178
+#@ mymail
+msgid "Please upload the whole zip file here."
+msgstr "Per favore carica l'intero file .zip qui."
+
+#: classes/subscriber.class.php:989
+#@ mymail
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: classes/widget.class.php:25
+#@ mymail
+msgid "Title"
+msgstr "Titolo"
+
+#: classes/settings.class.php:66
+#: includes/static.php:7
+#@ mymail
+msgid "Thanks for your interest!"
+msgstr "Grazie per il Tuo interesse!"
+
+#: classes/mymail.class.php:2017
+#: classes/subscriber.class.php:862
+#: views/newsletter/template.php:76
+#@ default
+#@ mymail
+msgid "Name"
+msgstr "Nome"
+
+#: views/dashboard.php:15
+#@ mymail
+msgid "total"
+msgstr "totale"
+
+#: views/newsletter/details.php:140
+#@ mymail
+msgid "open"
+msgstr "aperto"
+
+#: views/dashboard.php:15
+#@ mymail
+msgid "bounces"
+msgstr "rimbalzo"
+
+#: classes/mymail.class.php:2024
+#: classes/subscriber.class.php:288
+#: classes/subscriber.class.php:302
+#: classes/subscriber.class.php:866
+#: views/dashboard.php:124
+#: views/newsletter/details.php:44
+#@ default
+#@ mymail
+msgid "Date"
+msgstr "Data"
+
+#: classes/mymail.class.php:1973
+#, php-format
+#@ mymail
+msgid "Campaign updated. %s"
+msgstr "Campagna aggiornata. %s"
+
+#: classes/mymail.class.php:1978
+#, php-format
+#@ mymail
+msgid "Campaign published. %s"
+msgstr "Campagna pubbicata. %s"
+
+#: classes/mymail.class.php:1980
+#, php-format
+#@ mymail
+msgid "Campaign submitted. %s"
+msgstr "Campagna inviata. %s"
+
+#: classes/mymail.class.php:1980
+#@ default
+msgid "Preview Newsletter"
+msgstr "Anteprima Newsletter"
+
+#: views/newsletter/delivery.php:47
+#, php-format
+#@ mymail
+msgctxt "send campaign \"on\" (date) \"at\" (time)"
+msgid "on %1$s @ %2$s"
+msgstr "il %1$s @ %2$s"
+
+#: views/newsletter/details.php:12
+#: views/newsletter/details.php:43
+#: views/settings.php:241
+#@ mymail
+msgid "Subject"
+msgstr "Soggetto"
+
+#: views/newsletter/details.php:16
+#: views/newsletter/details.php:47
+#@ mymail
+msgid "Preheader"
+msgstr "Preheader"
+
+#: views/newsletter/details.php:24
+#@ mymail
+msgid "From Email"
+msgstr "Dalla Email"
+
+#: views/newsletter/details.php:28
+#@ mymail
+msgid "reply-to email"
+msgstr "rispondi all'email"
+
+#: views/subscriber/stats.php:17
+#@ mymail
+msgid "unique clicks"
+msgstr "click unici"
+
+#: views/newsletter/options.php:174
+#@ mymail
+msgid "Colors Schema"
+msgstr "Schemi Colore"
+
+#: views/newsletter/options.php:103
+#@ mymail
+msgctxt "the different versions (color) of the newsletter"
+msgid "Elements"
+msgstr "Elementi"
+
+#: views/newsletter/options.php:118
+#: views/newsletter/options.php:189
+#@ mymail
+msgid "Background"
+msgstr "Sfondo"
+
+#: classes/mymail.class.php:1979
+#@ mymail
+msgid "Campaign saved."
+msgstr "Campagna salvata"
+
+#: classes/subscriber.class.php:962
+#@ mymail
+msgid "Subscriber saved."
+msgstr "Iscritto salvato"
+
+#: classes/manage.class.php:317
+#@ mymail
+msgid "Yes, I have the permission to import these contacts"
+msgstr "Si, ho lautorizzazione ad importare questi contatti"
+
+#: classes/mymail.class.php:1293
+#: classes/mymail.class.php:1342
+#: views/dashboard.php:15
+#: views/subscriber/stats.php:17
+#@ mymail
+msgid "sent"
+msgstr "inviato"
+
+#: classes/mymail.class.php:1295
+#: views/subscriber/stats.php:17
+#@ mymail
+msgid "first click"
+msgstr "primo click"
+
+#: classes/mymail.class.php:2585
+#@ mymail
+msgid "Move module up"
+msgstr "Muovi su il modulo"
+
+#: classes/mymail.class.php:2586
+#@ mymail
+msgid "Move module down"
+msgstr "Muovi giu il modulo"
+
+#: classes/mymail.class.php:2588
+#@ mymail
+msgid "remove module"
+msgstr "elimina modulo"
+
+#: classes/mymail.class.php:2589
+#@ mymail
+msgid "Add Module"
+msgstr "+ Modulo"
+
+#: classes/mymail.class.php:2590
+#@ mymail
+msgid "Edit"
+msgstr "Edit"
+
+#: classes/mymail.class.php:2591
+#@ mymail
+msgctxt "for the autoimporter"
+msgid "Auto"
+msgstr "Auto"
+
+#: classes/mymail.class.php:2592
+#@ mymail
+msgid "add button"
+msgstr "aggiungi pulsante"
+
+#: classes/mymail.class.php:2595
+#, php-format
+#@ mymail
+msgctxt "\"link\" \"count\" clicks (\"percentage\")"
+msgid "%s - %s clicks (%s)"
+msgstr "%s - %s clicks (%s)"
+
+#: views/newsletter/options.php:8
+#@ mymail
+msgid "save this schema"
+msgstr "salva questo schema"
+
+#: views/newsletter/template.php:132
+#@ mymail
+msgid "Reload"
+msgstr "Ricarica"
+
+#: views/newsletter/template.php:154
+#@ mymail
+msgid "Select a post"
+msgstr "Seleziona un post"
+
+#: classes/manage.class.php:999
+#: views/newsletter/template.php:221
+#: views/templates.php:124
+#: views/templates.php:131
+#@ default
+#@ mymail
+msgid "Cancel"
+msgstr "Cancella"
+
+#: views/newsletter/template.php:221
+#@ mymail
+msgid "remove element"
+msgstr "rimuovi elemento"
+
+#: views/newsletter/options.php:173
+#@ mymail
+msgid "Embedded Images"
+msgstr "Allega Immagini"
+
+#: views/settings.php:912
+#: views/settings.php:927
+#: views/settings.php:1062
+#@ mymail
+msgid "Password"
+msgstr "Password"
+
+#: views/subscriber/stats.php:50
+#@ mymail
+msgid "This subscriber has never recieved any newsletter"
+msgstr "Questo iscritto non ha mai ricevuto alcuna newsletter"
+
+#: classes/manage.class.php:38
+#@ mymail
+msgid "Please select the status for the importing contacts!"
+msgstr ""
+
+#: classes/mymail.class.php:1694
+#: classes/mymail.class.php:2584
+#: views/manage.php:42
+#: views/newsletter/delivery.php:99
+#: views/settings.php:128
+#: views/settings.php:137
+#: views/templates.php:123
+#: views/templates.php:130
+#@ mymail
+msgid "or"
+msgstr "o"
+
+#: classes/manage.class.php:314
+#@ mymail
+msgid "Import as"
+msgstr "Importa come"
+
+#: classes/manage.class.php:40
+#@ mymail
+msgid "You must have the permission to import these contacts!"
+msgstr ""
+
+#: classes/mymail.class.php:2094
+#: classes/mymail.class.php:2102
+#@ mymail
+msgid "no recivers!"
+msgstr "nessun destinatario!"
+
+#: classes/mymail.class.php:2092
+#: classes/mymail.class.php:2100
+#: views/newsletter/delivery.php:54
+#: views/newsletter/delivery.php:227
+#, php-format
+#@ mymail
+msgid "%1$s of %2$s sent"
+msgstr "%1$s di %2$s inviato"
+
+#: classes/mymail.class.php:2089
+#: classes/mymail.class.php:2371
+#: classes/mymail.class.php:2373
+#@ mymail
+msgid "Paused"
+msgstr "Pausa"
+
+#: classes/mymail.class.php:2405
+#@ mymail
+msgid "Details"
+msgstr "Dettagli"
+
+#: classes/mymail.class.php:2406
+#@ mymail
+msgid "Template"
+msgstr "Template"
+
+#: classes/mymail.class.php:2408
+#: views/settings.php:48
+#@ mymail
+msgid "Delivery"
+msgstr "Consegna"
+
+#: classes/mymail.class.php:2410
+#: classes/settings.class.php:184
+#@ mymail
+msgid "Options"
+msgstr "Opzioni"
+
+#: views/settings.php:971
+#@ mymail
+msgid "Last hit"
+msgstr "Ultima azione"
+
+#: views/settings.php:971
+#@ mymail
+msgid "Interval"
+msgstr "Intervallo"
+
+#: views/settings.php:971
+#@ mymail
+msgctxt "short for minute"
+msgid "min"
+msgstr ""
+
+#: classes/subscriber.class.php:988
+#@ mymail
+msgid "Master Data"
+msgstr "Master Data"
+
+#: classes/mymail.class.php:1286
+#: views/subscriber/data.php:3
+#@ mymail
+msgid "Source"
+msgstr "Sorgente"
+
+#: views/settings.php:283
+#@ mymail
+msgid "Custom Fields"
+msgstr "Campi personalizzati"
+
+#: classes/mymail.class.php:2603
+#@ mymail
+msgid "next"
+msgstr "prossimo"
+
+#: classes/mymail.class.php:2604
+#@ mymail
+msgid "prev"
+msgstr "precedente"
+
+#: classes/settings.class.php:78
+#: includes/updates.php:28
+#@ mymail
+msgid "webversion"
+msgstr "Vedi sul Browser"
+
+#: classes/settings.class.php:62
+#@ mymail
+msgid "Please confirm your Email Address"
+msgstr "Per favore conferma il Tuo indirizzo Email"
+
+#: classes/subscriber.class.php:1236
+#@ mymail
+msgid "Wordpress Users"
+msgstr "Wordpress Iscritti"
+
+#: views/settings.php:725
+#@ mymail
+msgid "Permanent Tags"
+msgstr ""
+
+#: views/settings.php:756
+#@ mymail
+msgid "Special Tags"
+msgstr "Special Tags"
+
+#: views/subscriber/data.php:26
+#: views/subscriber/data.php:29
+#: views/subscriber/data.php:38
+#, php-format
+#@ mymail
+#@ default
+msgid "use %1$s as placeholder tag to replace it with %2$s"
+msgstr ""
+
+#: views/subscriber/data.php:90
+#, php-format
+#@ mymail
+msgid "add more custom fields at the %s"
+msgstr "aggiungi campi personalizzati alla %s"
+
+#: views/subscriber/data.php:90
+#@ mymail
+msgid "Settings Page"
+msgstr "Pagina Settaggi"
+
+#: includes/functions.php:156
+#@ mymail
+msgid "Newsletters"
+msgstr "Newsletters"
+
+#: views/settings.php:203
+#@ mymail
+msgid "Offer share option for your customers"
+msgstr "Offre opzione di condivisione per i vostri clienti"
+
+#: views/settings.php:207
+#@ mymail
+msgid "Services"
+msgstr "Servizi"
+
+#: views/single-newsletter.php:62
+#, php-format
+#@ mymail
+msgid "Share with %s"
+msgstr "Condividi con %s"
+
+#: classes/mymail.class.php:1293
+#: classes/mymail.class.php:1294
+#: classes/mymail.class.php:1295
+#: views/subscriber/stats.php:19
+#: views/subscriber/stats.php:20
+#@ mymail
+msgid "not yet"
+msgstr "non ancora"
+
+#: classes/mymail.class.php:272
+#@ mymail
+msgid "There is no content for this newsletter."
+msgstr "Non ci sono contenuti per questa newsletter."
+
+#: classes/mymail.class.php:272
+#@ mymail
+msgid "Add content"
+msgstr "Aggiungi contenuto"
+
+#: classes/mymail.class.php:616
+#: views/dashboard.php:24
+#@ mymail
+msgid "This Campaign is currently progressing"
+msgstr "Questa Campagna è in corso"
+
+#: classes/mymail.class.php:1728
+#, php-format
+#@ mymail
+msgid "%s is forwarding an email to you!"
+msgstr "%s inoltra una email a te"
+
+#: classes/mymail.class.php:2383
+#: classes/mymail.class.php:2385
+#@ mymail
+msgid "Queued"
+msgstr "Accodato"
+
+#: classes/widget.class.php:119
+#: classes/widget.class.php:162
+#@ mymail
+msgid "Latest Newsletter"
+msgstr "Ultima Newsletter"
+
+#: classes/widget.class.php:165
+#@ default
+msgid "Title:"
+msgstr "Titolo:"
+
+#: classes/widget.class.php:168
+#@ mymail
+msgid "Number of Newsletters:"
+msgstr "Numero delle Newsletter:"
+
+#: views/single-newsletter.php:62
+#@ mymail
+msgid "email"
+msgstr "email"
+
+#: views/dashboard.php:44
+#@ default
+msgid "new"
+msgstr "nuovo"
+
+#: views/dashboard.php:50
+#, php-format
+#@ mymail
+msgid "%n Pending Campaign"
+msgid_plural "%n Pending Campaigns"
+msgstr[0] "%n Campagna in corso"
+msgstr[1] "%n Campagne in corso"
+
+#: views/dashboard.php:56
+#, php-format
+#@ mymail
+msgid "%n Queued Campaign"
+msgid_plural "%n Queued Campaigns"
+msgstr[0] "%n Campagna in coda"
+msgstr[1] "%n Campagne in coda"
+
+#: views/dashboard.php:72
+#@ mymail
+msgid "create a new Campaign"
+msgstr "crea una nuova Campagna"
+
+#: views/dashboard.php:12
+#@ mymail
+msgid "Recent Campaign"
+msgstr "Ultima Campagna"
+
+#: classes/mymail.class.php:1289
+#: views/dashboard.php:12
+#@ mymail
+#@ default
+msgid "edit"
+msgstr "modifica"
+
+#: views/newsletter/details.php:89
+#@ mymail
+msgid "receiver"
+msgid_plural "receivers"
+msgstr[0] "destinatario"
+msgstr[1] "destinatari"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: views/newsletter/details.php:91
+#: views/subscriber/stats.php:17
+#@ mymail
+msgid "opened"
+msgid_plural "opens"
+msgstr[0] "aperto"
+msgstr[1] "aperti"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: views/dashboard.php:15
+#: views/newsletter/details.php:93
+#: views/subscriber/stats.php:17
+#@ mymail
+msgid "clicks"
+msgid_plural "clicks"
+msgstr[0] "clicks"
+msgstr[1] "clicks"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: views/newsletter/details.php:95
+#: classes/settings.class.php:77
+#: includes/updates.php:27
+#@ mymail
+msgid "unsubscribe"
+msgid_plural "unsubscribes"
+msgstr[0] "cancellato"
+msgstr[1] "cancellati"
+
+#: views/newsletter/details.php:97
+#@ mymail
+msgid "bounce"
+msgid_plural "bounces"
+msgstr[0] "rimbalzo"
+msgstr[1] "rimbalzi"
+
+#: views/newsletter/details.php:140
+#@ mymail
+msgid "Country"
+msgstr "Paese"
+
+#: views/settings.php:43
+#@ mymail
+msgid "Frontend"
+msgstr "Frontend"
+
+#: views/single-newsletter.php:44
+#: views/single-newsletter.php:51
+#, php-format
+#@ mymail
+msgid "Share this via %s"
+msgstr "Condividi con %s"
+
+#: views/single-newsletter.php:66
+#@ mymail
+msgid "Your name"
+msgstr "Nome"
+
+#: views/single-newsletter.php:69
+#@ mymail
+msgid "Your email address"
+msgstr "Indirizzo Email"
+
+#: views/single-newsletter.php:72
+#@ mymail
+msgid "Your friend's email address"
+msgstr "Indirizzo email del tuo amico"
+
+#: views/single-newsletter.php:75
+#@ mymail
+msgid "A personal note to your friend"
+msgstr "Appunti personali sul tuo amico"
+
+#: views/single-newsletter.php:85
+#@ mymail
+msgid "We respect your privacy. Nothing you enter on this page is saved by anyone"
+msgstr "Rispettiamo la tua privacy. Nessuna tua informazione sarà archiviata da alcuno"
+
+#: views/single-newsletter.php:92
+#@ mymail
+msgid "Share the link"
+msgstr "Condividi il link"
+
+#: classes/mymail.class.php:1294
+#: views/dashboard.php:15
+#@ mymail
+msgid "opens"
+msgstr "aperti"
+
+#: views/dashboard.php:15
+#@ mymail
+msgctxt "count of"
+msgid "unsubscribes"
+msgstr "cancellati"
+
+#: classes/mymail.class.php:2264
+#, php-format
+#@ default
+msgid "Older: %s"
+msgstr "Precedenti: %s"
+
+#: classes/mymail.class.php:2266
+#, php-format
+#@ default
+msgid "Newer: %s"
+msgstr "Successivi: %s"
+
+#: views/settings.php:53
+#: views/settings.php:1343
+#@ mymail
+msgid "Purchasecode"
+msgstr "Codice di Acquisto"
+
+#: views/settings.php:1349
+#@ mymail
+msgid "Disable this tab"
+msgstr "Disabilita questa linguetta"
+
+#: views/settings.php:1350
+#@ mymail
+msgid "Hide this tab"
+msgstr "Nascondi questa linguetta"
+
+#: classes/autoresponder.class.php:493
+#: classes/mymail.class.php:2180
+#@ mymail
+msgid "unsubscribe rate"
+msgstr "indice di cancellazioni"
+
+#: classes/autoresponder.class.php:504
+#: classes/mymail.class.php:2191
+#@ mymail
+msgid "bounce rate"
+msgstr "indice di rimbalzi"
+
+#: classes/mymail.class.php:2134
+#: views/newsletter/submit.php:33
+#@ mymail
+msgid "Pause"
+msgstr "Pause"
+
+#: classes/mymail.class.php:2139
+#@ mymail
+msgid "Start"
+msgstr "Start"
+
+#: classes/settings.class.php:111
+#@ mymail
+msgid "All rights reserved"
+msgstr "Tutti i diritti riservati"
+
+#: classes/mymail.class.php:2596
+#@ mymail
+msgid "Currently selected"
+msgstr "Selezionato"
+
+#: classes/subscriber.class.php:1048
+#@ mymail
+msgid "this isn't a valid email address!"
+msgstr "questo non è un indirizzo email valido!"
+
+#: classes/subscriber.class.php:1049
+#@ mymail
+msgid "this email address allready exists!"
+msgstr "questo indirizzo email già esiste!"
+
+#: views/dashboard.php:62
+#, php-format
+#@ mymail
+msgid "%n Paused Campaign"
+msgid_plural "%n Paused Campaigns"
+msgstr[0] "Campagna in Pausa"
+msgstr[1] "Campagne in Pausa"
+
+#: views/settings.php:1204
+#@ mymail
+msgid "Use DomainKeys Identified Mail"
+msgstr ""
+
+#: views/settings.php:1131
+#: views/settings.php:1204
+#@ default
+msgid "read more"
+msgstr "leggi tutto"
+
+#: views/settings.php:1293
+#@ mymail
+msgid "DKIM often doesn't work out of the box. You may have to contact your email provider to get more information"
+msgstr ""
+
+#: classes/mymail.class.php:2134
+#@ mymail
+msgid "Pause Campaign"
+msgstr "Sospendi Capmagna"
+
+#: views/newsletter/submit.php:36
+#: views/newsletter/submit.php:56
+#@ mymail
+msgid "Continue"
+msgstr "Continua"
+
+#: classes/mymail.class.php:2139
+#@ mymail
+msgid "Start Campaign"
+msgstr "Avvia Campagna"
+
+#: classes/mymail.class.php:2131
+#@ mymail
+msgid "Start now"
+msgstr "Avvia adesso"
+
+#: views/newsletter/submit.php:38
+#: views/newsletter/submit.php:58
+#: views/single-newsletter.php:79
+#@ mymail
+msgid "Send now"
+msgstr "Invia adesso"
+
+#: classes/mymail.class.php:2131
+#@ mymail
+msgid "Start Campaign now"
+msgstr "Avvia Campagna adesso"
+
+#: classes/mymail.class.php:2598
+#, php-format
+#@ mymail
+msgid "Preview for %s"
+msgstr "Anteprima per %s"
+
+#: classes/mymail.class.php:2019
+#@ mymail
+msgid "Total"
+msgstr "Totale"
+
+#: classes/mymail.class.php:2020
+#@ mymail
+msgid "Open"
+msgstr "Aperto"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: classes/mymail.class.php:2021
+#: views/dashboard.php:124
+#: views/dashboard.php:150
+#: views/subscriber/stats.php:26
+#@ mymail
+msgid "Clicks"
+msgid_plural "Clicks"
+msgstr[0] "Clicks"
+msgstr[1] "Clicks"
+
+#: classes/mymail.class.php:2022
+#@ mymail
+msgid "Unsubscribes"
+msgstr "Cancellati"
+
+#: classes/mymail.class.php:2023
+#@ mymail
+msgid "Bounces"
+msgstr "Rimbalzi"
+
+#: views/dashboard.php:71
+#@ mymail
+msgid "Crap! You don't have any Campaigns yet"
+msgstr "Oops! Non hai ancora una campagna"
+
+#: classes/mymail.class.php:1734
+#@ mymail
+msgid "Your message was sent succefully!"
+msgstr "Messaggio inviato correttamente!"
+
+#: classes/mymail.class.php:1734
+#@ mymail
+msgid "Sorry, we couldn't deliver your message. Please try again later!"
+msgstr "Non è stato possibile recapitare il messaggio. Per favore prova più tardi!"
+
+#: views/single-newsletter.php:37
+#@ mymail
+msgid "Share"
+msgstr "Share"
+
+#: classes/mymail.class.php:1146
+#@ mymail
+msgid "Message sent. Check your inbox!"
+msgstr "Messaggio inviato. Controlla la tua casella!"
+
+#: classes/mymail.class.php:1146
+#@ mymail
+msgid "Couldn't send message. Check your settings!"
+msgstr "Errore nell'invio del messaggio. Controlla le impostazioni!"
+
+#: classes/mymail.class.php:2216
+#, php-format
+#@ mymail
+msgid "Duplicate Campaign %s"
+msgstr "Duplica Campagna %s"
+
+#: views/newsletter/details.php:20
+#: views/newsletter/details.php:24
+#: views/newsletter/details.php:28
+#@ mymail
+msgid "restore default"
+msgstr "ripristina default"
+
+#: classes/settings.class.php:471
+#, php-format
+#@ mymail
+msgid "%s is not a valid email address"
+msgstr "%s non è un indirizzo email valido"
+
+#: classes/settings.class.php:698
+#, php-format
+#@ mymail
+msgid "The provided purchasecode %s is invalid"
+msgstr "Il codice di acquisto %s non è valido"
+
+#: views/dashboard.php:163
+#, php-format
+#@ default
+msgid "Update to %s"
+msgstr "Aggiorna a %s"
+
+#: views/dashboard.php:163
+#@ default
+msgid "Latest"
+msgstr "Ultime"
+
+#: classes/subscriber.class.php:286
+#: classes/subscriber.class.php:300
+#@ mymail
+msgid "Firstname"
+msgstr "Nome"
+
+#: classes/subscriber.class.php:287
+#: classes/subscriber.class.php:301
+#@ mymail
+msgid "Lastname"
+msgstr "Cognome"
+
+#: views/manage.php:83
+#@ mymail
+msgid "Export Subscribers"
+msgstr "Esporta Iscritti"
+
+#: classes/mymail.class.php:2224
+#@ mymail
+msgid "Settings"
+msgstr "Imppostazioni"
+
+#: classes/mymail.class.php:2512
+#@ default
+msgid "More"
+msgstr "Ancora"
+
+#: classes/mymail.class.php:2519
+#@ default
+msgid "For more information:"
+msgstr "Per maggiori informazioni:"
+
+#: classes/settings.class.php:634
+#, php-format
+#@ mymail
+msgid "The caching time for tweets must be at least %d minutes"
+msgstr ""
+
+#: views/dashboard.php:87
+#, php-format
+#@ mymail
+msgid "%n Active Subscribers"
+msgid_plural "%n Active Subscribers"
+msgstr[0] "Iscritto Attivo"
+msgstr[1] "Iscritti Attivi"
+
+#: views/dashboard.php:90
+#, php-format
+#@ mymail
+msgid "%n Unsubscribed Subscribers"
+msgid_plural "%n Unsubscribed Subscribers"
+msgstr[0] "%n Iscritto Cancellato"
+msgstr[1] "%n Iscritti Cancellati"
+
+#: views/dashboard.php:93
+#, php-format
+#@ mymail
+msgid "%n Hardbounced Subscribers"
+msgid_plural "%n Hardbounced Subscribers"
+msgstr[0] "%n Iscritto Rimbalzato"
+msgstr[1] "%n Iscritti Rimbalzati"
+
+#: views/dashboard.php:124
+#: views/dashboard.php:152
+#@ mymail
+msgid "New unsubscribers"
+msgstr "Nuova cancellazione"
+
+#: views/dashboard.php:124
+#: views/dashboard.php:151
+#@ mymail
+msgid "New subscribers"
+msgstr "Nuovo iscritto"
+
+#: views/templates.php:159
+#@ mymail
+msgid "Edit HTML"
+msgstr "Modifica HTML"
+
+#: classes/settings.class.php:734
+#@ mymail
+msgid "Country DB successfully loaded!"
+msgstr "DB delle Nazioni caricato correttamente!"
+
+#: classes/settings.class.php:731
+#@ mymail
+msgid "Couldn't load Country DB"
+msgstr "Non è possibile caricare il DB delle Nazioni"
+
+#: views/newsletter/delivery.php:215
+#, php-format
+#@ mymail
+msgid "send to %s"
+msgstr "invia a %s"
+
+#: views/settings.php:127
+#@ mymail
+msgid "Track Countries in Campaigns"
+msgstr ""
+
+#: views/settings.php:153
+#@ mymail
+msgid "Your IP"
+msgstr "Il tuo IP"
+
+#: views/settings.php:34
+#, php-format
+#@ mymail
+msgid "%d campaign is active. You should pause it before you change the settings!"
+msgid_plural "%d campaigns are active. You should pause them before you change the settings!"
+msgstr[0] "%d campagna è in corso. E' necessario sospenderla prima di cambiare le impostazioni!"
+msgstr[1] "%d campagne sono in corso. E' necessario sospenderle prima di cambiare le impostazioni!"
+
+#: views/settings.php:152
+#@ mymail
+msgid "If you don't find your country down below the geo database is missing or corrupt"
+msgstr ""
+
+#: views/settings.php:154
+#: views/settings.php:156
+#@ mymail
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
+
+#: views/settings.php:154
+#@ mymail
+msgid "Your country"
+msgstr "Il tuo Paese"
+
+#: classes/settings.class.php:65
+#@ mymail
+msgid "Please confirm your subscription!"
+msgstr "Per favore conferma la tua iscrizione!"
+
+#: classes/mail.class.php:341
+#@ mymail
+msgid "myMail Test Email"
+msgstr "myMail Test E-Mail"
+
+#: classes/mail.class.php:343
+#: classes/mail.class.php:358
+#@ mymail
+msgid "Your settings are good"
+msgstr "L'impostazione è corretta"
+
+#: classes/settings.class.php:91
+#: views/settings.php:478
+#@ mymail
+msgid "Default Form"
+msgstr "Default Form"
+
+#: classes/widget.class.php:27
+#@ mymail
+msgid "Form"
+msgstr "Form"
+
+#: views/settings.php:45
+#: views/settings.php:285
+#@ mymail
+msgid "Forms"
+msgstr "Forms"
+
+#: views/settings.php:478
+#: views/settings.php:571
+#@ mymail
+msgid "Name your form"
+msgstr "Nome del form"
+
+#: views/settings.php:479
+#: views/settings.php:572
+#@ mymail
+msgid "remove this form"
+msgstr "cancella questo form"
+
+#: views/settings.php:508
+#: views/settings.php:601
+#@ mymail
+msgid "offer lists"
+msgstr ""
+
+#: views/settings.php:531
+#: views/settings.php:623
+#@ mymail
+msgid "new lists"
+msgstr "nuove liste"
+
+#: views/settings.php:571
+#@ mymail
+msgid "undefined"
+msgstr "indefinito"
+
+#: classes/widget.class.php:33
+#: views/settings.php:662
+#@ mymail
+msgid "add form"
+msgstr "aggiungi form"
+
+#: views/settings.php:665
+#@ mymail
+msgid "Form CSS"
+msgstr "Form CSS"
+
+#: views/settings.php:665
+#@ mymail
+msgid "Define some CSS rules for the form"
+msgstr ""
+
+#: views/settings.php:284
+#@ mymail
+msgid "Custom field tags are individual tags for each subscriber. You can ask for them on subscription and/or make it a required field."
+msgstr ""
+
+#: views/settings.php:718
+#, php-format
+#@ mymail
+msgid "Tags are placeholder for your newsletter. You can set them anywhere in your newsletter template with the format %s. Custom field tags are induvidual for each subscriber."
+msgstr ""
+
+#: views/settings.php:721
+#@ mymail
+msgid "reserved tags"
+msgstr "tags riservati"
+
+#: views/settings.php:727
+#@ mymail
+msgid "These are permanent tags which cannot get deleted. The CAN-SPAM tag is required in many countries."
+msgstr ""
+
+#: classes/mymail.class.php:2600
+#: views/settings.php:727
+#@ mymail
+msgid "Read more"
+msgstr "Leggi Tutto"
+
+#: views/settings.php:742
+#@ mymail
+msgid "Add your custom tags here. They work like permanent tags"
+msgstr ""
+
+#: views/settings.php:1033
+#@ mymail
+msgid "Undeliverable emails will return to this address"
+msgstr ""
+
+#: views/settings.php:834
+#: views/settings.php:1093
+#: views/settings.php:1122
+#@ mymail
+msgid "You have to save your settings before you can test them!"
+msgstr ""
+
+#: views/settings.php:1350
+#, php-format
+#@ mymail
+msgid "If you disable this tab you cannot access it anymore from the settings page. If you would like to bring it back delete the %1$s option from the %2$s table"
+msgstr ""
+
+#: views/settings.php:719
+#, php-format
+#@ mymail
+msgid "You can set alternative content with %1$s which will be uses if %2$s is not defined. All unused tags will get removed in the final message"
+msgstr ""
+
+#: classes/mymail.class.php:1719
+#@ mymail
+msgid "Please fill out all fields correctly!"
+msgstr ""
+
+#: classes/widget.class.php:9
+#@ mymail
+msgid "Newsletter Signup Form"
+msgstr "Form di sottoscrizione Newsletter"
+
+#: classes/widget.class.php:10
+#@ mymail
+msgid "Sign Up form for the newsletter"
+msgstr "Modulo di iscrizione alla Newsletter"
+
+#: classes/widget.class.php:16
+#@ mymail
+msgid "Newsletter sign up"
+msgstr "Iscrizione Newsletter"
+
+#: classes/widget.class.php:92
+#@ mymail
+msgid "Newsletter List"
+msgstr "Lista Newsletter"
+
+#: classes/widget.class.php:93
+#@ mymail
+msgid "Display the most recent newsletters"
+msgstr "Mostra le newsletter più recenti"
+
+#: classes/settings.class.php:188
+#, php-format
+#@ mymail
+msgid "%s is a reserved tag!"
+msgstr "%s è un tag riservato!"
+
+#: views/newsletter/lists.php:29
+#@ mymail
+msgid "Total receivers"
+msgstr "Totale destinatari"
+
+#: classes/manage.class.php:54
+#@ mymail
+msgid "Import complete!"
+msgstr "Importazione Completata!"
+
+#: views/settings.php:759
+#, php-format
+#@ mymail
+msgid "displays the last tweet from Twitter user [username] (cache it for %s minutes)"
+msgstr "visualizza l'ultimo tweet dall'utente Twitter [username] (in cache per %s minuti)"
+
+#: classes/settings.class.php:70
+#: includes/updates.php:42
+#@ mymail
+msgid "An error occurred! Please try again later!"
+msgstr "Errore! Per favore riprova più tardi!"
+
+#: classes/settings.class.php:61
+#@ mymail
+msgid "Please confirm"
+msgstr "Per favore conferma"
+
+#: classes/settings.class.php:63
+#, php-format
+#@ mymail
+msgid "You'll need to confirm your email address. Please click the link below to confirm. %s"
+msgstr "Devi confermare il Tuo indirizzo email. Per favore clicca sul link. %s"
+
+#: classes/settings.class.php:64
+#@ mymail
+msgid "Click here to confirm"
+msgstr "Clicca qui per confermare"
+
+#: classes/settings.class.php:67
+#@ mymail
+msgid "Following fields are missing or incorrect"
+msgstr "I seguenti campi sono mancanti o errati"
+
+#: classes/settings.class.php:69
+#@ mymail
+msgid "You have successfully unsubscribed!"
+msgstr "Cancellazione avvenuta con successo!"
+
+#: views/settings.php:239
+#@ mymail
+msgid "Subscription"
+msgstr "Iscrizione"
+
+#: views/settings.php:242
+#@ mymail
+msgid "Headline"
+msgstr "Headline"
+
+#: views/settings.php:243
+#@ mymail
+msgid "Linktext"
+msgstr "Linktext"
+
+#: views/settings.php:244
+#@ mymail
+msgid "Text"
+msgstr "Testo"
+
+#: views/settings.php:680
+#@ mymail
+msgid "Confirmation"
+msgstr "Conferma"
+
+#: views/settings.php:681
+#@ mymail
+msgid "Successful"
+msgstr "Correttamente"
+
+#: views/settings.php:682
+#@ mymail
+msgid "Error Message"
+msgstr "Messaggio di Errore"
+
+#: views/settings.php:972
+#@ mymail
+msgid "You can setup an interval as low as one minute, but should consider a reasonable value of 5-15 minutes as well."
+msgstr ""
+
+#: views/settings.php:973
+#@ mymail
+msgid "If you need help setting up a cron job please refer to the documentation that your provider offers."
+msgstr ""
+
+#: views/settings.php:974
+#, php-format
+#@ mymail
+msgid "Anyway, chances are high that either %1$s, %2$s or %3$s  documentation will help you."
+msgstr ""
+
+#: views/settings.php:202
+#@ mymail
+msgid "Share Button"
+msgstr "Pulsante Condivisione"
+
+#: views/settings.php:949
+#@ mymail
+msgid "Optional if a real cron service is used"
+msgstr ""
+
+#: views/settings.php:1345
+#@ mymail
+msgid "Enter your purchasecode to enable automatic updates"
+msgstr "Inserisci il codice d'acquisto per abilitare gli aggiornamenti automatici"
+
+#: views/single-newsletter.php:83
+#@ mymail
+msgid "or send it with your mail application"
+msgstr "oppure invia con la tua applicazione email"
+
+#: views/settings.php:99
+#@ mymail
+msgid "show Templates"
+msgstr "mostra Templates"
+
+#: classes/mymail.class.php:1521
+#: classes/mymail.class.php:1568
+#@ mymail
+msgid "no entries found"
+msgstr "nessun risultato trovato"
+
+#: views/newsletter/template.php:106
+#@ mymail
+msgid "Link Button (required)"
+msgstr "Pulsante Link (richiesto)"
+
+#: views/settings.php:760
+#: views/settings.php:761
+#: views/settings.php:762
+#: views/settings.php:763
+#, php-format
+#@ mymail
+msgid "displays %1$s to share the newsletter via %2$s"
+msgstr ""
+
+#: views/settings.php:103
+#@ mymail
+msgid "Send delay"
+msgstr "Ritardo di invio"
+
+#: views/settings.php:104
+#@ mymail
+msgid "The default delay in minutes for sending campaigns."
+msgstr "Il ritardo di default per l'invio della campagna"
+
+#: views/settings.php:1067
+#@ mymail
+msgid "Delete messages without tracking code to keep postbox clear (recommended)"
+msgstr ""
+
+#: classes/mymail.class.php:1732
+#, php-format
+#@ mymail
+msgid "%1$s is forwarding this mail to you via %2$s"
+msgstr ""
+
+#: classes/mymail.class.php:2597
+#@ mymail
+msgid "An empty link will remove this button! Continue?"
+msgstr ""
+
+#: views/newsletter/template.php:106
+#: views/newsletter/template.php:143
+#@ mymail
+msgid "insert URL"
+msgstr "inserisci URL"
+
+#: classes/mymail.class.php:3819
+#@ mymail
+msgid "You are not allowed to pause campaigns."
+msgstr "Non sei abilitato a sospendere la campagna"
+
+#: classes/mymail.class.php:3832
+#@ mymail
+msgid "You are not allowed to start campaigns."
+msgstr "Non sei abilitato ad avviare la campagna"
+
+#: classes/mymail.class.php:3864
+#@ mymail
+msgid "You are not allowed to duplicate campaigns."
+msgstr "Non sei abilitato a duplicare la campagna"
+
+#: includes/capability.php:5
+#@ mymail
+msgid "edit campaigns"
+msgstr "modifica campagna"
+
+#: includes/capability.php:10
+#@ mymail
+msgid "send campaigns"
+msgstr "invia campagna"
+
+#: includes/capability.php:15
+#@ mymail
+msgid "delete campaigns"
+msgstr "cancella campagna"
+
+#: includes/capability.php:20
+#@ mymail
+msgid "edit others campaigns"
+msgstr "modifica altre campagne"
+
+#: includes/capability.php:25
+#@ mymail
+msgid "delete others campaigns"
+msgstr "cancella altre campagne"
+
+#: includes/capability.php:30
+#@ mymail
+msgid "duplicate campaigns"
+msgstr "duplica campagna"
+
+#: includes/capability.php:35
+#@ mymail
+msgid "duplicate others campaigns"
+msgstr "duplica altre campagne"
+
+#: includes/capability.php:51
+#@ mymail
+msgid "change template"
+msgstr "cambia template"
+
+#: includes/capability.php:60
+#@ mymail
+msgid "see codeview"
+msgstr "vedi codice"
+
+#: includes/capability.php:66
+#@ mymail
+msgid "edit subscribers"
+msgstr "modifica iscritti"
+
+#: includes/capability.php:71
+#@ mymail
+msgid "create subscribers"
+msgstr "crea iscritti"
+
+#: includes/capability.php:76
+#@ mymail
+msgid "edit others subscribers"
+msgstr "modifica altri iscritti"
+
+#: includes/capability.php:81
+#@ mymail
+msgid "delete subscribers"
+msgstr "cancella iscritti"
+
+#: includes/capability.php:86
+#@ mymail
+msgid "delete others subscribers"
+msgstr "cancella altri iscritti"
+
+#: includes/capability.php:93
+#@ mymail
+msgid "edit lists"
+msgstr "modifica liste"
+
+#: includes/capability.php:98
+#@ mymail
+msgid "delete lists"
+msgstr "cancella liste"
+
+#: includes/capability.php:103
+#@ mymail
+msgid "assign lists"
+msgstr "assegna liste"
+
+#: includes/capability.php:115
+#@ mymail
+msgid "import subscribers"
+msgstr "importa iscritti"
+
+#: includes/capability.php:120
+#@ mymail
+msgid "export subscribers"
+msgstr "esporta iscritti"
+
+#: includes/capability.php:127
+#@ mymail
+msgid "manage templates"
+msgstr "gestisci templates"
+
+#: includes/capability.php:132
+#@ mymail
+msgid "edit templates"
+msgstr "modifica templates"
+
+#: includes/capability.php:137
+#@ mymail
+msgid "delete templates"
+msgstr "cancella templates"
+
+#: includes/capability.php:142
+#@ mymail
+msgid "upload templates"
+msgstr "carica templates"
+
+#: includes/capability.php:147
+#@ mymail
+msgid "see dashboard widget"
+msgstr ""
+
+#: views/settings.php:50
+#@ mymail
+msgid "Capabilities"
+msgstr "Autorizzazioni"
+
+#: views/settings.php:990
+#@ mymail
+msgid "Set Capability"
+msgstr "Imposta Autorizzazioni"
+
+#: views/settings.php:1014
+#, php-format
+#@ mymail
+msgid "%1$s can %2$s"
+msgstr ""
+
+#: views/settings.php:990
+#@ mymail
+msgid "Define capabilities for each user role. To add new roles you can use a third party plugin. Administrator has always all privileges"
+msgstr ""
+
+#: classes/autoresponder.class.php:464
+#: classes/mymail.class.php:2150
+#, php-format
+#@ mymail
+msgid "%d emails have not been sent"
+msgstr "%d emails non sono state inviate"
+
+#: classes/settings.class.php:173
+#: views/settings.php:296
+#@ mymail
+msgid "Field Name"
+msgstr "Nome Campo"
+
+#: classes/settings.class.php:174
+#: views/settings.php:297
+#@ mymail
+msgid "Tag"
+msgstr "Tag"
+
+#: classes/settings.class.php:175
+#: views/settings.php:298
+#@ mymail
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/settings.class.php:176
+#: views/settings.php:301
+#@ mymail
+msgid "Textfield"
+msgstr "Campo Testo"
+
+#: classes/settings.class.php:177
+#: views/settings.php:302
+#@ mymail
+msgid "Dropdown Menu"
+msgstr ""
+
+#: classes/settings.class.php:178
+#: views/settings.php:303
+#@ mymail
+msgid "Radio Buttons"
+msgstr "Radio Buttons"
+
+#: classes/settings.class.php:180
+#: views/settings.php:320
+#@ mymail
+msgid "default"
+msgstr "default"
+
+#: classes/settings.class.php:182
+#: views/settings.php:320
+#: views/settings.php:327
+#@ mymail
+msgid "this field is selected by default"
+msgstr "questo campo è selezionato di default"
+
+#: classes/settings.class.php:183
+#: views/settings.php:323
+#@ mymail
+msgid "add field"
+msgstr "aggiungi campo"
+
+#: classes/settings.class.php:185
+#: views/settings.php:320
+#: views/settings.php:329
+#@ mymail
+msgid "remove field"
+msgstr "rimuovi campo"
+
+#: classes/settings.class.php:186
+#: views/settings.php:294
+#@ mymail
+msgid "move up"
+msgstr "muovi su"
+
+#: classes/settings.class.php:187
+#: views/settings.php:295
+#@ mymail
+msgid "move down"
+msgstr "muovi giu"
+
+#: classes/subscriber.class.php:846
+#: classes/subscriber.class.php:850
+#@ mymail
+msgid "Error"
+msgstr "Errore"
+
+#: classes/manage.class.php:53
+#@ mymail
+msgid "Do you really like to import these contacts?"
+msgstr "Vuoi veramente importare questi contatti?"
+
+#: classes/mymail.class.php:1293
+#: classes/mymail.class.php:1294
+#: classes/mymail.class.php:1295
+#: views/manage.php:279
+#: views/settings.php:971
+#, php-format
+#@ mymail
+msgid "%s ago"
+msgstr "%s fa"
+
+#: views/manage.php:121
+#: views/manage.php:338
+#@ mymail
+msgid "subscribed"
+msgstr "iscritto"
+
+#: views/manage.php:122
+#: views/manage.php:339
+#@ mymail
+msgid "unsubscribed"
+msgstr "cancellato"
+
+#: views/manage.php:123
+#: views/manage.php:340
+#@ mymail
+msgid "hardbounced"
+msgstr "rimbalzato"
+
+#: views/settings.php:46
+#@ mymail
+msgid "Texts"
+msgstr "Testi"
+
+#: views/settings.php:678
+#@ mymail
+msgid "Define messages for the subscription form"
+msgstr "Definisci i messaggi per il modulo di sottoscrizione"
+
+#: views/settings.php:691
+#@ mymail
+msgid "Field Labels"
+msgstr "Etichette campo"
+
+#: views/settings.php:691
+#@ mymail
+msgid "Define texts for the labels of forms. Custom field labels can be defined on the Subscribers tab"
+msgstr ""
+
+#: views/settings.php:697
+#@ mymail
+msgid "Submit Button"
+msgstr "Pulsante Invio"
+
+#: views/settings.php:704
+#@ mymail
+msgid "Mail"
+msgstr "Mail"
+
+#: views/settings.php:704
+#@ mymail
+msgid "Define texts for the mails"
+msgstr "Definisci testo per le email"
+
+#: views/settings.php:706
+#@ mymail
+msgid "Unsubscribe Link"
+msgstr "Link di cancellazione"
+
+#: views/settings.php:707
+#@ mymail
+msgid "Webversion Link"
+msgstr "Link Vista Browser"
+
+#: classes/settings.class.php:76
+#: includes/updates.php:26
+#@ mymail
+msgid "Yes, unsubscribe me"
+msgstr "Cancellami"
+
+#: views/settings.php:698
+#@ mymail
+msgid "Unsubscribe Button"
+msgstr "Pulsante cancellazione"
+
+#: classes/mymail.class.php:2406
+#@ mymail
+msgid "Clickmap"
+msgstr "Clickmap"
+
+#: classes/mymail.class.php:2609
+#@ mymail
+msgid "Delete this color schema?"
+msgstr "Cancello questo schema colore?"
+
+#: views/newsletter/delivery.php:35
+#, php-format
+#@ mymail
+msgid "This campaign was sent on %s. You cannot edit it anymore"
+msgstr ""
+
+#: views/newsletter/options.php:57
+#@ mymail
+msgid "current"
+msgstr "corrente"
+
+#: views/newsletter/options.php:8
+#@ mymail
+msgid "Colors"
+msgstr "Colori"
+
+#: classes/autoresponder.class.php:325
+#: classes/autoresponder.class.php:363
+#: classes/autoresponder.class.php:367
+#@ mymail
+msgid "Autoresponder"
+msgstr "Autorisponditore"
+
+#: classes/autoresponder.class.php:367
+#@ mymail
+msgid "Autoresponders"
+msgstr "Autorisponditori"
+
+#: classes/autoresponder.class.php:377
+#@ mymail
+msgid "Sent"
+msgstr "Inviato"
+
+#: classes/autoresponder.class.php:404
+#@ mymail
+msgid "active"
+msgstr "attivo"
+
+#: classes/autoresponder.class.php:404
+#@ mymail
+msgid "inactive"
+msgstr "inattivo"
+
+#: classes/autoresponder.class.php:410
+#: views/newsletter/delivery.php:80
+#@ mymail
+msgid "after"
+msgstr "dopo"
+
+#: classes/autoresponder.class.php:426
+#: views/newsletter/delivery.php:94
+#@ mymail
+msgid "only if"
+msgstr "solo se"
+
+#: classes/autoresponder.class.php:432
+#, php-format
+#@ mymail
+msgid "%s is missing!"
+msgstr "%s è mancante!"
+
+#: classes/autoresponder.class.php:449
+#@ mymail
+msgid "activate"
+msgstr "attivato"
+
+#: classes/autoresponder.class.php:451
+#@ mymail
+msgid "deactivate"
+msgstr "disattivato"
+
+#: includes/autoresponder.php:6
+#@ mymail
+msgid "minute(s)"
+msgstr "minuto(i)"
+
+#: includes/autoresponder.php:7
+#@ mymail
+msgid "hour(s)"
+msgstr "ora(e)"
+
+#: includes/autoresponder.php:8
+#@ mymail
+msgid "day(s)"
+msgstr "giorno(i)"
+
+#: includes/autoresponder.php:9
+#@ mymail
+msgid "weeks(s)"
+msgstr "settimana(e)"
+
+#: includes/autoresponder.php:14
+#@ mymail
+msgid "user signed up"
+msgstr ""
+
+#: includes/autoresponder.php:18
+#@ mymail
+msgid "user unsubscribed"
+msgstr "iscritto cancellato"
+
+#: includes/autoresponder.php:34
+#@ mymail
+msgid "is"
+msgstr "è"
+
+#: includes/autoresponder.php:35
+#@ mymail
+msgid "is not"
+msgstr "non è"
+
+#: includes/autoresponder.php:36
+#@ mymail
+msgid "contains"
+msgstr "contiene"
+
+#: includes/autoresponder.php:37
+#@ mymail
+msgid "contains not"
+msgstr "non contiene"
+
+#: includes/autoresponder.php:38
+#@ mymail
+msgid "begins with"
+msgstr "inizia con"
+
+#: includes/autoresponder.php:39
+#@ mymail
+msgid "ends with"
+msgstr "finisce con"
+
+#: includes/autoresponder.php:40
+#@ mymail
+msgid "is less than"
+msgstr "è inferiore"
+
+#: includes/autoresponder.php:41
+#@ mymail
+msgid "is more than"
+msgstr "è superiore"
+
+#: includes/capability.php:40
+#@ mymail
+msgid "edit autoresponders"
+msgstr "modifica autorisponditore"
+
+#: includes/capability.php:45
+#@ mymail
+msgid "edit others autoresponders"
+msgstr "modifica altri autorisponditori"
+
+#: views/newsletter/delivery.php:23
+#@ mymail
+msgid "Regular Campaign"
+msgstr "Campagna Regolare"
+
+#: views/newsletter/delivery.php:42
+#@ mymail
+msgid "send this campaign"
+msgstr "Invia questa Campagna"
+
+#: views/newsletter/delivery.php:99
+#@ mymail
+msgid "one of the conditions is true"
+msgstr "una delle condizioni è vera"
+
+#: classes/mymail.class.php:1701
+#: views/newsletter/delivery.php:100
+#@ mymail
+msgid "and"
+msgstr "e"
+
+#: views/newsletter/delivery.php:100
+#@ mymail
+msgid "all of the conditions are true"
+msgstr "tutte le condizioni sono vere"
+
+#: views/newsletter/delivery.php:134
+#@ mymail
+msgid "remove condition"
+msgstr "rimuovi condizione"
+
+#: views/newsletter/delivery.php:134
+#@ mymail
+msgid "remove"
+msgstr "rimuovi"
+
+#: views/newsletter/delivery.php:140
+#@ mymail
+msgid "add condition"
+msgstr "aggiungi condizione"
+
+#: views/newsletter/delivery.php:215
+#, php-format
+#@ mymail
+msgid "send a copy to %s and get a detailed report about your newsletter"
+msgstr ""
+
+#: classes/autoresponder.class.php:415
+#@ mymail
+msgid "in one of these lists"
+msgstr "in una di queste liste"
+
+#: classes/autoresponder.class.php:416
+#: classes/subscriber.class.php:897
+#: views/newsletter/lists.php:39
+#@ mymail
+msgid "no lists selected"
+msgstr "nessuna lista selezionata"
+
+#: classes/autoresponder.class.php:454
+#@ mymail
+msgid "remove all future jobs"
+msgstr "rimuovi tutti i lavori futuri"
+
+#: classes/autoresponder.class.php:709
+#, php-format
+#@ mymail
+msgid "%d job deleted"
+msgid_plural "%d jobs deleted"
+msgstr[0] "%d lavoro cancellato"
+msgstr[1] "%d lavori cancellati"
+
+#: views/newsletter/lists.php:17
+#@ mymail
+msgid "all"
+msgstr "tutto"
+
+#: views/newsletter/options.php:169
+#@ mymail
+msgid "background images are not displayed on all clients!"
+msgstr ""
+
+#: views/settings.php:116
+#@ mymail
+msgid "Use the notification template for all outgoing WordPress mails"
+msgstr ""
+
+#: views/settings.php:115
+#@ mymail
+msgid "Use MyMail for system mails"
+msgstr ""
+
+#: classes/mymail.class.php:196
+#@ mymail
+msgid "dismiss message"
+msgstr "elimina messaggio"
+
+#: classes/autoresponder.class.php:454
+#@ mymail
+msgid "You are about to delete all upcoming jobs for this auto responder."
+msgstr ""
+
+#: views/templates.php:164
+#, php-format
+#@ mymail
+msgid "You are about to delete this template \"%s\""
+msgstr ""
+
+#: classes/mymail.class.php:1975
+#@ mymail
+msgid "Template saved"
+msgstr "Template Salvato"
+
+#: classes/mymail.class.php:2107
+#@ mymail
+msgid "less than a minute"
+msgstr "meno di un minuto"
+
+#: classes/templates.class.php:282
+#: classes/templates.class.php:884
+#@ mymail
+msgid "Base"
+msgstr "Base"
+
+#: classes/templates.class.php:283
+#: classes/templates.class.php:885
+#@ mymail
+msgid "Notification"
+msgstr "Notifica"
+
+#: views/newsletter/template.php:30
+#@ mymail
+msgid "remove modules"
+msgstr "rimuovi moduli"
+
+#: views/newsletter/template.php:35
+#@ mymail
+msgid "preview"
+msgstr "anteprima"
+
+#: views/newsletter/template.php:27
+#@ mymail
+msgid "undo"
+msgstr "undo"
+
+#: views/newsletter/template.php:28
+#@ mymail
+msgid "redo"
+msgstr "redo"
+
+#: views/newsletter/template.php:33
+#@ mymail
+msgid "toggle HTML/code view"
+msgstr ""
+
+#: views/newsletter/template.php:39
+#, php-format
+#@ mymail
+msgid "Your currently working with %s"
+msgstr ""
+
+#: includes/capability.php:55
+#: views/newsletter/template.php:70
+#@ mymail
+msgid "save template"
+msgstr "salva template"
+
+#: views/newsletter/template.php:74
+#@ mymail
+msgid "Save Template"
+msgstr "Salva Template"
+
+#: views/newsletter/template.php:76
+#@ mymail
+msgid "template name"
+msgstr "nome del template"
+
+#: views/newsletter/template.php:78
+#@ mymail
+msgid "modules"
+msgstr "moduli"
+
+#: views/settings.php:670
+#@ mymail
+msgid "check this box to reset the style to default value"
+msgstr ""
+
+#: views/settings.php:814
+#@ mymail
+msgid "Depending on your hosting provider you can increase these values"
+msgstr ""
+
+#: views/settings.php:967
+#@ mymail
+msgid "call it directly"
+msgstr ""
+
+#: views/settings.php:969
+#@ mymail
+msgid "or set up a cron"
+msgstr ""
+
+#: views/templates.php:100
+#, php-format
+#@ mymail
+msgid "remove file %s"
+msgstr "elimina file %s"
+
+#: views/settings.php:454
+#@ mymail
+msgid "AJAX Form"
+msgstr "AJAX Form"
+
+#: views/settings.php:669
+#@ mymail
+msgid "Reset form CSS"
+msgstr ""
+
+#: classes/autoresponder.class.php:410
+#, php-format
+#@ mymail
+msgid "send %1$s %2$s %3$s"
+msgstr "invia %1$s %2$s %3$s"
+
+#: classes/autoresponder.class.php:410
+#@ mymail
+msgid "immediately"
+msgstr "immediatamente"
+
+#: classes/mymail.class.php:1517
+#: classes/mymail.class.php:1563
+#, php-format
+#@ mymail
+msgid "load more entries (%d left)"
+msgstr "carica altri datis (%d mancante)"
+
+#: classes/mail.class.php:141
+#: classes/mymail.class.php:1146
+#, php-format
+#@ mymail
+msgid "Sent limit of %1$s reached! You have to wait %2$s before you can send more mails!"
+msgstr ""
+
+#: views/settings.php:684
+#@ mymail
+msgid "Unsubscribe Error"
+msgstr "Errore di Cancellazione"
+
+#: classes/mymail.class.php:2882
+#: views/settings.php:812
+#@ mymail
+msgid "Number of mails sent"
+msgstr "Numero di email inviate"
+
+#: views/settings.php:813
+#, php-format
+#@ mymail
+msgid "Send max %1$s emails at once and max %2$s within %3$s hours"
+msgstr ""
+
+#: views/settings.php:815
+#, php-format
+#@ mymail
+msgid "You can still send %1$s mails within the next %2$s"
+msgstr ""
+
+#: views/settings.php:965
+#@ mymail
+msgid "You can leave a browser window open with following URL"
+msgstr ""
+
+#: classes/mymail.class.php:950
+#@ mymail
+msgid "Unable to save template!"
+msgstr "Impossibile salvare il template!"
+
+#: classes/settings.class.php:570
+#@ mymail
+msgid "Form CSS reseted!"
+msgstr ""
+
+#: views/newsletter/template.php:80
+#@ mymail
+msgid "overwrite if exists"
+msgstr "sovrascrivi esistente"
+
+#: classes/manage.class.php:316
+#@ mymail
+msgid "Do auto responder for all imported emails"
+msgstr ""
+
+#: includes/capability.php:152
+#@ mymail
+msgid "manage capabilities"
+msgstr "gestione autorizzazioni"
+
+#: views/settings.php:455
+#@ mymail
+msgid "use AJAX based forms"
+msgstr "usa forms AJAX"
+
+#: views/settings.php:552
+#: views/settings.php:643
+#@ mymail
+msgid "embed form"
+msgstr "allega il form"
+
+#: views/settings.php:553
+#: views/settings.php:644
+#@ mymail
+msgid "embed this form on another site"
+msgstr "allega questo form in un altro sito"
+
+#: views/settings.php:560
+#: views/settings.php:651
+#@ mymail
+msgid "check this option to include the style.css of your theme into the form"
+msgstr ""
+
+#: views/settings.php:560
+#: views/settings.php:651
+#@ mymail
+msgid "include themes style.css"
+msgstr ""
+
+#: classes/settings.class.php:749
+#@ mymail
+msgid "City DB successfully loaded!"
+msgstr ""
+
+#: classes/settings.class.php:746
+#@ mymail
+msgid "Couldn't load City DB"
+msgstr ""
+
+#: classes/templates.class.php:428
+#@ mymail
+msgid "Not able to save file!"
+msgstr "Non abilitato a salvare il file!"
+
+#: classes/templates.class.php:426
+#@ mymail
+msgid "File has been saved!"
+msgstr "Salvataggio riuscito!"
+
+#: views/newsletter/details.php:107
+#@ mymail
+msgid "back to world view"
+msgstr "torna alla vista mondo"
+
+#: views/newsletter/details.php:154
+#, php-format
+#@ mymail
+msgid "%d opened"
+msgid_plural "%d opens"
+msgstr[0] "%d aperto"
+msgstr[1] "%d aperti"
+
+#: views/newsletter/details.php:240
+#@ mymail
+msgid "unknown locations"
+msgstr "luogo sconosciuto"
+
+#: views/settings.php:111
+#@ mymail
+msgid "Post List Count"
+msgstr ""
+
+#: views/settings.php:112
+#@ mymail
+msgid "Number of posts or images displayed at once in the editbar."
+msgstr ""
+
+#: views/settings.php:136
+#@ mymail
+msgid "Track Cities in Campaigns"
+msgstr ""
+
+#: views/templates.php:100
+#, php-format
+#@ mymail
+msgid "You are about to delete the file %s"
+msgstr "Stai per eliminare il file %s"
+
+#: views/templates.php:159
+#@ mymail
+msgid "This file is no writeable! Please change the file permission"
+msgstr ""
+
+#: classes/settings.class.php:79
+#: includes/updates.php:57
+#@ mymail
+msgid "forward to a friend"
+msgstr "invia a un amico"
+
+#: views/settings.php:124
+#@ mymail
+msgid "Track Geolocation"
+msgstr ""
+
+#: views/settings.php:143
+#@ mymail
+msgid "The city DB is about 12 MB. It can take a while to load it"
+msgstr ""
+
+#: views/settings.php:156
+#@ mymail
+msgid "Your city"
+msgstr "La tua Città"
+
+#: views/settings.php:532
+#: views/settings.php:624
+#@ mymail
+msgid "inline labels"
+msgstr "etichette in linea"
+
+#: views/settings.php:532
+#: views/settings.php:624
+#@ mymail
+msgid "place labels inside input fields"
+msgstr ""
+
+#: views/settings.php:531
+#: views/settings.php:623
+#@ mymail
+msgid "assign new lists automatically to this form"
+msgstr "assegna la nuova lista automaticamente a questo form"
+
+#: views/settings.php:708
+#@ mymail
+msgid "Forward Link"
+msgstr ""
+
+#: classes/autoresponder.class.php:454
+#, php-format
+#@ mymail
+msgid "remove %d upcoming job"
+msgid_plural "remove %d upcoming jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/form.class.php:322
+#@ mymail
+msgid "Select at least one list"
+msgstr ""
+
+#: classes/manage.class.php:28
+#@ mymail
+msgid "Manage Subscribers"
+msgstr "Gestione Iscritti"
+
+#: classes/manage.class.php:39
+#@ mymail
+msgid "Please select at least the column with the email addresses!"
+msgstr ""
+
+#: classes/manage.class.php:41
+#@ mymail
+msgid "preparing data"
+msgstr ""
+
+#: classes/manage.class.php:42
+#, php-format
+#@ mymail
+msgid "uploading...%s"
+msgstr ""
+
+#: classes/manage.class.php:43
+#, php-format
+#@ mymail
+msgid "Importing Contacts...%s"
+msgstr "Importa Contatti...%s"
+
+#: classes/manage.class.php:45
+#, php-format
+#@ mymail
+msgid "Estimate time left: %s minutes"
+msgstr "Tempo stimato rimanente: %s minuti"
+
+#: classes/manage.class.php:46
+#, php-format
+#@ mymail
+msgid "continues in %s seconds"
+msgstr "continua tra %s secondi"
+
+#: classes/manage.class.php:48
+#, php-format
+#@ mymail
+msgid "Preparing Download...%s"
+msgstr "Preparazione Download...%s"
+
+#: classes/manage.class.php:49
+#, php-format
+#@ mymail
+msgid "writing file: %s"
+msgstr "file in scrittura: %s"
+
+#: classes/manage.class.php:50
+#@ mymail
+msgid "Download finished"
+msgstr "Download terminato"
+
+#: classes/manage.class.php:51
+#@ mymail
+msgid "Downloading..."
+msgstr "Downloading..."
+
+#: classes/manage.class.php:52
+#@ mymail
+msgid "Please select at least one list!"
+msgstr "Per favore seleziona almeno una lista!"
+
+#: classes/manage.class.php:55
+#@ mymail
+msgid "You are about to delete these subscribers permanently. This step is irreversible!"
+msgstr ""
+
+#: classes/manage.class.php:55
+#, php-format
+#@ mymail
+msgid "Type \"%s\" to confirm deletion"
+msgstr "Digita \"%s\" per confermare la cancellazione"
+
+#: classes/manage.class.php:56
+#@ mymail
+msgid "You are currently importing subscribers! If you leave the page all pending subscribers don't get imported!"
+msgstr ""
+
+#: classes/manage.class.php:57
+#@ mymail
+msgid "Your download is preparing! If you leave this page the progress will abort!"
+msgstr ""
+
+#: classes/manage.class.php:248
+#: classes/manage.class.php:638
+#: views/manage.php:209
+#: views/manage.php:257
+#@ mymail
+msgid "IP Address"
+msgstr "Indirizzo IP"
+
+#: classes/manage.class.php:249
+#: classes/manage.class.php:641
+#: views/manage.php:210
+#@ mymail
+msgid "Signup Date"
+msgstr "Data Sottoscrizione"
+
+#: classes/manage.class.php:257
+#@ mymail
+msgid "Ignore column"
+msgstr "Ignora colonna"
+
+#: classes/manage.class.php:290
+#, php-format
+#@ mymail
+msgid "%d contacts are hidden"
+msgstr "%d contatti sono nascosti"
+
+#: classes/manage.class.php:303
+#@ mymail
+msgid "add contacts to following lists"
+msgstr "aggiungi contatti alle liste seguenti"
+
+#: classes/manage.class.php:316
+#@ mymail
+msgid "Respects the signup time if you define it"
+msgstr ""
+
+#: classes/manage.class.php:319
+#, php-format
+#@ mymail
+msgid "Import %d contacts"
+msgstr "Importa %d contatti"
+
+#: classes/manage.class.php:437
+#: classes/subscriber.class.php:334
+#: classes/subscriber.class.php:522
+#@ mymail
+msgid "invalid email address"
+msgstr "indirizzo email non valido"
+
+#: classes/manage.class.php:444
+#: classes/subscriber.class.php:346
+#, php-format
+#@ mymail
+msgid "user already exists (ID: %d)"
+msgstr "Iscritto esistente (ID: %d)"
+
+#: classes/manage.class.php:489
+#, php-format
+#@ mymail
+msgid "%1$d of %2$d contacts imported"
+msgstr ""
+
+#: classes/manage.class.php:492
+#@ mymail
+msgid "The following addresses were not imported"
+msgstr ""
+
+#: classes/manage.class.php:494
+#@ mymail
+msgid "Reason"
+msgstr ""
+
+#: classes/manage.class.php:576
+#@ mymail
+msgid "no subscribers found"
+msgstr "nessun iscritto trovato"
+
+#: classes/manage.class.php:644
+#: views/manage.php:211
+#@ mymail
+msgid "Signup IP"
+msgstr ""
+
+#: classes/manage.class.php:647
+#: views/manage.php:212
+#@ mymail
+msgid "Confirm Date"
+msgstr "Conferma Data"
+
+#: classes/manage.class.php:650
+#: views/manage.php:213
+#@ mymail
+msgid "Confirm IP"
+msgstr "Conferma IP"
+
+#: classes/manage.class.php:887
+#, php-format
+#@ mymail
+msgid "%d subscribers removed"
+msgstr "%d iscritti rimossi"
+
+#: classes/manage.class.php:891
+#@ mymail
+msgid "no subscribers removed"
+msgstr "nessun iscritto rimosso"
+
+#: classes/manage.class.php:917
+#@ default
+msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
+msgstr ""
+
+#: classes/manage.class.php:971
+#@ mymail
+msgid "Comma-separated values (CSV)"
+msgstr ""
+
+#: classes/manage.class.php:987
+#@ mymail
+msgid "Drop your list here"
+msgstr ""
+
+#: classes/manage.class.php:988
+#@ default
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr ""
+
+#: classes/manage.class.php:989
+#@ mymail
+msgid "Select File"
+msgstr "Seleziona File"
+
+#: classes/manage.class.php:1004
+#, php-format
+#@ default
+msgid "Maximum upload file size: %d%s."
+msgstr "Dimensione massima file: %d%s."
+
+#: classes/manage.class.php:1004
+#@ mymail
+msgid "Split your lists into max 50.000 subscribers each"
+msgstr ""
+
+#: classes/manage.class.php:1007
+#@ default
+msgid "Your browser has some limitations uploading large files with the multi-file uploader. Please use the browser uploader for files over 100MB."
+msgstr ""
+
+#: classes/mymail.class.php:633
+#: classes/mymail.class.php:634
+#@ mymail
+msgid "wrong post type"
+msgstr "tipo di post errato"
+
+#: classes/mymail.class.php:636
+#@ mymail
+msgid "User has not subscribed"
+msgstr "L'utente non è iscritto"
+
+#: classes/mymail.class.php:745
+#@ mymail
+msgid "Invalid email"
+msgstr "Email non valida"
+
+#: classes/mymail.class.php:3291
+#, php-format
+#@ mymail
+msgid "Campaign %1$s has been paused cause of a sending error: %2$s"
+msgstr ""
+
+#: classes/mymail.class.php:3939
+#@ default
+msgid "Y/m/d"
+msgstr ""
+
+#: classes/mymail.class.php:4124
+#, php-format
+#@ mymail
+msgid "You haven't defined a homepage for the newsletter. This is required to make the subscription form work correctly. Please check the %s"
+msgstr ""
+
+#: classes/mymail.class.php:4124
+#@ mymail
+msgid "frontend settings page"
+msgstr ""
+
+#: classes/settings.class.php:189
+#@ mymail
+msgid "You are about to create new DKIM keys. The old ones will get deleted. Continue?"
+msgstr ""
+
+#: classes/settings.class.php:404
+#@ mymail
+msgid "New DKIM keys have been created!"
+msgstr ""
+
+#: classes/settings.class.php:408
+#@ mymail
+msgid "Not able to create new DKIM keys!"
+msgstr ""
+
+#: classes/settings.class.php:646
+#, php-format
+#@ mymail
+msgid "Send limit has been adjusted to %d for Gmail"
+msgstr ""
+
+#: classes/subscriber.class.php:335
+#: classes/subscriber.class.php:523
+#@ mymail
+msgid "no lists defined"
+msgstr "nessuna lista definita"
+
+#: classes/subscriber.class.php:391
+#: classes/subscriber.class.php:455
+#@ mymail
+msgid "not able to insert subscriber"
+msgstr ""
+
+#: classes/subscriber.class.php:511
+#@ default
+msgid "Could not insert term relationship into the database"
+msgstr ""
+
+#: classes/subscriber.class.php:987
+#@ mymail
+msgid "Meta"
+msgstr "Meta"
+
+#: classes/widget.class.php:36
+#@ mymail
+msgid "Text before the form"
+msgstr "Testo prima del form"
+
+#: classes/widget.class.php:38
+#@ mymail
+msgid "Text after the form"
+msgstr "Testo dopo il form"
+
+#: includes/capability.php:110
+#@ mymail
+msgid "manage subscribers"
+msgstr "gesione iscritti"
+
+#: includes/static.php:7
+#@ mymail
+msgid "Do you really want to unsubscribe?"
+msgstr "Vuoi veramente cancellarti?"
+
+#: views/manage.php:12
+#@ mymail
+msgid "Import"
+msgstr "Importa"
+
+#: views/manage.php:15
+#@ mymail
+msgid "Export"
+msgstr "Esporta"
+
+#: views/manage.php:18
+#@ mymail
+msgid "Pending"
+msgstr "In Sospeso"
+
+#: views/manage.php:21
+#@ mymail
+msgid "Delete"
+msgstr "Cancella"
+
+#: views/manage.php:32
+#@ mymail
+msgid "upload you subscribers as comma-separated list (CSV)"
+msgstr "carica iscritti come lista comma-separated (CSV)"
+
+#: views/manage.php:45
+#@ mymail
+msgid "Paste"
+msgstr "Incolla"
+
+#: views/manage.php:46
+#@ mymail
+msgid "paste your list here"
+msgstr "incolla la lista qui"
+
+#: views/manage.php:99
+#: views/manage.php:316
+#@ mymail
+msgid "which are in one of these lists"
+msgstr "che sono in una di queste liste"
+
+#: views/manage.php:114
+#: views/manage.php:331
+#@ mymail
+msgid "subscribers not assigned to a list"
+msgstr "iscritto non assegnato ad alcuna lista"
+
+#: views/manage.php:118
+#: views/manage.php:335
+#@ mymail
+msgid "and have one of these statuses"
+msgstr ""
+
+#: views/manage.php:124
+#: views/manage.php:341
+#@ mymail
+msgid "error"
+msgstr "errore"
+
+#: views/manage.php:125
+#: views/manage.php:342
+#@ mymail
+msgid "trash"
+msgstr "cestino"
+
+#: views/manage.php:128
+#@ mymail
+msgid "include header"
+msgstr ""
+
+#: views/manage.php:131
+#@ default
+msgid "Date Format"
+msgstr ""
+
+#: views/manage.php:185
+#@ mymail
+msgid "MySQL Server Performance"
+msgstr ""
+
+#: views/manage.php:187
+#@ mymail
+msgid "low"
+msgstr "basso"
+
+#: views/manage.php:188
+#@ mymail
+msgid "normal"
+msgstr "normale"
+
+#: views/manage.php:189
+#@ mymail
+msgid "high"
+msgstr "alto"
+
+#: views/manage.php:190
+#@ mymail
+msgid "super high"
+msgstr "molto alto"
+
+#: views/manage.php:191
+#@ mymail
+msgid "super extreme high"
+msgstr "altissimo"
+
+#: views/manage.php:196
+#@ mymail
+msgid "Define order and included columns"
+msgstr ""
+
+#: views/manage.php:224
+#@ mymail
+msgid "Listnames"
+msgstr ""
+
+#: views/manage.php:231
+#@ mymail
+msgid "Download Subscribers"
+msgstr ""
+
+#: views/manage.php:238
+#: views/manage.php:353
+#@ mymail
+msgid "no subscriber found"
+msgstr ""
+
+#: views/manage.php:245
+#@ mymail
+msgid "Pending Subscribers"
+msgstr ""
+
+#: views/manage.php:254
+#@ mymail
+msgid "following subscribers didn't confirm there subscription yet"
+msgstr ""
+
+#: views/manage.php:257
+#@ mymail
+msgid "Userdata"
+msgstr ""
+
+#: views/manage.php:257
+#@ mymail
+msgid "Signup Time"
+msgstr ""
+
+#: views/manage.php:293
+#@ mymail
+msgid "currently no pending subscribers"
+msgstr ""
+
+#: views/manage.php:300
+#@ mymail
+msgid "Delete Subscribers"
+msgstr "Cancella Iscritti"
+
+#: views/manage.php:345
+#@ mymail
+msgid "remove selected lists"
+msgstr "rimuovi liste selezionate"
+
+#: views/manage.php:348
+#@ mymail
+msgid "Delete Subscribers permanently"
+msgstr ""
+
+#: views/manage.php:359
+#@ default
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: views/newsletter/delivery.php:224
+#, php-format
+#@ mymail
+msgid "This campaign has been started on %1$s, %2$s ago"
+msgstr ""
+
+#: views/newsletter/template.php:131
+#@ mymail
+msgid "Media Manager"
+msgstr ""
+
+#: views/newsletter/template.php:143
+#@ mymail
+msgid "Link image to the this URL"
+msgstr ""
+
+#: views/newsletter/template.php:221
+#@ mymail
+msgid "Insert"
+msgstr "Inserimento"
+
+#: views/settings.php:52
+#@ mymail
+msgid "Authentication"
+msgstr "Autenticazione"
+
+#: views/settings.php:197
+#@ mymail
+msgid "Pagination"
+msgstr "Paginazione"
+
+#: views/settings.php:198
+#@ mymail
+msgid "Allow users to view the next/last newsletters"
+msgstr ""
+
+#: views/settings.php:235
+#@ mymail
+msgid "Resend Confirmation"
+msgstr ""
+
+#: views/settings.php:236
+#, php-format
+#@ mymail
+msgid "resend confirmation %1$s times with a delay of %2$s hours if user hasn't confirmed the subscription"
+msgstr ""
+
+#: views/settings.php:277
+#@ mymail
+msgid "Save Subscriber IP"
+msgstr ""
+
+#: views/settings.php:278
+#@ mymail
+msgid "Save IP address and time of new subscribers"
+msgstr ""
+
+#: views/settings.php:279
+#@ mymail
+msgid "In some countries it's required to save the IP address and the sign up time for legal reasons. Please add a note in your privacy policy if you save users data"
+msgstr ""
+
+#: views/settings.php:285
+#@ mymail
+msgid "You have to enable Custom fields for each form:"
+msgstr ""
+
+#: views/settings.php:484
+#: views/settings.php:577
+#@ mymail
+msgid "sorting"
+msgstr "ordinamento"
+
+#: views/settings.php:484
+#: views/settings.php:577
+#@ mymail
+msgid "Click and drag to reorder fields. Uncheck to disable field for this form. Required fields must be included in the form."
+msgstr ""
+
+#: views/settings.php:484
+#: views/settings.php:577
+#@ mymail
+msgid "add Custom Fields"
+msgstr "aggiungi Campi Personalizzati"
+
+#: views/settings.php:492
+#: views/settings.php:501
+#: views/settings.php:585
+#: views/settings.php:594
+#@ mymail
+msgid "required"
+msgstr "ricgiesto"
+
+#: views/settings.php:533
+#: views/settings.php:625
+#@ mymail
+msgid "pre-fill fields"
+msgstr ""
+
+#: views/settings.php:533
+#: views/settings.php:625
+#@ mymail
+msgid "fill fields with known data if user is logged in"
+msgstr ""
+
+#: views/settings.php:824
+#@ mymail
+msgid "Time between mails"
+msgstr "Intervallo tra le email"
+
+#: views/settings.php:825
+#@ mymail
+msgid "milliseconds"
+msgstr "millisecondi"
+
+#: views/settings.php:825
+#@ mymail
+msgid "define a delay between mails in milliseconds if you have problems with sending two many mails at once"
+msgstr ""
+
+#: views/settings.php:829
+#@ mymail
+msgid "Send test email with current settings"
+msgstr ""
+
+#: views/settings.php:842
+#@ mymail
+msgid "Simple"
+msgstr "Semplice"
+
+#: views/settings.php:851
+#@ mymail
+msgid "Delivery Method"
+msgstr "Metodo di Consegna"
+
+#: views/settings.php:863
+#@ mymail
+msgid "use this option if you don't have access to a SMTP server or any other provided options"
+msgstr ""
+
+#: views/settings.php:890
+#@ mymail
+msgid "seconds"
+msgstr "secondi"
+
+#: views/settings.php:919
+#@ mymail
+msgid "Gmail has a limit of 500 mails within 24 hours! Also sending a mail can take up to one second which is quite long. This options is only recommended for few subscribers. DKIM works only if set the from address to your Gmail address."
+msgstr ""
+
+#: views/settings.php:1037
+#@ mymail
+msgid "enable automatic bounce handling"
+msgstr ""
+
+#: views/settings.php:1046
+#@ mymail
+msgid "If you would like to enable bouncing you have to setup a separate POP3 mail account"
+msgstr ""
+
+#: views/settings.php:1054
+#@ mymail
+msgid "Use SSL. Default port is 995"
+msgstr ""
+
+#: views/settings.php:1066
+#@ mymail
+msgid "Delete messages"
+msgstr "Cancella messaggi"
+
+#: views/settings.php:1111
+#@ mymail
+msgid "You need to change the namespace records of your domain if you would like to use one of these methods. Ask your provider how to add \"TXT namespace records\". Changes take some time to get published on all DNS worldwide."
+msgstr ""
+
+#: views/settings.php:1116
+#@ mymail
+msgid "Check authentication settings"
+msgstr ""
+
+#: views/settings.php:1118
+#@ mymail
+msgid "Check your settings with isNotSpam.com. Results get sent to this address:"
+msgstr ""
+
+#: views/settings.php:1131
+#@ mymail
+msgid "Use Sender Policy Framework"
+msgstr ""
+
+#: views/settings.php:1169
+#: views/settings.php:1171
+#: views/settings.php:1246
+#: views/settings.php:1248
+#, php-format
+#@ mymail
+msgid "Domain %s"
+msgstr ""
+
+#: views/settings.php:1169
+#@ mymail
+msgid "TXT record found"
+msgstr ""
+
+#: views/settings.php:1171
+#@ mymail
+msgid "no TXT record found"
+msgstr ""
+
+#: views/settings.php:1172
+#: views/settings.php:1249
+#, php-format
+#@ mymail
+msgid "No or wrong record found for %s. Please adjust the namespace records and add these lines:"
+msgstr ""
+
+#: views/settings.php:1189
+#, php-format
+#@ mymail
+msgid "SPF doesn’t require any configuration on this settings page. This should give you some help to set it up correctly. If this SPF configuration doesn't work or your mails returned as spam you should ask your provider for help or change your delivery method or try %s"
+msgstr ""
+
+#: views/settings.php:1189
+#@ mymail
+msgid "this wizard"
+msgstr "questo wizard"
+
+#: views/settings.php:1196
+#@ mymail
+msgid "The domain you would like to add a SPF record"
+msgstr ""
+
+#: views/settings.php:1246
+#@ mymail
+msgid "verified"
+msgstr "verificato"
+
+#: views/settings.php:1248
+#@ mymail
+msgid "not verified"
+msgstr "non verificato"
+
+#: views/settings.php:1265
+#@ mymail
+msgid "The domain you have set the TXT namespace records"
+msgstr ""
+
+#: views/settings.php:1271
+#@ mymail
+msgid "The selector is used to identify the keys used to attach a token to the email"
+msgstr ""
+
+#: views/settings.php:1277
+#: views/settings.php:1283
+#@ mymail
+msgid "You can leave this field blank unless you know what you do"
+msgstr ""
+
+#: views/settings.php:1289
+#@ mymail
+msgid "Keys"
+msgstr "Chiavi"
+
+#: views/settings.php:1292
+#@ mymail
+msgid "If you have defined the domain and a selector you have to generate a public and a private key. Once created you have to add some TXT namespace records at your mail provider"
+msgstr ""
+
+#: views/settings.php:1294
+#@ mymail
+msgid "Changing namespace entries can take up to 48 hours to take affect around the world."
+msgstr ""
+
+#: views/settings.php:1295
+#@ mymail
+msgid "It's recommend to change the keys occasionally"
+msgstr ""
+
+#: views/settings.php:1296
+#@ mymail
+msgid "If you change one of the settings above new keys are required"
+msgstr ""
+
+#: views/settings.php:1297
+#@ mymail
+msgid "Some providers don't allow TXT records with a specific size. Choose less bits in this case"
+msgstr ""
+
+#: views/settings.php:1311
+#@ mymail
+msgid "Private keys should be kept private. Don't share them or post it somewhere"
+msgstr ""
+
+#: views/settings.php:1321
+#@ mymail
+msgid "new Keys"
+msgstr "nuove Chiavi"
+
+#: views/settings.php:1325
+#@ mymail
+msgid "Bit Size"
+msgstr ""
+
+#: views/settings.php:1330
+#@ mymail
+msgid "generate Keys"
+msgstr "genera Chiavi"
+
+#: views/subscriber/meta.php:11
+#: views/subscriber/meta.php:21
+#, php-format
+#@ mymail
+msgid "with IP %s"
+msgstr ""
+
+#: views/subscriber/meta.php:11
+#: views/subscriber/meta.php:21
+#@ mymail
+msgid "IP address unknown"
+msgstr "Indirizzo IP sconosciuto"
+
+#: views/subscriber/meta.php:18
+#@ mymail
+msgid "Confirmed"
+msgstr "Confermato"
+
+#: views/subscriber/meta.php:27
+#: views/subscriber/meta.php:35
+#@ mymail
+msgid "Latest known IP address"
+msgstr "Ulrimo indirizzo IP conosciuto"
+
+#: views/subscriber/meta.php:34
+#@ mymail
+msgid "no meta data found for this subscriber"
+msgstr ""
+
+#: classes/autoresponder.class.php:114
+#, php-format
+#@ mymail
+msgid "New campaign %1$s has been created and is going to be sent in %2$s."
+msgstr ""
+
+#: classes/autoresponder.class.php:114
+#@ mymail
+msgid "Pause campaign"
+msgstr "Sospendi campagna"
+
+#: classes/manage.class.php:44
+#, php-format
+#@ mymail
+msgid "Currently %s of %s imported with %s errors. %s memory usage"
+msgstr ""
+
+#: classes/manage.class.php:47
+#@ mymail
+msgid "There was a problem during importing contacts. Please check the error logs for more information!"
+msgstr ""
+
+#: classes/mymail.class.php:1146
+#@ mymail
+msgid "Check isNotSpam report"
+msgstr ""
+
+#: classes/mymail.class.php:1302
+#: classes/mymail.class.php:1348
+#, php-format
+#@ mymail
+msgid "%d click"
+msgid_plural "%d clicks"
+msgstr[0] "%d click"
+msgstr[1] "%d clicks"
+
+#: classes/mymail.class.php:1345
+#@ mymail
+msgid "an error occurred while sending to this receiver"
+msgstr ""
+
+#: classes/mymail.class.php:1347
+#@ mymail
+msgid "has opened"
+msgstr ""
+
+#: classes/mymail.class.php:1347
+#@ mymail
+msgid "has not opened yet"
+msgstr ""
+
+#: classes/mymail.class.php:1359
+#@ mymail
+msgid "load more recipients from this campaign"
+msgstr ""
+
+#: classes/mymail.class.php:1468
+#, php-format
+#@ mymail
+msgid "last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1469
+#, php-format
+#@ mymail
+msgid "second last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1470
+#, php-format
+#@ mymail
+msgid "third last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1471
+#, php-format
+#@ mymail
+msgid "fourth last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1472
+#, php-format
+#@ mymail
+msgid "fifth last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1473
+#, php-format
+#@ mymail
+msgid "sixth last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1474
+#, php-format
+#@ mymail
+msgid "seventh last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1475
+#, php-format
+#@ mymail
+msgid "eighth last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1476
+#, php-format
+#@ mymail
+msgid "ninth last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1477
+#, php-format
+#@ mymail
+msgid "tenth last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1478
+#, php-format
+#@ mymail
+msgid "eleventh last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1479
+#, php-format
+#@ mymail
+msgid "twelfth last %s"
+msgstr ""
+
+#: classes/mymail.class.php:1643
+#, php-format
+#@ mymail
+msgid "Current match: %s"
+msgstr ""
+
+#: classes/mymail.class.php:1643
+#@ mymail
+msgid "Currently no match for your selection!"
+msgstr ""
+
+#: classes/mymail.class.php:1643
+#@ mymail
+msgid "create a new one"
+msgstr "creare un nuovo"
+
+#: classes/mymail.class.php:1686
+#, php-format
+#@ mymail
+msgid "any %s"
+msgstr "qualsiasi %s"
+
+#: classes/mymail.class.php:1755
+#: classes/templates.class.php:469
+#@ mymail
+msgid "WordPress is not able to access to your filesystem!"
+msgstr ""
+
+#: classes/mymail.class.php:1756
+#: classes/templates.class.php:470
+#, php-format
+#@ mymail
+msgid "Please add following lines to the wp-config.php %s"
+msgstr ""
+
+#: classes/mymail.class.php:2099
+#@ mymail
+msgid "completing job"
+msgstr "completa il lavoro"
+
+#: classes/mymail.class.php:2137
+#@ mymail
+msgid "Resume Campaign"
+msgstr "Riavviare Campagna"
+
+#: classes/mymail.class.php:2137
+#@ mymail
+msgid "Resume"
+msgstr "Riavvio"
+
+#: classes/mymail.class.php:2587
+#@ mymail
+msgid "Duplicate module"
+msgstr "Modulo duplicato"
+
+#: classes/mymail.class.php:2593
+#, php-format
+#@ mymail
+msgid "add %s"
+msgstr "aggiunge %s"
+
+#: classes/mymail.class.php:2594
+#, php-format
+#@ mymail
+msgid "remove %s"
+msgstr "rimuove %s"
+
+#: classes/mymail.class.php:2601
+#, php-format
+#@ mymail
+msgid "%s does not contain a valid image"
+msgstr "%s non contiene un'immagine valida"
+
+#: classes/mymail.class.php:2610
+#@ mymail
+msgid "Do you really like to delete all custom color schemas for this template?"
+msgstr "Sei sicuro di voler cancellare tutti gli schemi di colore personalizzati per questo modello?"
+
+#: classes/mymail.class.php:2882
+#, php-format
+#@ mymail
+msgid "It seems your last cronjob hasn't been finished! Increase the %1$s, add %2$s to your wp-config.php or reduce the %3$s in the settings"
+msgstr ""
+
+#: classes/mymail.class.php:3505
+#, php-format
+#@ mymail
+msgid "MyMail is not able access the filesystem! If you have issues saving templates or other files please add this line to you wp-config.php: %s"
+msgstr ""
+
+#: classes/settings.class.php:179
+#: views/settings.php:304
+#@ mymail
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: classes/settings.class.php:181
+#: views/settings.php:327
+#: views/settings.php:359
+#: views/settings.php:391
+#@ mymail
+msgid "checked by default"
+msgstr "selezionato di default"
+
+#: classes/settings.class.php:557
+#, php-format
+#@ mymail
+msgid "Form %s has no assigned lists"
+msgstr "Il Modulo %s non ha una lista assegnata"
+
+#: classes/subscriber.class.php:923
+#, php-format
+#@ mymail
+msgid "Show all %s"
+msgstr "Mostra tutti %s"
+
+#: includes/autoresponder.php:22
+#@ mymail
+msgid "something has been published"
+msgstr "qualcosa è stato pubblicato"
+
+#: views/manage.php:150
+#@ mymail
+msgid "Output Format"
+msgstr "Formato di Otput"
+
+#: views/manage.php:152
+#@ mymail
+msgid "CSV"
+msgstr "CSV"
+
+#: views/manage.php:153
+#@ mymail
+msgid "HTML"
+msgstr "HTML"
+
+#: views/manage.php:158
+#@ mymail
+msgid "Encoding"
+msgstr "Encoding"
+
+#: views/newsletter/delivery.php:24
+#@ mymail
+msgid "Auto Responder"
+msgstr "Risposta Automatica"
+
+#: views/newsletter/delivery.php:65
+#@ mymail
+msgid "send this auto responder"
+msgstr "invia questa risposta automatica"
+
+#: views/newsletter/delivery.php:165
+#, php-format
+#@ mymail
+msgid "create a new campaign every time a new %1$s has been published"
+msgstr ""
+
+#: views/newsletter/delivery.php:174
+#, php-format
+#@ mymail
+msgid "only if in %s"
+msgstr ""
+
+#: views/newsletter/delivery.php:180
+#, php-format
+#@ mymail
+msgid "always skip %1$s release"
+msgid_plural "always skip %1$s releases"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/newsletter/delivery.php:186
+#, php-format
+#@ mymail
+msgid "Next issue: %s"
+msgstr ""
+
+#: views/newsletter/delivery.php:191
+#, php-format
+#@ mymail
+msgid "Use the %s tag to display the current issue in the campaign"
+msgstr ""
+
+#: views/newsletter/delivery.php:196
+#, php-format
+#@ mymail
+msgid "%1$s matching %2$s has been published"
+msgid_plural "%1$s matching %2$s have been published"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/newsletter/delivery.php:198
+#@ mymail
+msgid "reset counter"
+msgstr "reset contatore"
+
+#: views/newsletter/details.php:48
+#@ mymail
+msgid "Total Recipients"
+msgstr "Totale Recipienti"
+
+#: views/newsletter/details.php:55
+#@ mymail
+msgid "Total Errors"
+msgstr "Totale Errori"
+
+#: views/newsletter/details.php:67
+#@ mymail
+msgid "Total Clicks"
+msgstr "Totale Clicks"
+
+#: views/newsletter/options.php:36
+#@ mymail
+msgid "Colors Schemas"
+msgstr "Schemi Colore"
+
+#: views/newsletter/options.php:41
+#@ mymail
+msgid "delete all custom schemas"
+msgstr "cancella gli schemi personalizzati"
+
+#: views/newsletter/template.php:105
+#: views/newsletter/template.php:142
+#@ mymail
+msgid "Alt Text"
+msgstr "Testo Alternativo"
+
+#: views/newsletter/template.php:105
+#: views/newsletter/template.php:142
+#@ mymail
+msgid "image description"
+msgstr "descrizione immagine"
+
+#: views/newsletter/template.php:133
+#@ mymail
+msgid "Insert from URL"
+msgstr "Inserisci da URL"
+
+#: views/newsletter/template.php:140
+#@ mymail
+msgid "Image URL"
+msgstr "URL Immagine"
+
+#: views/newsletter/template.php:150
+#@ mymail
+msgid "static"
+msgstr "statico"
+
+#: views/newsletter/template.php:151
+#@ mymail
+msgid "dynamic"
+msgstr "dinamico"
+
+#: views/newsletter/template.php:156
+#@ mymail
+msgid "use the excerpt if exists otherwise use the content"
+msgstr "utilizza riassunto se esiste, altrimenti il contenuto"
+
+#: views/newsletter/template.php:156
+#@ mymail
+msgid "excerpt"
+msgstr "riassunto"
+
+#: views/newsletter/template.php:157
+#@ mymail
+msgid "use the content"
+msgstr "usa il contenuto"
+
+#: views/newsletter/template.php:157
+#@ mymail
+msgid "full content"
+msgstr "contenuto completo"
+
+#: views/newsletter/template.php:181
+#@ mymail
+msgid "the excerpt"
+msgstr "il riassunto"
+
+#: views/newsletter/template.php:181
+#@ mymail
+msgid "the full content"
+msgstr "tutto il contenuto"
+
+#: views/newsletter/template.php:185
+#@ mymail
+msgid "the latest"
+msgstr "l'ultimo"
+
+#: views/newsletter/template.php:186
+#@ mymail
+msgid "the second latest"
+msgstr "il penultimo"
+
+#: views/newsletter/template.php:187
+#@ mymail
+msgid "the third latest"
+msgstr "il terzultimo"
+
+#: views/newsletter/template.php:188
+#@ mymail
+msgid "the fourth latest"
+msgstr "il quartultimo"
+
+#: views/newsletter/template.php:189
+#@ mymail
+msgid "the fifth latest"
+msgstr "il quintultimo"
+
+#: views/newsletter/template.php:190
+#@ mymail
+msgid "the sixth latest"
+msgstr "il sestultimo"
+
+#: views/newsletter/template.php:191
+#@ mymail
+msgid "the seventh latest"
+msgstr "il settimo dall'ultimo"
+
+#: views/newsletter/template.php:192
+#@ mymail
+msgid "the eighth latest"
+msgstr "l'ottavo dall'ultimo"
+
+#: views/newsletter/template.php:193
+#@ mymail
+msgid "the ninth latest"
+msgstr "il nono dall'ultimo"
+
+#: views/newsletter/template.php:194
+#@ mymail
+msgid "the tenth latest"
+msgstr "il decimo dall'ultimo"
+
+#: views/newsletter/template.php:195
+#@ mymail
+msgid "the eleventh latest"
+msgstr "l'undicesimo dall'ultimo"
+
+#: views/newsletter/template.php:196
+#@ mymail
+msgid "the twelfth latest"
+msgstr "il dodicesimo dall'ultimo"
+
+#: views/newsletter/template.php:211
+#, php-format
+#@ mymail
+msgctxt "Insert [excerpt] of [latest] [post]"
+msgid "Insert %1$s of %2$s %3$s"
+msgstr "Inserire %1$s di %2$s %3$s"
+
+#: views/newsletter/template.php:216
+#@ mymail
+msgid "dynamic content get replaced with the proper content as soon as the campaign get send. Check the quick preview to see the current status of dynamic elements"
+msgstr "il contenuto dinamico verrà corretto automaticamente quando la campagna sarà inviata. Controllare l'anteprima rapida per visualizzare lo stato corrente degli elementi dinamici"
+
+#: views/newsletter/template.php:251
+#@ mymail
+msgid "Your email may look different on mobile devices"
+msgstr ""
+
+#: views/settings.php:170
+#, php-format
+#@ mymail
+msgid "This plugin has been translated by %s"
+msgstr "Questo plugin è stato tradotto da %s"
+
+#: views/settings.php:271
+#@ mymail
+msgid "Merge Lists"
+msgstr ""
+
+#: views/settings.php:272
+#@ mymail
+msgid "keep selected lists on signup"
+msgstr ""
+
+#: views/settings.php:273
+#@ mymail
+msgid "Keep the lists if user has subscribed before. Uncheck to subscribe users only to lists from the form they signed up to"
+msgstr ""
+
+#: views/settings.php:508
+#: views/settings.php:601
+#@ mymail
+msgid "users decide which list they subscribe to"
+msgstr ""
+
+#: views/settings.php:508
+#: views/settings.php:601
+#@ mymail
+msgid "show drop down instead of check boxes"
+msgstr ""
+
+#: views/settings.php:511
+#: views/settings.php:604
+#@ mymail
+msgid "subscribe new users to"
+msgstr ""
+
+#: views/settings.php:512
+#: views/settings.php:605
+#@ mymail
+msgid "users can subscribe to"
+msgstr ""
+
+#: views/settings.php:548
+#: views/settings.php:640
+#@ mymail
+msgid "redirect after submit"
+msgstr ""
+
+#: views/settings.php:557
+#: views/settings.php:648
+#@ mymail
+msgid "iframe version"
+msgstr ""
+
+#: views/settings.php:558
+#: views/settings.php:649
+#@ mymail
+msgid "width"
+msgstr "larghezza"
+
+#: views/settings.php:559
+#: views/settings.php:650
+#@ mymail
+msgid "height"
+msgstr "altezza"
+
+#: views/settings.php:562
+#: views/settings.php:653
+#@ mymail
+msgid "HTML version"
+msgstr "Versione HTML"
+
+#: views/settings.php:562
+#: views/settings.php:653
+#@ mymail
+msgid "save before you use it!"
+msgstr "salva prima di utilizzare!"
+
+#: views/settings.php:758
+#@ mymail
+msgid "Special tags display dynamic content and are equally for all subscribers"
+msgstr ""
+
+#: views/settings.php:767
+#@ mymail
+msgid "Dynamic Tags"
+msgstr ""
+
+#: views/settings.php:768
+#@ mymail
+msgid "Dynamic tags let you display your posts or pages in a reverse chronicle order. Some examples:"
+msgstr ""
+
+#: views/settings.php:769
+#@ mymail
+msgid "displays the latest post title"
+msgstr ""
+
+#: views/settings.php:770
+#@ mymail
+msgid "displays the fourth latest page title"
+msgstr ""
+
+#: views/settings.php:771
+#@ mymail
+msgid "displays the feature image of the latest posts"
+msgstr ""
+
+#: views/settings.php:772
+#@ mymail
+msgid "displays the feature image of the fourth latest posts. Uses the image with ID 23 if the post doesn't have a feature image"
+msgstr ""
+
+#: views/settings.php:773
+#@ mymail
+msgid "displays the latest posts content"
+msgstr ""
+
+#: views/settings.php:774
+#@ mymail
+msgid "displays the latest posts excerpt or content if no excerpt is defined"
+msgstr ""
+
+#: views/settings.php:775
+#@ mymail
+msgid "displays the latest posts date"
+msgstr ""
+
+#: views/settings.php:776
+#@ mymail
+msgid "you can also use absolute values"
+msgstr ""
+
+#: views/settings.php:777
+#@ mymail
+msgid "displays the post title of post ID 23"
+msgstr ""
+
+#: views/settings.php:778
+#@ mymail
+msgid "displays the permalink of post ID 15"
+msgstr ""
+
+#: views/settings.php:779
+#@ mymail
+msgid "Instead of \"post_\" and \"page_\" you can use custom post types too"
+msgstr ""
+
+#: views/settings.php:783
+#@ mymail
+msgid "Image Fallback"
+msgstr ""
+
+#: views/settings.php:784
+#@ mymail
+msgid "Fallback image for dynamic image tags"
+msgstr ""
+
+#: views/settings.php:971
+#, php-format
+#@ mymail
+msgid "from %s"
+msgstr "da %s"
+
+#: views/templates.php:21
+#, php-format
+#@ mymail
+msgid "Template %s is now your default template"
+msgstr "Il Template %s è ora di default"
+
+#: views/templates.php:39
+#@ mymail
+msgid "Cannot delete this template"
+msgstr "Impossibile cancellare questo template"
+
+#: views/templates.php:41
+#, php-format
+#@ mymail
+msgid "Template %s deleted"
+msgstr "Template %s cancellato"
+
+#: views/templates.php:44
+#, php-format
+#@ mymail
+msgid "Template %s NOT deleted"
+msgstr "Template %s NON cancellato"
+
+#: views/templates.php:70
+#, php-format
+#@ mymail
+msgid "Template %s is missing or broken. Reset to default"
+msgstr "Template %s inesistente o corrotto. Reset a default"
+
+#: views/templates.php:154
+#@ mymail
+msgid "Use as default"
+msgstr "Predefinito"
+
+#: classes/settings.class.php:68
+#: includes/updates.php:145
+#@ mymail
+msgid "Sign up to our newsletter"
+msgstr "Iscriviti alla nostra Newsletter"
+
+#: classes/subscriber.class.php:863
+#@ mymail
+msgid "Emails"
+msgstr "Emails"
+
+#: classes/subscriber.class.php:540
+#@ mymail
+msgid "subscriber already exists"
+msgstr "iscritto già esistente"
+
+#: views/settings.php:250
+#@ mymail
+msgid "Attach vCard"
+msgstr ""
+
+#: views/settings.php:251
+#@ mymail
+msgid "attach vCard to all confirmation mails"
+msgstr ""
+
+#: views/settings.php:257
+#@ mymail
+msgid "vCard file name"
+msgstr ""
+
+#: views/settings.php:261
+#@ mymail
+msgid "vCard content"
+msgstr "contenuto vCard"
+
+#: views/settings.php:262
+#, php-format
+#@ mymail
+msgid "paste in your vCard content. You can use %s to generate your personal vcard"
+msgstr ""
+
+#: views/manage.php:55
+#: views/settings.php:341
+#@ mymail
+msgid "WordPress Users"
+msgstr "Utente WordPress"
+
+#: views/settings.php:344
+#@ mymail
+msgid "Registered Users"
+msgstr "Utente Registrato"
+
+#: views/settings.php:347
+#@ mymail
+msgid "new WordPress users can choose to sign up on the register page"
+msgstr ""
+
+#: views/settings.php:349
+#, php-format
+#@ mymail
+msgid "allow %s to your blog to enable this option"
+msgstr ""
+
+#: views/settings.php:349
+#@ mymail
+msgid "users to subscribe"
+msgstr "utenti da iscrivere"
+
+#: views/settings.php:360
+#: views/settings.php:398
+#: views/settings.php:430
+#@ mymail
+msgid "Subscribe them to these lists:"
+msgstr ""
+
+#: views/settings.php:381
+#@ mymail
+msgid "New Comments"
+msgstr "Nuovi Commenti"
+
+#: views/settings.php:382
+#@ mymail
+msgid "allow users to signup on the comment form if they are currently not subscribed to any list"
+msgstr ""
+
+#: views/settings.php:392
+#@ mymail
+msgid "sign up only if comment is"
+msgstr "iscrivi solo se il commento è"
+
+#: views/settings.php:394
+#@ mymail
+msgid "approved"
+msgstr "approvato"
+
+#: views/settings.php:395
+#@ mymail
+msgid "not approved"
+msgstr "non approvato"
+
+#: views/settings.php:396
+#@ mymail
+msgid "spam"
+msgstr "spam"
+
+#: views/settings.php:419
+#@ mymail
+msgid "Others"
+msgstr "Altri"
+
+#: views/settings.php:420
+#@ mymail
+msgid "add people who are added via the backend or any third party plugin"
+msgstr ""
+
+#: views/settings.php:429
+#@ mymail
+msgid "send confirmation if double-opt-in is enabled"
+msgstr "invia conferma se è abilitata la doppia richiesta"
+
+#: views/settings.php:685
+#@ mymail
+msgid "Newsletter Sign up"
+msgstr "Iscrizione Newsletter"
+
+#: views/settings.php:819
+#@ mymail
+msgid "Split campaigns"
+msgstr "Scambia Campagne"
+
+#: views/settings.php:820
+#@ mymail
+msgid "send campaigns simultaneously instead of one after the other"
+msgstr "invia campagne simultaneamente anzichè una dopo l'altra"
+
+#: classes/manage.class.php:139
+#@ mymail
+msgid "display name"
+msgstr ""
+
+#: classes/manage.class.php:139
+#@ mymail
+msgid "nice name"
+msgstr ""
+
+#: classes/manage.class.php:139
+#: classes/manage.class.php:272
+#@ mymail
+msgid "registered"
+msgstr ""
+
+#: classes/manage.class.php:139
+#@ mymail
+msgid "user roles"
+msgstr ""
+
+#: classes/manage.class.php:252
+#@ mymail
+msgid "Select columns"
+msgstr ""
+
+#: classes/manage.class.php:315
+#@ mymail
+msgid "Existing subscribers"
+msgstr ""
+
+#: classes/manage.class.php:315
+#@ mymail
+msgid "skip"
+msgstr ""
+
+#: classes/manage.class.php:315
+#@ mymail
+msgid "overwrite"
+msgstr ""
+
+#: classes/manage.class.php:315
+#@ mymail
+msgid "merge"
+msgstr ""
+
+#: classes/settings.class.php:422
+#: classes/settings.class.php:439
+#, php-format
+#@ mymail
+msgid "File uploaded to %s"
+msgstr ""
+
+#: classes/settings.class.php:427
+#: classes/settings.class.php:444
+#@ mymail
+msgid "unable to upload file"
+msgstr ""
+
+#: classes/settings.class.php:478
+#@ mymail
+msgid "No country database found! Please load it!"
+msgstr ""
+
+#: classes/settings.class.php:485
+#@ mymail
+msgid "No city database found! Please load it!"
+msgstr ""
+
+#: classes/settings.class.php:736
+#: views/settings.php:128
+#@ mymail
+msgid "Update Country Database"
+msgstr ""
+
+#: classes/settings.class.php:751
+#: views/settings.php:137
+#@ mymail
+msgid "Update City Database"
+msgstr ""
+
+#: classes/settings.class.php:804
+#@ mymail
+msgid "Unable to connect to bounce server! Please check your settings."
+msgstr ""
+
+#: classes/settings.class.php:811
+#@ mymail
+msgid "checking for new messages"
+msgstr ""
+
+#: classes/settings.class.php:815
+#@ mymail
+msgid "Unable to get test message! Please check your settings."
+msgstr ""
+
+#: classes/settings.class.php:835
+#@ mymail
+msgid "Your bounce server is good!"
+msgstr ""
+
+#: views/manage.php:57
+#@ mymail
+msgid "Import WordPress users with following roles"
+msgstr ""
+
+#: views/manage.php:74
+#@ mymail
+msgid "Next Step"
+msgstr ""
+
+#: views/newsletter/details.php:79
+#, php-format
+#@ mymail
+msgid "%s click"
+msgid_plural "%s clicks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/settings.php:128
+#@ mymail
+msgid "Load Country Database"
+msgstr ""
+
+#: views/settings.php:128
+#: views/settings.php:137
+#@ mymail
+msgid "upload file"
+msgstr ""
+
+#: views/settings.php:132
+#@ mymail
+msgid "upload the GeoIPv6.dat you can find in the package here:"
+msgstr ""
+
+#: views/settings.php:137
+#@ mymail
+msgid "Load City Database"
+msgstr ""
+
+#: views/settings.php:141
+#@ mymail
+msgid "upload the GeoLiteCity.dat you can find in the package here:"
+msgstr ""
+
+#: views/settings.php:166
+#: views/settings.php:170
+#@ mymail
+msgctxt "Translators: put your personal info here to display it on the settings page. Leave blank for no info"
+msgid "translator string"
+msgstr ""
+
+#: views/settings.php:678
+#, php-format
+#@ mymail
+msgid "Some text can get defined on the %s as well"
+msgstr ""
+
+#: views/settings.php:1090
+#@ mymail
+msgid "Test bounce settings"
+msgstr ""
+
+#: views/settings.php:1092
+#@ mymail
+msgid "sending message..."
+msgstr ""
+
+#: views/settings.php:534
+#: views/settings.php:626
+#@ mymail
+msgid "used template file"
+msgstr ""
+

@@ -1,0 +1,146 @@
+@import "common-style.css";
+
+/*----------------------------------------------------------------------*/
+/* Title
+/*----------------------------------------------------------------------*/
+
+p.email-error{
+	background-color: #FFEBE8;
+	border:1px solid #CC0000;
+	border-top:0;
+	margin:-1px 1px 1px 2px;
+	padding:10px 15px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#publishing-action .spinner{
+	vertical-align: middle;
+	display: block;
+	float: left;
+	margin-top: 4px;
+	margin-right: 3px;
+	width: 16px;
+	height: 16px;
+	
+}
+
+/*----------------------------------------------------------------------*/
+/* Data
+/*----------------------------------------------------------------------*/
+
+#mymail_subscriber_data .inside{
+	overflow:hidden;
+}
+#user_fields label{
+	padding:10px 0 0px;
+	margin:0;
+}
+#user_fields code{
+	float:right;
+	cursor:help;
+}
+#mymail_subscriber_data .input{
+	padding: 3px;
+	font-size:16px;
+	margin:1px 0 8px;
+	width:100%;
+}
+#user_fields{
+	padding-left:150px;
+	min-height: 150px;
+}
+
+#user_image_wrap{
+	float:left;
+	width:120px;
+	height:120px;
+	margin:0 15px 15px 0;
+}
+
+#user_image{
+	width:120px;
+	height:120px;
+	padding:5px;
+	border:1px solid #D3D6DB;
+	box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+	background-color:#fff;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#user_image.loading{
+	background-image:none !important;
+}
+#user_location p{
+	margin: 3px;
+	
+}
+
+.custom-field-wrap{
+	margin-top: 12px;
+}
+.custom-field-wrap ul{
+	margin: 0;
+}
+
+/*----------------------------------------------------------------------*/
+/* Lists
+/*----------------------------------------------------------------------*/
+
+#tagcloud-newsletter_lists a{
+	font-size:14px !important;
+}
+
+/*----------------------------------------------------------------------*/
+/* Table
+/*----------------------------------------------------------------------*/
+
+#mymail_subscriber_stats .campaing-stats{
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #DFDFDF;
+	padding-bottom: 15px;
+}
+#mymail_subscriber_stats .campaing-stats:first-child{
+	border-top:0;
+}
+#mymail_subscriber_stats .campaing-stats:last-child{
+	border-bottom:0;
+}
+#mymail_subscriber_stats h4{
+	font-weight: 100;
+	font-size: 16px;
+	margin-bottom: 0.4em;
+	margin-left: 2px;
+}
+#mymail_subscriber_stats h4 a{
+	font-size: 12px;
+	visibility: hidden;
+}
+#mymail_subscriber_stats .campaing-stats:hover h4 a{
+	visibility: visible;
+}
+#mymail_subscriber_stats table{
+	border-collapse:collapse;
+	width:100%;
+	margin:5px 0 10px;
+}
+#mymail_subscriber_stats table .strong td{
+	font-weight: 700;
+}
+#mymail_subscriber_stats table ul{
+	margin:0;
+}
+
+#mymail_subscriber_stats table td, #mymail_subscriber_stats table th{
+	text-align:left;
+	border-collapse:collapse;
+	border-top:1px solid #DFDFDF;
+	padding:7px;
+}
+

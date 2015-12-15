@@ -1,0 +1,53 @@
+
+#content #chat #shoutbox {
+  height: 300px;
+  margin: 0 0 .5em;
+}
+#content #chat #shoutbox .message {
+  margin: 0 0 .10em;
+}
+#content #chat #shoutbox-options {
+  display: none;
+}
+
+
+  #content #chat #shoutbox-input input,
+  #content #chat #shoutbox-input button {
+    float: left;
+  }
+  #content #chat #shoutbox-input .nickname {
+    margin: 0 5px 0 0;
+    width: 15%;
+  }
+  #content #chat #shoutbox-input .message {
+    margin: 0 5px 0 0;
+    width: 70%;
+  }
+  #content #chat #shoutbox-input .button {
+    width: 10%;
+  }
+  #content #chat #shoutbox-options {
+    display: none;
+  
+}
+@media screen and (min-width: 801px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+  }
+
+  .one-third {
+    float: left;
+    width: 33.33333%;
+  }
+
+  .two-thirds {
+    float: left;
+    width: 66.66667%;
+  }
+    .one-half {
+    float: left;
+    width: 50%;
+  }
+}

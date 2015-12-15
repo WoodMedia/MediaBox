@@ -7,9 +7,6 @@ $(function() {
 		$(".loader").fadeOut(400);
 	});
 
-	// Backstretchs
-	$("#header").backstretch("images/3.jpg");
-	$("#services").backstretch("images/3.jpg");
 	
 	// Countdown
 	$('.countdown').downCount({

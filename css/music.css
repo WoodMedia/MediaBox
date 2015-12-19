@@ -22,5 +22,6 @@ body { color: #666; font-family: sans-serif; line-height: 1.4; }
 
       @media screen and (max-device-width: 480px) {
         #wrapper { position: relative; left: -3%; }
-        #shortcuts { display: none; }/* CSS Document */
+        #shortcuts { display: none; }
+      }
 

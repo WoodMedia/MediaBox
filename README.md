@@ -1,5 +1,5 @@
 # MediaBox
-Side project of LibarayBox
+Side project of LibraryBox
 
 You can view a demo of this [here](http://ganastor.github.io/index.html)
 
